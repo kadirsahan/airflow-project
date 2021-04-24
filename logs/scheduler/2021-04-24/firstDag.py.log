@@ -1,0 +1,35 @@
+[2021-04-24 05:26:05,113] {scheduler_job.py:182} INFO - Started process (PID=465) to work on /opt/airflow/dags/firstDag.py
+[2021-04-24 05:26:05,124] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/firstDag.py for tasks to queue
+[2021-04-24 05:26:05,130] {logging_mixin.py:104} INFO - [2021-04-24 05:26:05,129] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/firstDag.py
+[2021-04-24 05:26:05,242] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /opt/airflow/dags/firstDag.py
+[2021-04-24 05:26:05,346] {logging_mixin.py:104} INFO - [2021-04-24 05:26:05,346] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-04-24 05:26:05,426] {logging_mixin.py:104} INFO - [2021-04-24 05:26:05,426] {dag.py:2273} INFO - Setting next_dagrun for my_sample_dag to None
+[2021-04-24 05:26:05,464] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/firstDag.py took 0.376 seconds
+[2021-04-24 05:26:36,377] {scheduler_job.py:182} INFO - Started process (PID=468) to work on /opt/airflow/dags/firstDag.py
+[2021-04-24 05:26:36,379] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/firstDag.py for tasks to queue
+[2021-04-24 05:26:36,381] {logging_mixin.py:104} INFO - [2021-04-24 05:26:36,381] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/firstDag.py
+[2021-04-24 05:26:36,404] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /opt/airflow/dags/firstDag.py
+[2021-04-24 05:26:36,430] {logging_mixin.py:104} INFO - [2021-04-24 05:26:36,430] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-04-24 05:26:36,444] {logging_mixin.py:104} INFO - [2021-04-24 05:26:36,443] {dag.py:2273} INFO - Setting next_dagrun for my_sample_dag to None
+[2021-04-24 05:26:36,450] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/firstDag.py took 0.081 seconds
+[2021-04-24 05:27:06,588] {scheduler_job.py:182} INFO - Started process (PID=471) to work on /opt/airflow/dags/firstDag.py
+[2021-04-24 05:27:06,590] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/firstDag.py for tasks to queue
+[2021-04-24 05:27:06,591] {logging_mixin.py:104} INFO - [2021-04-24 05:27:06,591] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/firstDag.py
+[2021-04-24 05:27:06,607] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /opt/airflow/dags/firstDag.py
+[2021-04-24 05:27:06,626] {logging_mixin.py:104} INFO - [2021-04-24 05:27:06,626] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-04-24 05:27:06,640] {logging_mixin.py:104} INFO - [2021-04-24 05:27:06,640] {dag.py:2273} INFO - Setting next_dagrun for my_sample_dag to None
+[2021-04-24 05:27:06,646] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/firstDag.py took 0.061 seconds
+[2021-04-24 05:27:36,809] {scheduler_job.py:182} INFO - Started process (PID=474) to work on /opt/airflow/dags/firstDag.py
+[2021-04-24 05:27:36,811] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/firstDag.py for tasks to queue
+[2021-04-24 05:27:36,812] {logging_mixin.py:104} INFO - [2021-04-24 05:27:36,812] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/firstDag.py
+[2021-04-24 05:27:36,828] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /opt/airflow/dags/firstDag.py
+[2021-04-24 05:27:36,848] {logging_mixin.py:104} INFO - [2021-04-24 05:27:36,848] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-04-24 05:27:36,862] {logging_mixin.py:104} INFO - [2021-04-24 05:27:36,862] {dag.py:2273} INFO - Setting next_dagrun for my_sample_dag to None
+[2021-04-24 05:27:36,870] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/firstDag.py took 0.064 seconds
+[2021-04-24 05:28:06,928] {scheduler_job.py:182} INFO - Started process (PID=477) to work on /opt/airflow/dags/firstDag.py
+[2021-04-24 05:28:06,930] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/firstDag.py for tasks to queue
+[2021-04-24 05:28:06,931] {logging_mixin.py:104} INFO - [2021-04-24 05:28:06,931] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/firstDag.py
+[2021-04-24 05:28:06,946] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /opt/airflow/dags/firstDag.py
+[2021-04-24 05:28:06,965] {logging_mixin.py:104} INFO - [2021-04-24 05:28:06,964] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-04-24 05:28:06,977] {logging_mixin.py:104} INFO - [2021-04-24 05:28:06,977] {dag.py:2273} INFO - Setting next_dagrun for my_sample_dag to None
+[2021-04-24 05:28:06,984] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/firstDag.py took 0.059 seconds

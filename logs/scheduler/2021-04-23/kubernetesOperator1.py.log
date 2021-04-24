@@ -1,0 +1,243 @@
+[2021-04-23 17:17:29,680] {scheduler_job.py:182} INFO - Started process (PID=968) to work on /opt/airflow/dags/kubernetesOperator1.py
+[2021-04-23 17:17:29,681] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kubernetesOperator1.py for tasks to queue
+[2021-04-23 17:17:29,682] {logging_mixin.py:104} INFO - [2021-04-23 17:17:29,682] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kubernetesOperator1.py
+[2021-04-23 17:17:29,741] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/cncf/kubernetes/backcompat/backwards_compat_converters.py:26 DeprecationWarning: This module is deprecated. Please use `kubernetes.client.models.V1Volume`.
+[2021-04-23 17:17:29,743] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/cncf/kubernetes/backcompat/backwards_compat_converters.py:27 DeprecationWarning: This module is deprecated. Please use `kubernetes.client.models.V1VolumeMount`.
+[2021-04-23 17:17:29,753] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['ks-4-example_kubernetes_pod']) retrieved from /opt/airflow/dags/kubernetesOperator1.py
+[2021-04-23 17:17:29,773] {logging_mixin.py:104} INFO - [2021-04-23 17:17:29,773] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-04-23 17:17:29,781] {logging_mixin.py:104} INFO - [2021-04-23 17:17:29,781] {dag.py:1837} INFO - Creating ORM DAG for ks-4-example_kubernetes_pod
+[2021-04-23 17:17:29,786] {logging_mixin.py:104} INFO - [2021-04-23 17:17:29,786] {dag.py:2273} INFO - Setting next_dagrun for ks-4-example_kubernetes_pod to 2019-01-01T00:00:00+00:00
+[2021-04-23 17:17:29,796] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kubernetesOperator1.py took 0.120 seconds
+[2021-04-23 17:17:59,847] {scheduler_job.py:182} INFO - Started process (PID=971) to work on /opt/airflow/dags/kubernetesOperator1.py
+[2021-04-23 17:17:59,848] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kubernetesOperator1.py for tasks to queue
+[2021-04-23 17:17:59,849] {logging_mixin.py:104} INFO - [2021-04-23 17:17:59,849] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kubernetesOperator1.py
+[2021-04-23 17:17:59,898] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/cncf/kubernetes/backcompat/backwards_compat_converters.py:26 DeprecationWarning: This module is deprecated. Please use `kubernetes.client.models.V1Volume`.
+[2021-04-23 17:17:59,900] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/cncf/kubernetes/backcompat/backwards_compat_converters.py:27 DeprecationWarning: This module is deprecated. Please use `kubernetes.client.models.V1VolumeMount`.
+[2021-04-23 17:17:59,910] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['ks-4-example_kubernetes_pod']) retrieved from /opt/airflow/dags/kubernetesOperator1.py
+[2021-04-23 17:17:59,928] {logging_mixin.py:104} INFO - [2021-04-23 17:17:59,928] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-04-23 17:17:59,942] {logging_mixin.py:104} INFO - [2021-04-23 17:17:59,942] {dag.py:2273} INFO - Setting next_dagrun for ks-4-example_kubernetes_pod to None
+[2021-04-23 17:17:59,952] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kubernetesOperator1.py took 0.109 seconds
+[2021-04-23 17:18:30,020] {scheduler_job.py:182} INFO - Started process (PID=974) to work on /opt/airflow/dags/kubernetesOperator1.py
+[2021-04-23 17:18:30,022] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kubernetesOperator1.py for tasks to queue
+[2021-04-23 17:18:30,023] {logging_mixin.py:104} INFO - [2021-04-23 17:18:30,023] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kubernetesOperator1.py
+[2021-04-23 17:18:30,072] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/cncf/kubernetes/backcompat/backwards_compat_converters.py:26 DeprecationWarning: This module is deprecated. Please use `kubernetes.client.models.V1Volume`.
+[2021-04-23 17:18:30,074] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/cncf/kubernetes/backcompat/backwards_compat_converters.py:27 DeprecationWarning: This module is deprecated. Please use `kubernetes.client.models.V1VolumeMount`.
+[2021-04-23 17:18:30,082] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['ks-4-example_kubernetes_pod']) retrieved from /opt/airflow/dags/kubernetesOperator1.py
+[2021-04-23 17:18:30,105] {logging_mixin.py:104} INFO - [2021-04-23 17:18:30,105] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-04-23 17:18:30,118] {logging_mixin.py:104} INFO - [2021-04-23 17:18:30,117] {dag.py:2273} INFO - Setting next_dagrun for ks-4-example_kubernetes_pod to None
+[2021-04-23 17:18:30,124] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kubernetesOperator1.py took 0.108 seconds
+[2021-04-23 17:19:00,216] {scheduler_job.py:182} INFO - Started process (PID=977) to work on /opt/airflow/dags/kubernetesOperator1.py
+[2021-04-23 17:19:00,217] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kubernetesOperator1.py for tasks to queue
+[2021-04-23 17:19:00,219] {logging_mixin.py:104} INFO - [2021-04-23 17:19:00,219] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kubernetesOperator1.py
+[2021-04-23 17:19:00,268] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/cncf/kubernetes/backcompat/backwards_compat_converters.py:26 DeprecationWarning: This module is deprecated. Please use `kubernetes.client.models.V1Volume`.
+[2021-04-23 17:19:00,270] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/cncf/kubernetes/backcompat/backwards_compat_converters.py:27 DeprecationWarning: This module is deprecated. Please use `kubernetes.client.models.V1VolumeMount`.
+[2021-04-23 17:19:00,278] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['ks-4-example_kubernetes_pod']) retrieved from /opt/airflow/dags/kubernetesOperator1.py
+[2021-04-23 17:19:00,295] {logging_mixin.py:104} INFO - [2021-04-23 17:19:00,295] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-04-23 17:19:00,307] {logging_mixin.py:104} INFO - [2021-04-23 17:19:00,307] {dag.py:2273} INFO - Setting next_dagrun for ks-4-example_kubernetes_pod to None
+[2021-04-23 17:19:00,314] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kubernetesOperator1.py took 0.102 seconds
+[2021-04-23 17:19:30,398] {scheduler_job.py:182} INFO - Started process (PID=980) to work on /opt/airflow/dags/kubernetesOperator1.py
+[2021-04-23 17:19:30,399] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kubernetesOperator1.py for tasks to queue
+[2021-04-23 17:19:30,402] {logging_mixin.py:104} INFO - [2021-04-23 17:19:30,402] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kubernetesOperator1.py
+[2021-04-23 17:19:30,451] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/cncf/kubernetes/backcompat/backwards_compat_converters.py:26 DeprecationWarning: This module is deprecated. Please use `kubernetes.client.models.V1Volume`.
+[2021-04-23 17:19:30,452] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/cncf/kubernetes/backcompat/backwards_compat_converters.py:27 DeprecationWarning: This module is deprecated. Please use `kubernetes.client.models.V1VolumeMount`.
+[2021-04-23 17:19:30,462] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['ks-4-example_kubernetes_pod']) retrieved from /opt/airflow/dags/kubernetesOperator1.py
+[2021-04-23 17:19:30,487] {logging_mixin.py:104} INFO - [2021-04-23 17:19:30,487] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-04-23 17:19:30,500] {logging_mixin.py:104} INFO - [2021-04-23 17:19:30,500] {dag.py:2273} INFO - Setting next_dagrun for ks-4-example_kubernetes_pod to None
+[2021-04-23 17:19:30,507] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kubernetesOperator1.py took 0.113 seconds
+[2021-04-23 17:20:00,582] {scheduler_job.py:182} INFO - Started process (PID=983) to work on /opt/airflow/dags/kubernetesOperator1.py
+[2021-04-23 17:20:00,584] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kubernetesOperator1.py for tasks to queue
+[2021-04-23 17:20:00,585] {logging_mixin.py:104} INFO - [2021-04-23 17:20:00,585] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kubernetesOperator1.py
+[2021-04-23 17:20:00,633] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/cncf/kubernetes/backcompat/backwards_compat_converters.py:26 DeprecationWarning: This module is deprecated. Please use `kubernetes.client.models.V1Volume`.
+[2021-04-23 17:20:00,635] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/cncf/kubernetes/backcompat/backwards_compat_converters.py:27 DeprecationWarning: This module is deprecated. Please use `kubernetes.client.models.V1VolumeMount`.
+[2021-04-23 17:20:00,647] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['ks-4-example_kubernetes_pod']) retrieved from /opt/airflow/dags/kubernetesOperator1.py
+[2021-04-23 17:20:00,665] {logging_mixin.py:104} INFO - [2021-04-23 17:20:00,665] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-04-23 17:20:00,682] {logging_mixin.py:104} INFO - [2021-04-23 17:20:00,682] {dag.py:2273} INFO - Setting next_dagrun for ks-4-example_kubernetes_pod to None
+[2021-04-23 17:20:00,691] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kubernetesOperator1.py took 0.113 seconds
+[2021-04-23 17:20:30,771] {scheduler_job.py:182} INFO - Started process (PID=986) to work on /opt/airflow/dags/kubernetesOperator1.py
+[2021-04-23 17:20:30,772] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kubernetesOperator1.py for tasks to queue
+[2021-04-23 17:20:30,774] {logging_mixin.py:104} INFO - [2021-04-23 17:20:30,774] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kubernetesOperator1.py
+[2021-04-23 17:20:30,821] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/cncf/kubernetes/backcompat/backwards_compat_converters.py:26 DeprecationWarning: This module is deprecated. Please use `kubernetes.client.models.V1Volume`.
+[2021-04-23 17:20:30,823] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/cncf/kubernetes/backcompat/backwards_compat_converters.py:27 DeprecationWarning: This module is deprecated. Please use `kubernetes.client.models.V1VolumeMount`.
+[2021-04-23 17:20:30,832] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['ks-4-example_kubernetes_pod']) retrieved from /opt/airflow/dags/kubernetesOperator1.py
+[2021-04-23 17:20:30,854] {logging_mixin.py:104} INFO - [2021-04-23 17:20:30,854] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-04-23 17:20:30,867] {logging_mixin.py:104} INFO - [2021-04-23 17:20:30,867] {dag.py:2273} INFO - Setting next_dagrun for ks-4-example_kubernetes_pod to None
+[2021-04-23 17:20:30,873] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kubernetesOperator1.py took 0.105 seconds
+[2021-04-23 17:21:00,950] {scheduler_job.py:182} INFO - Started process (PID=989) to work on /opt/airflow/dags/kubernetesOperator1.py
+[2021-04-23 17:21:00,951] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kubernetesOperator1.py for tasks to queue
+[2021-04-23 17:21:00,953] {logging_mixin.py:104} INFO - [2021-04-23 17:21:00,953] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kubernetesOperator1.py
+[2021-04-23 17:21:00,999] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/cncf/kubernetes/backcompat/backwards_compat_converters.py:26 DeprecationWarning: This module is deprecated. Please use `kubernetes.client.models.V1Volume`.
+[2021-04-23 17:21:01,001] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/cncf/kubernetes/backcompat/backwards_compat_converters.py:27 DeprecationWarning: This module is deprecated. Please use `kubernetes.client.models.V1VolumeMount`.
+[2021-04-23 17:21:01,011] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['ks-4-example_kubernetes_pod']) retrieved from /opt/airflow/dags/kubernetesOperator1.py
+[2021-04-23 17:21:01,028] {logging_mixin.py:104} INFO - [2021-04-23 17:21:01,028] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-04-23 17:21:01,040] {logging_mixin.py:104} INFO - [2021-04-23 17:21:01,040] {dag.py:2273} INFO - Setting next_dagrun for ks-4-example_kubernetes_pod to None
+[2021-04-23 17:21:01,046] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kubernetesOperator1.py took 0.100 seconds
+[2021-04-23 17:21:31,152] {scheduler_job.py:182} INFO - Started process (PID=992) to work on /opt/airflow/dags/kubernetesOperator1.py
+[2021-04-23 17:21:31,154] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kubernetesOperator1.py for tasks to queue
+[2021-04-23 17:21:31,155] {logging_mixin.py:104} INFO - [2021-04-23 17:21:31,155] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kubernetesOperator1.py
+[2021-04-23 17:21:31,207] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/cncf/kubernetes/backcompat/backwards_compat_converters.py:26 DeprecationWarning: This module is deprecated. Please use `kubernetes.client.models.V1Volume`.
+[2021-04-23 17:21:31,209] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/cncf/kubernetes/backcompat/backwards_compat_converters.py:27 DeprecationWarning: This module is deprecated. Please use `kubernetes.client.models.V1VolumeMount`.
+[2021-04-23 17:21:31,218] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['ks-4-example_kubernetes_pod']) retrieved from /opt/airflow/dags/kubernetesOperator1.py
+[2021-04-23 17:21:31,236] {logging_mixin.py:104} INFO - [2021-04-23 17:21:31,236] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-04-23 17:21:31,250] {logging_mixin.py:104} INFO - [2021-04-23 17:21:31,250] {dag.py:2273} INFO - Setting next_dagrun for ks-4-example_kubernetes_pod to None
+[2021-04-23 17:21:31,257] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kubernetesOperator1.py took 0.108 seconds
+[2021-04-23 17:22:01,332] {scheduler_job.py:182} INFO - Started process (PID=995) to work on /opt/airflow/dags/kubernetesOperator1.py
+[2021-04-23 17:22:01,334] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kubernetesOperator1.py for tasks to queue
+[2021-04-23 17:22:01,335] {logging_mixin.py:104} INFO - [2021-04-23 17:22:01,335] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kubernetesOperator1.py
+[2021-04-23 17:22:01,383] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/cncf/kubernetes/backcompat/backwards_compat_converters.py:26 DeprecationWarning: This module is deprecated. Please use `kubernetes.client.models.V1Volume`.
+[2021-04-23 17:22:01,385] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/cncf/kubernetes/backcompat/backwards_compat_converters.py:27 DeprecationWarning: This module is deprecated. Please use `kubernetes.client.models.V1VolumeMount`.
+[2021-04-23 17:22:01,393] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['ks-4-example_kubernetes_pod']) retrieved from /opt/airflow/dags/kubernetesOperator1.py
+[2021-04-23 17:22:01,409] {logging_mixin.py:104} INFO - [2021-04-23 17:22:01,408] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-04-23 17:22:01,421] {logging_mixin.py:104} INFO - [2021-04-23 17:22:01,421] {dag.py:2273} INFO - Setting next_dagrun for ks-4-example_kubernetes_pod to None
+[2021-04-23 17:22:01,427] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kubernetesOperator1.py took 0.099 seconds
+[2021-04-23 17:22:31,525] {scheduler_job.py:182} INFO - Started process (PID=998) to work on /opt/airflow/dags/kubernetesOperator1.py
+[2021-04-23 17:22:31,527] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kubernetesOperator1.py for tasks to queue
+[2021-04-23 17:22:31,528] {logging_mixin.py:104} INFO - [2021-04-23 17:22:31,528] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kubernetesOperator1.py
+[2021-04-23 17:22:31,573] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/cncf/kubernetes/backcompat/backwards_compat_converters.py:26 DeprecationWarning: This module is deprecated. Please use `kubernetes.client.models.V1Volume`.
+[2021-04-23 17:22:31,575] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/cncf/kubernetes/backcompat/backwards_compat_converters.py:27 DeprecationWarning: This module is deprecated. Please use `kubernetes.client.models.V1VolumeMount`.
+[2021-04-23 17:22:31,585] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['ks-4-example_kubernetes_pod']) retrieved from /opt/airflow/dags/kubernetesOperator1.py
+[2021-04-23 17:22:31,604] {logging_mixin.py:104} INFO - [2021-04-23 17:22:31,604] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-04-23 17:22:31,617] {logging_mixin.py:104} INFO - [2021-04-23 17:22:31,616] {dag.py:2273} INFO - Setting next_dagrun for ks-4-example_kubernetes_pod to None
+[2021-04-23 17:22:31,624] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kubernetesOperator1.py took 0.102 seconds
+[2021-04-23 17:23:01,696] {scheduler_job.py:182} INFO - Started process (PID=1001) to work on /opt/airflow/dags/kubernetesOperator1.py
+[2021-04-23 17:23:01,697] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kubernetesOperator1.py for tasks to queue
+[2021-04-23 17:23:01,698] {logging_mixin.py:104} INFO - [2021-04-23 17:23:01,698] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kubernetesOperator1.py
+[2021-04-23 17:23:01,740] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/cncf/kubernetes/backcompat/backwards_compat_converters.py:26 DeprecationWarning: This module is deprecated. Please use `kubernetes.client.models.V1Volume`.
+[2021-04-23 17:23:01,742] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/cncf/kubernetes/backcompat/backwards_compat_converters.py:27 DeprecationWarning: This module is deprecated. Please use `kubernetes.client.models.V1VolumeMount`.
+[2021-04-23 17:23:01,750] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['ks-4-example_kubernetes_pod']) retrieved from /opt/airflow/dags/kubernetesOperator1.py
+[2021-04-23 17:23:01,767] {logging_mixin.py:104} INFO - [2021-04-23 17:23:01,767] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-04-23 17:23:01,780] {logging_mixin.py:104} INFO - [2021-04-23 17:23:01,780] {dag.py:2273} INFO - Setting next_dagrun for ks-4-example_kubernetes_pod to None
+[2021-04-23 17:23:01,786] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kubernetesOperator1.py took 0.093 seconds
+[2021-04-23 17:23:31,860] {scheduler_job.py:182} INFO - Started process (PID=1004) to work on /opt/airflow/dags/kubernetesOperator1.py
+[2021-04-23 17:23:31,862] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kubernetesOperator1.py for tasks to queue
+[2021-04-23 17:23:31,863] {logging_mixin.py:104} INFO - [2021-04-23 17:23:31,863] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kubernetesOperator1.py
+[2021-04-23 17:23:31,910] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/cncf/kubernetes/backcompat/backwards_compat_converters.py:26 DeprecationWarning: This module is deprecated. Please use `kubernetes.client.models.V1Volume`.
+[2021-04-23 17:23:31,911] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/cncf/kubernetes/backcompat/backwards_compat_converters.py:27 DeprecationWarning: This module is deprecated. Please use `kubernetes.client.models.V1VolumeMount`.
+[2021-04-23 17:23:31,920] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['ks-4-example_kubernetes_pod']) retrieved from /opt/airflow/dags/kubernetesOperator1.py
+[2021-04-23 17:23:31,937] {logging_mixin.py:104} INFO - [2021-04-23 17:23:31,937] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-04-23 17:23:31,949] {logging_mixin.py:104} INFO - [2021-04-23 17:23:31,949] {dag.py:2273} INFO - Setting next_dagrun for ks-4-example_kubernetes_pod to None
+[2021-04-23 17:23:31,956] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kubernetesOperator1.py took 0.100 seconds
+[2021-04-23 17:24:02,050] {scheduler_job.py:182} INFO - Started process (PID=1007) to work on /opt/airflow/dags/kubernetesOperator1.py
+[2021-04-23 17:24:02,052] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kubernetesOperator1.py for tasks to queue
+[2021-04-23 17:24:02,053] {logging_mixin.py:104} INFO - [2021-04-23 17:24:02,053] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kubernetesOperator1.py
+[2021-04-23 17:24:02,102] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/cncf/kubernetes/backcompat/backwards_compat_converters.py:26 DeprecationWarning: This module is deprecated. Please use `kubernetes.client.models.V1Volume`.
+[2021-04-23 17:24:02,103] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/cncf/kubernetes/backcompat/backwards_compat_converters.py:27 DeprecationWarning: This module is deprecated. Please use `kubernetes.client.models.V1VolumeMount`.
+[2021-04-23 17:24:02,116] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['ks-4-example_kubernetes_pod']) retrieved from /opt/airflow/dags/kubernetesOperator1.py
+[2021-04-23 17:24:02,135] {logging_mixin.py:104} INFO - [2021-04-23 17:24:02,135] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-04-23 17:24:02,148] {logging_mixin.py:104} INFO - [2021-04-23 17:24:02,148] {dag.py:2273} INFO - Setting next_dagrun for ks-4-example_kubernetes_pod to None
+[2021-04-23 17:24:02,154] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kubernetesOperator1.py took 0.107 seconds
+[2021-04-23 17:24:32,215] {scheduler_job.py:182} INFO - Started process (PID=1010) to work on /opt/airflow/dags/kubernetesOperator1.py
+[2021-04-23 17:24:32,217] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kubernetesOperator1.py for tasks to queue
+[2021-04-23 17:24:32,218] {logging_mixin.py:104} INFO - [2021-04-23 17:24:32,218] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kubernetesOperator1.py
+[2021-04-23 17:24:32,273] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/cncf/kubernetes/backcompat/backwards_compat_converters.py:26 DeprecationWarning: This module is deprecated. Please use `kubernetes.client.models.V1Volume`.
+[2021-04-23 17:24:32,275] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/cncf/kubernetes/backcompat/backwards_compat_converters.py:27 DeprecationWarning: This module is deprecated. Please use `kubernetes.client.models.V1VolumeMount`.
+[2021-04-23 17:24:32,284] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['ks-4-example_kubernetes_pod']) retrieved from /opt/airflow/dags/kubernetesOperator1.py
+[2021-04-23 17:24:32,303] {logging_mixin.py:104} INFO - [2021-04-23 17:24:32,303] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-04-23 17:24:32,316] {logging_mixin.py:104} INFO - [2021-04-23 17:24:32,316] {dag.py:2273} INFO - Setting next_dagrun for ks-4-example_kubernetes_pod to None
+[2021-04-23 17:24:32,324] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kubernetesOperator1.py took 0.113 seconds
+[2021-04-23 17:25:02,398] {scheduler_job.py:182} INFO - Started process (PID=1013) to work on /opt/airflow/dags/kubernetesOperator1.py
+[2021-04-23 17:25:02,400] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kubernetesOperator1.py for tasks to queue
+[2021-04-23 17:25:02,401] {logging_mixin.py:104} INFO - [2021-04-23 17:25:02,401] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kubernetesOperator1.py
+[2021-04-23 17:25:02,449] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/cncf/kubernetes/backcompat/backwards_compat_converters.py:26 DeprecationWarning: This module is deprecated. Please use `kubernetes.client.models.V1Volume`.
+[2021-04-23 17:25:02,452] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/cncf/kubernetes/backcompat/backwards_compat_converters.py:27 DeprecationWarning: This module is deprecated. Please use `kubernetes.client.models.V1VolumeMount`.
+[2021-04-23 17:25:02,463] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['ks-4-example_kubernetes_pod']) retrieved from /opt/airflow/dags/kubernetesOperator1.py
+[2021-04-23 17:25:02,484] {logging_mixin.py:104} INFO - [2021-04-23 17:25:02,484] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-04-23 17:25:02,502] {logging_mixin.py:104} INFO - [2021-04-23 17:25:02,502] {dag.py:2273} INFO - Setting next_dagrun for ks-4-example_kubernetes_pod to None
+[2021-04-23 17:25:02,509] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kubernetesOperator1.py took 0.114 seconds
+[2021-04-23 17:25:32,576] {scheduler_job.py:182} INFO - Started process (PID=1016) to work on /opt/airflow/dags/kubernetesOperator1.py
+[2021-04-23 17:25:32,578] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kubernetesOperator1.py for tasks to queue
+[2021-04-23 17:25:32,579] {logging_mixin.py:104} INFO - [2021-04-23 17:25:32,579] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kubernetesOperator1.py
+[2021-04-23 17:25:32,629] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/cncf/kubernetes/backcompat/backwards_compat_converters.py:26 DeprecationWarning: This module is deprecated. Please use `kubernetes.client.models.V1Volume`.
+[2021-04-23 17:25:32,631] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/cncf/kubernetes/backcompat/backwards_compat_converters.py:27 DeprecationWarning: This module is deprecated. Please use `kubernetes.client.models.V1VolumeMount`.
+[2021-04-23 17:25:32,641] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['ks-4-example_kubernetes_pod']) retrieved from /opt/airflow/dags/kubernetesOperator1.py
+[2021-04-23 17:25:32,659] {logging_mixin.py:104} INFO - [2021-04-23 17:25:32,659] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-04-23 17:25:32,671] {logging_mixin.py:104} INFO - [2021-04-23 17:25:32,671] {dag.py:2273} INFO - Setting next_dagrun for ks-4-example_kubernetes_pod to None
+[2021-04-23 17:25:32,677] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kubernetesOperator1.py took 0.105 seconds
+[2021-04-23 17:26:34,966] {scheduler_job.py:182} INFO - Started process (PID=26) to work on /opt/airflow/dags/kubernetesOperator1.py
+[2021-04-23 17:26:34,967] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kubernetesOperator1.py for tasks to queue
+[2021-04-23 17:26:34,968] {logging_mixin.py:104} INFO - [2021-04-23 17:26:34,968] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kubernetesOperator1.py
+[2021-04-23 17:26:35,083] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/cncf/kubernetes/backcompat/backwards_compat_converters.py:26 DeprecationWarning: This module is deprecated. Please use `kubernetes.client.models.V1Volume`.
+[2021-04-23 17:26:35,085] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/cncf/kubernetes/backcompat/backwards_compat_converters.py:27 DeprecationWarning: This module is deprecated. Please use `kubernetes.client.models.V1VolumeMount`.
+[2021-04-23 17:26:35,099] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['ks-4-example_kubernetes_pod']) retrieved from /opt/airflow/dags/kubernetesOperator1.py
+[2021-04-23 17:26:35,122] {logging_mixin.py:104} INFO - [2021-04-23 17:26:35,122] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-04-23 17:26:35,135] {logging_mixin.py:104} INFO - [2021-04-23 17:26:35,135] {dag.py:1837} INFO - Creating ORM DAG for ks-4-example_kubernetes_pod
+[2021-04-23 17:26:35,140] {logging_mixin.py:104} INFO - [2021-04-23 17:26:35,140] {dag.py:2273} INFO - Setting next_dagrun for ks-4-example_kubernetes_pod to 2019-01-01T00:00:00+00:00
+[2021-04-23 17:26:35,154] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kubernetesOperator1.py took 0.193 seconds
+[2021-04-23 17:27:05,298] {scheduler_job.py:182} INFO - Started process (PID=29) to work on /opt/airflow/dags/kubernetesOperator1.py
+[2021-04-23 17:27:05,299] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kubernetesOperator1.py for tasks to queue
+[2021-04-23 17:27:05,301] {logging_mixin.py:104} INFO - [2021-04-23 17:27:05,300] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kubernetesOperator1.py
+[2021-04-23 17:27:05,347] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/cncf/kubernetes/backcompat/backwards_compat_converters.py:26 DeprecationWarning: This module is deprecated. Please use `kubernetes.client.models.V1Volume`.
+[2021-04-23 17:27:05,350] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/cncf/kubernetes/backcompat/backwards_compat_converters.py:27 DeprecationWarning: This module is deprecated. Please use `kubernetes.client.models.V1VolumeMount`.
+[2021-04-23 17:27:05,363] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['ks-4-example_kubernetes_pod']) retrieved from /opt/airflow/dags/kubernetesOperator1.py
+[2021-04-23 17:27:05,390] {logging_mixin.py:104} INFO - [2021-04-23 17:27:05,390] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-04-23 17:27:05,402] {logging_mixin.py:104} INFO - [2021-04-23 17:27:05,402] {dag.py:2273} INFO - Setting next_dagrun for ks-4-example_kubernetes_pod to 2019-01-01T00:00:00+00:00
+[2021-04-23 17:27:05,409] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kubernetesOperator1.py took 0.114 seconds
+[2021-04-23 17:27:35,514] {scheduler_job.py:182} INFO - Started process (PID=32) to work on /opt/airflow/dags/kubernetesOperator1.py
+[2021-04-23 17:27:35,515] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kubernetesOperator1.py for tasks to queue
+[2021-04-23 17:27:35,516] {logging_mixin.py:104} INFO - [2021-04-23 17:27:35,516] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kubernetesOperator1.py
+[2021-04-23 17:27:35,567] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/cncf/kubernetes/backcompat/backwards_compat_converters.py:26 DeprecationWarning: This module is deprecated. Please use `kubernetes.client.models.V1Volume`.
+[2021-04-23 17:27:35,569] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/cncf/kubernetes/backcompat/backwards_compat_converters.py:27 DeprecationWarning: This module is deprecated. Please use `kubernetes.client.models.V1VolumeMount`.
+[2021-04-23 17:27:35,582] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['ks-4-example_kubernetes_pod']) retrieved from /opt/airflow/dags/kubernetesOperator1.py
+[2021-04-23 17:27:35,601] {logging_mixin.py:104} INFO - [2021-04-23 17:27:35,601] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-04-23 17:27:35,614] {logging_mixin.py:104} INFO - [2021-04-23 17:27:35,614] {dag.py:2273} INFO - Setting next_dagrun for ks-4-example_kubernetes_pod to 2019-01-01T00:00:00+00:00
+[2021-04-23 17:27:35,621] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kubernetesOperator1.py took 0.110 seconds
+[2021-04-23 17:28:05,724] {scheduler_job.py:182} INFO - Started process (PID=35) to work on /opt/airflow/dags/kubernetesOperator1.py
+[2021-04-23 17:28:05,726] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kubernetesOperator1.py for tasks to queue
+[2021-04-23 17:28:05,727] {logging_mixin.py:104} INFO - [2021-04-23 17:28:05,727] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kubernetesOperator1.py
+[2021-04-23 17:28:05,780] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/cncf/kubernetes/backcompat/backwards_compat_converters.py:26 DeprecationWarning: This module is deprecated. Please use `kubernetes.client.models.V1Volume`.
+[2021-04-23 17:28:05,782] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/cncf/kubernetes/backcompat/backwards_compat_converters.py:27 DeprecationWarning: This module is deprecated. Please use `kubernetes.client.models.V1VolumeMount`.
+[2021-04-23 17:28:05,792] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['ks-4-example_kubernetes_pod']) retrieved from /opt/airflow/dags/kubernetesOperator1.py
+[2021-04-23 17:28:05,810] {logging_mixin.py:104} INFO - [2021-04-23 17:28:05,810] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-04-23 17:28:05,823] {logging_mixin.py:104} INFO - [2021-04-23 17:28:05,823] {dag.py:2273} INFO - Setting next_dagrun for ks-4-example_kubernetes_pod to 2019-01-01T00:00:00+00:00
+[2021-04-23 17:28:05,830] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kubernetesOperator1.py took 0.111 seconds
+[2021-04-23 17:28:35,934] {scheduler_job.py:182} INFO - Started process (PID=38) to work on /opt/airflow/dags/kubernetesOperator1.py
+[2021-04-23 17:28:35,936] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kubernetesOperator1.py for tasks to queue
+[2021-04-23 17:28:35,937] {logging_mixin.py:104} INFO - [2021-04-23 17:28:35,937] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kubernetesOperator1.py
+[2021-04-23 17:28:35,987] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/cncf/kubernetes/backcompat/backwards_compat_converters.py:26 DeprecationWarning: This module is deprecated. Please use `kubernetes.client.models.V1Volume`.
+[2021-04-23 17:28:35,989] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/cncf/kubernetes/backcompat/backwards_compat_converters.py:27 DeprecationWarning: This module is deprecated. Please use `kubernetes.client.models.V1VolumeMount`.
+[2021-04-23 17:28:35,999] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['ks-4-example_kubernetes_pod']) retrieved from /opt/airflow/dags/kubernetesOperator1.py
+[2021-04-23 17:28:36,019] {logging_mixin.py:104} INFO - [2021-04-23 17:28:36,019] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-04-23 17:28:36,031] {logging_mixin.py:104} INFO - [2021-04-23 17:28:36,031] {dag.py:2273} INFO - Setting next_dagrun for ks-4-example_kubernetes_pod to None
+[2021-04-23 17:28:36,039] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kubernetesOperator1.py took 0.108 seconds
+[2021-04-23 17:29:06,167] {scheduler_job.py:182} INFO - Started process (PID=41) to work on /opt/airflow/dags/kubernetesOperator1.py
+[2021-04-23 17:29:06,168] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kubernetesOperator1.py for tasks to queue
+[2021-04-23 17:29:06,169] {logging_mixin.py:104} INFO - [2021-04-23 17:29:06,169] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kubernetesOperator1.py
+[2021-04-23 17:29:06,219] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/cncf/kubernetes/backcompat/backwards_compat_converters.py:26 DeprecationWarning: This module is deprecated. Please use `kubernetes.client.models.V1Volume`.
+[2021-04-23 17:29:06,223] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/cncf/kubernetes/backcompat/backwards_compat_converters.py:27 DeprecationWarning: This module is deprecated. Please use `kubernetes.client.models.V1VolumeMount`.
+[2021-04-23 17:29:06,255] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['ks-4-example_kubernetes_pod']) retrieved from /opt/airflow/dags/kubernetesOperator1.py
+[2021-04-23 17:29:06,272] {logging_mixin.py:104} INFO - [2021-04-23 17:29:06,272] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-04-23 17:29:06,285] {logging_mixin.py:104} INFO - [2021-04-23 17:29:06,285] {dag.py:2273} INFO - Setting next_dagrun for ks-4-example_kubernetes_pod to None
+[2021-04-23 17:29:06,296] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kubernetesOperator1.py took 0.133 seconds
+[2021-04-23 17:29:36,390] {scheduler_job.py:182} INFO - Started process (PID=44) to work on /opt/airflow/dags/kubernetesOperator1.py
+[2021-04-23 17:29:36,392] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kubernetesOperator1.py for tasks to queue
+[2021-04-23 17:29:36,393] {logging_mixin.py:104} INFO - [2021-04-23 17:29:36,393] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kubernetesOperator1.py
+[2021-04-23 17:29:36,439] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/cncf/kubernetes/backcompat/backwards_compat_converters.py:26 DeprecationWarning: This module is deprecated. Please use `kubernetes.client.models.V1Volume`.
+[2021-04-23 17:29:36,442] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/cncf/kubernetes/backcompat/backwards_compat_converters.py:27 DeprecationWarning: This module is deprecated. Please use `kubernetes.client.models.V1VolumeMount`.
+[2021-04-23 17:29:36,454] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['ks-4-example_kubernetes_pod']) retrieved from /opt/airflow/dags/kubernetesOperator1.py
+[2021-04-23 17:29:36,474] {logging_mixin.py:104} INFO - [2021-04-23 17:29:36,474] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-04-23 17:29:36,487] {logging_mixin.py:104} INFO - [2021-04-23 17:29:36,487] {dag.py:2273} INFO - Setting next_dagrun for ks-4-example_kubernetes_pod to None
+[2021-04-23 17:29:36,496] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kubernetesOperator1.py took 0.110 seconds
+[2021-04-23 17:30:06,609] {scheduler_job.py:182} INFO - Started process (PID=47) to work on /opt/airflow/dags/kubernetesOperator1.py
+[2021-04-23 17:30:06,611] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kubernetesOperator1.py for tasks to queue
+[2021-04-23 17:30:06,612] {logging_mixin.py:104} INFO - [2021-04-23 17:30:06,612] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kubernetesOperator1.py
+[2021-04-23 17:30:06,676] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/cncf/kubernetes/backcompat/backwards_compat_converters.py:26 DeprecationWarning: This module is deprecated. Please use `kubernetes.client.models.V1Volume`.
+[2021-04-23 17:30:06,678] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/cncf/kubernetes/backcompat/backwards_compat_converters.py:27 DeprecationWarning: This module is deprecated. Please use `kubernetes.client.models.V1VolumeMount`.
+[2021-04-23 17:30:06,694] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['ks-4-example_kubernetes_pod']) retrieved from /opt/airflow/dags/kubernetesOperator1.py
+[2021-04-23 17:30:06,721] {logging_mixin.py:104} INFO - [2021-04-23 17:30:06,721] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-04-23 17:30:06,745] {logging_mixin.py:104} INFO - [2021-04-23 17:30:06,745] {dag.py:1837} INFO - Creating ORM DAG for ks-4-example_kubernetes_pod
+[2021-04-23 17:30:06,761] {logging_mixin.py:104} INFO - [2021-04-23 17:30:06,761] {dag.py:2273} INFO - Setting next_dagrun for ks-4-example_kubernetes_pod to 2019-01-01T00:00:00+00:00
+[2021-04-23 17:30:06,779] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kubernetesOperator1.py took 0.175 seconds
+[2021-04-23 17:30:36,894] {scheduler_job.py:182} INFO - Started process (PID=50) to work on /opt/airflow/dags/kubernetesOperator1.py
+[2021-04-23 17:30:36,895] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kubernetesOperator1.py for tasks to queue
+[2021-04-23 17:30:36,897] {logging_mixin.py:104} INFO - [2021-04-23 17:30:36,897] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kubernetesOperator1.py
+[2021-04-23 17:30:36,899] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/kubernetesOperator1.py
+[2021-04-23 17:30:36,900] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kubernetesOperator1.py took 0.010 seconds
+[2021-04-23 17:30:55,816] {scheduler_job.py:182} INFO - Started process (PID=52) to work on /opt/airflow/dags/kubernetesOperator1.py
+[2021-04-23 17:30:55,817] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kubernetesOperator1.py for tasks to queue
+[2021-04-23 17:30:55,818] {logging_mixin.py:104} INFO - [2021-04-23 17:30:55,818] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kubernetesOperator1.py
+[2021-04-23 17:30:55,820] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/kubernetesOperator1.py
+[2021-04-23 17:30:55,821] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kubernetesOperator1.py took 0.009 seconds
+[2021-04-23 17:31:25,997] {scheduler_job.py:182} INFO - Started process (PID=55) to work on /opt/airflow/dags/kubernetesOperator1.py
+[2021-04-23 17:31:25,999] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kubernetesOperator1.py for tasks to queue
+[2021-04-23 17:31:26,000] {logging_mixin.py:104} INFO - [2021-04-23 17:31:26,000] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kubernetesOperator1.py
+[2021-04-23 17:31:26,002] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/kubernetesOperator1.py
+[2021-04-23 17:31:26,003] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kubernetesOperator1.py took 0.011 seconds

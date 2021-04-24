@@ -1,0 +1,23 @@
+[2021-04-21 20:13:33,802] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: docker_sample.docker_op_tester 2021-04-19T03:00:00+00:00 [queued]>
+[2021-04-21 20:13:33,847] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: docker_sample.docker_op_tester 2021-04-19T03:00:00+00:00 [queued]>
+[2021-04-21 20:13:33,849] {taskinstance.py:1042} INFO - 
+--------------------------------------------------------------------------------
+[2021-04-21 20:13:33,850] {taskinstance.py:1043} INFO - Starting attempt 1 of 2
+[2021-04-21 20:13:33,850] {taskinstance.py:1044} INFO - 
+--------------------------------------------------------------------------------
+[2021-04-21 20:13:33,867] {taskinstance.py:1063} INFO - Executing <Task(DockerOperator): docker_op_tester> on 2021-04-19T03:00:00+00:00
+[2021-04-21 20:13:33,880] {standard_task_runner.py:52} INFO - Started process 255 to run task
+[2021-04-21 20:13:33,910] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'docker_sample', 'docker_op_tester', '2021-04-19T03:00:00+00:00', '--job-id', '127', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/dockerOperator.py', '--cfg-path', '/tmp/tmpoh0nncls', '--error-file', '/tmp/tmphjhd2spw']
+[2021-04-21 20:13:33,912] {standard_task_runner.py:77} INFO - Job 127: Subtask docker_op_tester
+[2021-04-21 20:13:34,040] {logging_mixin.py:104} INFO - Running <TaskInstance: docker_sample.docker_op_tester 2021-04-19T03:00:00+00:00 [running]> on host 5af2b1cab26e
+[2021-04-21 20:13:34,148] {taskinstance.py:1257} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=airflow@example.com
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=docker_sample
+AIRFLOW_CTX_TASK_ID=docker_op_tester
+AIRFLOW_CTX_EXECUTION_DATE=2021-04-19T03:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2021-04-19T03:00:00+00:00
+[2021-04-21 20:13:34,166] {docker.py:224} INFO - Starting docker container from image centos:latest
+[2021-04-21 20:14:04,863] {taskinstance.py:1166} INFO - Marking task as SUCCESS. dag_id=docker_sample, task_id=docker_op_tester, execution_date=20210419T030000, start_date=20210421T201333, end_date=20210421T201404
+[2021-04-21 20:14:04,890] {taskinstance.py:1220} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-04-21 20:14:04,934] {local_task_job.py:146} INFO - Task exited with return code 0

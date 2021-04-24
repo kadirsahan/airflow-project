@@ -1,0 +1,28 @@
+[2021-04-21 20:19:33,884] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: docker_sample.print_date 2021-04-19T19:10:00+00:00 [queued]>
+[2021-04-21 20:19:33,914] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: docker_sample.print_date 2021-04-19T19:10:00+00:00 [queued]>
+[2021-04-21 20:19:33,915] {taskinstance.py:1042} INFO - 
+--------------------------------------------------------------------------------
+[2021-04-21 20:19:33,917] {taskinstance.py:1043} INFO - Starting attempt 1 of 2
+[2021-04-21 20:19:33,917] {taskinstance.py:1044} INFO - 
+--------------------------------------------------------------------------------
+[2021-04-21 20:19:33,928] {taskinstance.py:1063} INFO - Executing <Task(BashOperator): print_date> on 2021-04-19T19:10:00+00:00
+[2021-04-21 20:19:33,934] {standard_task_runner.py:52} INFO - Started process 1285 to run task
+[2021-04-21 20:19:33,944] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'docker_sample', 'print_date', '2021-04-19T19:10:00+00:00', '--job-id', '502', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/dockerOperator.py', '--cfg-path', '/tmp/tmp_pby72ym', '--error-file', '/tmp/tmp39io6d24']
+[2021-04-21 20:19:33,945] {standard_task_runner.py:77} INFO - Job 502: Subtask print_date
+[2021-04-21 20:19:34,038] {logging_mixin.py:104} INFO - Running <TaskInstance: docker_sample.print_date 2021-04-19T19:10:00+00:00 [running]> on host 5af2b1cab26e
+[2021-04-21 20:19:34,138] {taskinstance.py:1257} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=airflow@example.com
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=docker_sample
+AIRFLOW_CTX_TASK_ID=print_date
+AIRFLOW_CTX_EXECUTION_DATE=2021-04-19T19:10:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2021-04-19T19:10:00+00:00
+[2021-04-21 20:19:34,140] {bash.py:135} INFO - Tmp dir root location: 
+ /tmp
+[2021-04-21 20:19:34,142] {bash.py:158} INFO - Running command: date
+[2021-04-21 20:19:34,154] {bash.py:169} INFO - Output:
+[2021-04-21 20:19:34,157] {bash.py:173} INFO - Wed Apr 21 20:19:34 UTC 2021
+[2021-04-21 20:19:34,158] {bash.py:177} INFO - Command exited with return code 0
+[2021-04-21 20:19:34,214] {taskinstance.py:1166} INFO - Marking task as SUCCESS. dag_id=docker_sample, task_id=print_date, execution_date=20210419T191000, start_date=20210421T201933, end_date=20210421T201934
+[2021-04-21 20:19:34,315] {taskinstance.py:1220} INFO - 2 downstream tasks scheduled from follow-on schedule check
+[2021-04-21 20:19:34,363] {local_task_job.py:146} INFO - Task exited with return code 0

@@ -1,0 +1,188 @@
+[2021-04-23 18:40:44,716] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: ks-5-example_kubernetes_pod.task-one 2019-01-01T00:00:00+00:00 [queued]>
+[2021-04-23 18:40:44,732] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: ks-5-example_kubernetes_pod.task-one 2019-01-01T00:00:00+00:00 [queued]>
+[2021-04-23 18:40:44,733] {taskinstance.py:1042} INFO - 
+--------------------------------------------------------------------------------
+[2021-04-23 18:40:44,735] {taskinstance.py:1043} INFO - Starting attempt 1 of 2
+[2021-04-23 18:40:44,735] {taskinstance.py:1044} INFO - 
+--------------------------------------------------------------------------------
+[2021-04-23 18:40:44,742] {taskinstance.py:1063} INFO - Executing <Task(KubernetesPodOperator): task-one> on 2019-01-01T00:00:00+00:00
+[2021-04-23 18:40:44,750] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'ks-5-example_kubernetes_pod', 'task-one', '2019-01-01T00:00:00+00:00', '--job-id', '5', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/kubernetesOperator3.py', '--cfg-path', '/tmp/tmpm5ga2eir', '--error-file', '/tmp/tmphnxdhc32']
+[2021-04-23 18:40:44,752] {standard_task_runner.py:77} INFO - Job 5: Subtask task-one
+[2021-04-23 18:40:44,746] {standard_task_runner.py:52} INFO - Started process 58 to run task
+[2021-04-23 18:40:44,792] {logging_mixin.py:104} INFO - Running <TaskInstance: ks-5-example_kubernetes_pod.task-one 2019-01-01T00:00:00+00:00 [running]> on host b0ec5a7abbe9
+[2021-04-23 18:40:44,829] {taskinstance.py:1257} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=ks-5-example_kubernetes_pod
+AIRFLOW_CTX_TASK_ID=task-one
+AIRFLOW_CTX_EXECUTION_DATE=2019-01-01T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2019-01-01T00:00:00+00:00
+[2021-04-23 18:40:44,855] {kubernetes_pod.py:338} INFO - creating pod with labels {'dag_id': 'ks-5-example_kubernetes_pod', 'task_id': 'task-one', 'execution_date': '2019-01-01T0000000000-c96b89267', 'try_number': '1'} and launcher <airflow.kubernetes.pod_launcher.PodLauncher object at 0x7f143c521978>
+[2021-04-23 18:40:44,884] {pod_launcher.py:176} INFO - Event: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2 had an event of type Pending
+[2021-04-23 18:40:44,885] {pod_launcher.py:113} WARNING - Pod not yet started: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2
+[2021-04-23 18:40:45,894] {pod_launcher.py:176} INFO - Event: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2 had an event of type Pending
+[2021-04-23 18:40:45,895] {pod_launcher.py:113} WARNING - Pod not yet started: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2
+[2021-04-23 18:40:46,903] {pod_launcher.py:176} INFO - Event: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2 had an event of type Pending
+[2021-04-23 18:40:46,904] {pod_launcher.py:113} WARNING - Pod not yet started: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2
+[2021-04-23 18:40:47,911] {pod_launcher.py:176} INFO - Event: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2 had an event of type Pending
+[2021-04-23 18:40:47,912] {pod_launcher.py:113} WARNING - Pod not yet started: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2
+[2021-04-23 18:40:48,920] {pod_launcher.py:176} INFO - Event: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2 had an event of type Pending
+[2021-04-23 18:40:48,921] {pod_launcher.py:113} WARNING - Pod not yet started: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2
+[2021-04-23 18:40:49,929] {pod_launcher.py:176} INFO - Event: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2 had an event of type Pending
+[2021-04-23 18:40:49,930] {pod_launcher.py:113} WARNING - Pod not yet started: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2
+[2021-04-23 18:40:50,937] {pod_launcher.py:176} INFO - Event: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2 had an event of type Pending
+[2021-04-23 18:40:50,938] {pod_launcher.py:113} WARNING - Pod not yet started: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2
+[2021-04-23 18:40:51,946] {pod_launcher.py:176} INFO - Event: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2 had an event of type Pending
+[2021-04-23 18:40:51,947] {pod_launcher.py:113} WARNING - Pod not yet started: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2
+[2021-04-23 18:40:52,953] {pod_launcher.py:176} INFO - Event: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2 had an event of type Pending
+[2021-04-23 18:40:52,954] {pod_launcher.py:113} WARNING - Pod not yet started: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2
+[2021-04-23 18:40:53,962] {pod_launcher.py:176} INFO - Event: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2 had an event of type Pending
+[2021-04-23 18:40:53,964] {pod_launcher.py:113} WARNING - Pod not yet started: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2
+[2021-04-23 18:40:54,972] {pod_launcher.py:176} INFO - Event: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2 had an event of type Pending
+[2021-04-23 18:40:54,987] {pod_launcher.py:113} WARNING - Pod not yet started: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2
+[2021-04-23 18:40:55,997] {pod_launcher.py:176} INFO - Event: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2 had an event of type Pending
+[2021-04-23 18:40:55,999] {pod_launcher.py:113} WARNING - Pod not yet started: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2
+[2021-04-23 18:40:57,006] {pod_launcher.py:176} INFO - Event: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2 had an event of type Pending
+[2021-04-23 18:40:57,007] {pod_launcher.py:113} WARNING - Pod not yet started: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2
+[2021-04-23 18:40:58,017] {pod_launcher.py:176} INFO - Event: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2 had an event of type Pending
+[2021-04-23 18:40:58,018] {pod_launcher.py:113} WARNING - Pod not yet started: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2
+[2021-04-23 18:40:59,031] {pod_launcher.py:176} INFO - Event: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2 had an event of type Pending
+[2021-04-23 18:40:59,032] {pod_launcher.py:113} WARNING - Pod not yet started: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2
+[2021-04-23 18:41:00,006] {pod_launcher.py:176} INFO - Event: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2 had an event of type Pending
+[2021-04-23 18:41:00,007] {pod_launcher.py:113} WARNING - Pod not yet started: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2
+[2021-04-23 18:41:01,015] {pod_launcher.py:176} INFO - Event: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2 had an event of type Pending
+[2021-04-23 18:41:01,016] {pod_launcher.py:113} WARNING - Pod not yet started: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2
+[2021-04-23 18:41:02,024] {pod_launcher.py:176} INFO - Event: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2 had an event of type Pending
+[2021-04-23 18:41:02,025] {pod_launcher.py:113} WARNING - Pod not yet started: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2
+[2021-04-23 18:41:03,033] {pod_launcher.py:176} INFO - Event: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2 had an event of type Pending
+[2021-04-23 18:41:03,034] {pod_launcher.py:113} WARNING - Pod not yet started: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2
+[2021-04-23 18:41:04,042] {pod_launcher.py:176} INFO - Event: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2 had an event of type Pending
+[2021-04-23 18:41:04,043] {pod_launcher.py:113} WARNING - Pod not yet started: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2
+[2021-04-23 18:41:05,051] {pod_launcher.py:176} INFO - Event: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2 had an event of type Pending
+[2021-04-23 18:41:05,052] {pod_launcher.py:113} WARNING - Pod not yet started: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2
+[2021-04-23 18:41:06,059] {pod_launcher.py:176} INFO - Event: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2 had an event of type Pending
+[2021-04-23 18:41:06,061] {pod_launcher.py:113} WARNING - Pod not yet started: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2
+[2021-04-23 18:41:07,068] {pod_launcher.py:176} INFO - Event: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2 had an event of type Pending
+[2021-04-23 18:41:07,069] {pod_launcher.py:113} WARNING - Pod not yet started: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2
+[2021-04-23 18:41:08,080] {pod_launcher.py:176} INFO - Event: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2 had an event of type Pending
+[2021-04-23 18:41:08,081] {pod_launcher.py:113} WARNING - Pod not yet started: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2
+[2021-04-23 18:41:09,092] {pod_launcher.py:176} INFO - Event: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2 had an event of type Pending
+[2021-04-23 18:41:09,093] {pod_launcher.py:113} WARNING - Pod not yet started: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2
+[2021-04-23 18:41:10,102] {pod_launcher.py:176} INFO - Event: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2 had an event of type Pending
+[2021-04-23 18:41:10,103] {pod_launcher.py:113} WARNING - Pod not yet started: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2
+[2021-04-23 18:41:11,113] {pod_launcher.py:176} INFO - Event: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2 had an event of type Pending
+[2021-04-23 18:41:11,114] {pod_launcher.py:113} WARNING - Pod not yet started: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2
+[2021-04-23 18:41:12,122] {pod_launcher.py:176} INFO - Event: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2 had an event of type Pending
+[2021-04-23 18:41:12,123] {pod_launcher.py:113} WARNING - Pod not yet started: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2
+[2021-04-23 18:41:13,132] {pod_launcher.py:176} INFO - Event: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2 had an event of type Pending
+[2021-04-23 18:41:13,133] {pod_launcher.py:113} WARNING - Pod not yet started: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2
+[2021-04-23 18:41:14,142] {pod_launcher.py:176} INFO - Event: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2 had an event of type Pending
+[2021-04-23 18:41:14,143] {pod_launcher.py:113} WARNING - Pod not yet started: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2
+[2021-04-23 18:41:15,150] {pod_launcher.py:176} INFO - Event: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2 had an event of type Pending
+[2021-04-23 18:41:15,152] {pod_launcher.py:113} WARNING - Pod not yet started: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2
+[2021-04-23 18:41:16,161] {pod_launcher.py:176} INFO - Event: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2 had an event of type Pending
+[2021-04-23 18:41:16,162] {pod_launcher.py:113} WARNING - Pod not yet started: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2
+[2021-04-23 18:41:17,170] {pod_launcher.py:176} INFO - Event: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2 had an event of type Pending
+[2021-04-23 18:41:17,171] {pod_launcher.py:113} WARNING - Pod not yet started: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2
+[2021-04-23 18:41:18,183] {pod_launcher.py:176} INFO - Event: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2 had an event of type Pending
+[2021-04-23 18:41:18,184] {pod_launcher.py:113} WARNING - Pod not yet started: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2
+[2021-04-23 18:41:19,196] {pod_launcher.py:176} INFO - Event: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2 had an event of type Pending
+[2021-04-23 18:41:19,197] {pod_launcher.py:113} WARNING - Pod not yet started: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2
+[2021-04-23 18:41:20,205] {pod_launcher.py:176} INFO - Event: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2 had an event of type Pending
+[2021-04-23 18:41:20,206] {pod_launcher.py:113} WARNING - Pod not yet started: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2
+[2021-04-23 18:41:21,214] {pod_launcher.py:176} INFO - Event: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2 had an event of type Pending
+[2021-04-23 18:41:21,215] {pod_launcher.py:113} WARNING - Pod not yet started: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2
+[2021-04-23 18:41:22,221] {pod_launcher.py:176} INFO - Event: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2 had an event of type Pending
+[2021-04-23 18:41:22,222] {pod_launcher.py:113} WARNING - Pod not yet started: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2
+[2021-04-23 18:41:23,229] {pod_launcher.py:176} INFO - Event: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2 had an event of type Pending
+[2021-04-23 18:41:23,230] {pod_launcher.py:113} WARNING - Pod not yet started: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2
+[2021-04-23 18:41:24,238] {pod_launcher.py:176} INFO - Event: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2 had an event of type Pending
+[2021-04-23 18:41:24,240] {pod_launcher.py:113} WARNING - Pod not yet started: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2
+[2021-04-23 18:41:25,248] {pod_launcher.py:176} INFO - Event: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2 had an event of type Pending
+[2021-04-23 18:41:25,250] {pod_launcher.py:113} WARNING - Pod not yet started: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2
+[2021-04-23 18:41:26,259] {pod_launcher.py:176} INFO - Event: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2 had an event of type Pending
+[2021-04-23 18:41:26,260] {pod_launcher.py:113} WARNING - Pod not yet started: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2
+[2021-04-23 18:41:27,271] {pod_launcher.py:176} INFO - Event: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2 had an event of type Pending
+[2021-04-23 18:41:27,272] {pod_launcher.py:113} WARNING - Pod not yet started: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2
+[2021-04-23 18:41:28,281] {pod_launcher.py:176} INFO - Event: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2 had an event of type Pending
+[2021-04-23 18:41:28,283] {pod_launcher.py:113} WARNING - Pod not yet started: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2
+[2021-04-23 18:41:29,292] {pod_launcher.py:176} INFO - Event: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2 had an event of type Pending
+[2021-04-23 18:41:29,293] {pod_launcher.py:113} WARNING - Pod not yet started: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2
+[2021-04-23 18:41:30,269] {pod_launcher.py:176} INFO - Event: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2 had an event of type Pending
+[2021-04-23 18:41:30,270] {pod_launcher.py:113} WARNING - Pod not yet started: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2
+[2021-04-23 18:41:31,282] {pod_launcher.py:176} INFO - Event: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2 had an event of type Pending
+[2021-04-23 18:41:31,283] {pod_launcher.py:113} WARNING - Pod not yet started: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2
+[2021-04-23 18:41:32,293] {pod_launcher.py:176} INFO - Event: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2 had an event of type Pending
+[2021-04-23 18:41:32,295] {pod_launcher.py:113} WARNING - Pod not yet started: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2
+[2021-04-23 18:41:33,303] {pod_launcher.py:176} INFO - Event: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2 had an event of type Pending
+[2021-04-23 18:41:33,305] {pod_launcher.py:113} WARNING - Pod not yet started: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2
+[2021-04-23 18:41:34,312] {pod_launcher.py:176} INFO - Event: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2 had an event of type Pending
+[2021-04-23 18:41:34,313] {pod_launcher.py:113} WARNING - Pod not yet started: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2
+[2021-04-23 18:41:35,323] {pod_launcher.py:176} INFO - Event: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2 had an event of type Pending
+[2021-04-23 18:41:35,324] {pod_launcher.py:113} WARNING - Pod not yet started: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2
+[2021-04-23 18:41:36,334] {pod_launcher.py:176} INFO - Event: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2 had an event of type Pending
+[2021-04-23 18:41:36,335] {pod_launcher.py:113} WARNING - Pod not yet started: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2
+[2021-04-23 18:41:37,344] {pod_launcher.py:176} INFO - Event: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2 had an event of type Pending
+[2021-04-23 18:41:37,345] {pod_launcher.py:113} WARNING - Pod not yet started: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2
+[2021-04-23 18:41:38,354] {pod_launcher.py:176} INFO - Event: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2 had an event of type Pending
+[2021-04-23 18:41:38,355] {pod_launcher.py:113} WARNING - Pod not yet started: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2
+[2021-04-23 18:41:39,366] {pod_launcher.py:176} INFO - Event: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2 had an event of type Pending
+[2021-04-23 18:41:39,367] {pod_launcher.py:113} WARNING - Pod not yet started: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2
+[2021-04-23 18:41:40,380] {pod_launcher.py:176} INFO - Event: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2 had an event of type Pending
+[2021-04-23 18:41:40,381] {pod_launcher.py:113} WARNING - Pod not yet started: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2
+[2021-04-23 18:41:41,389] {pod_launcher.py:176} INFO - Event: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2 had an event of type Pending
+[2021-04-23 18:41:41,390] {pod_launcher.py:113} WARNING - Pod not yet started: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2
+[2021-04-23 18:41:42,399] {pod_launcher.py:176} INFO - Event: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2 had an event of type Pending
+[2021-04-23 18:41:42,400] {pod_launcher.py:113} WARNING - Pod not yet started: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2
+[2021-04-23 18:41:43,409] {pod_launcher.py:176} INFO - Event: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2 had an event of type Pending
+[2021-04-23 18:41:43,410] {pod_launcher.py:113} WARNING - Pod not yet started: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2
+[2021-04-23 18:41:44,420] {pod_launcher.py:176} INFO - Event: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2 had an event of type Pending
+[2021-04-23 18:41:44,422] {pod_launcher.py:113} WARNING - Pod not yet started: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2
+[2021-04-23 18:41:45,431] {pod_launcher.py:176} INFO - Event: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2 had an event of type Pending
+[2021-04-23 18:41:45,433] {pod_launcher.py:113} WARNING - Pod not yet started: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2
+[2021-04-23 18:41:46,462] {pod_launcher.py:176} INFO - Event: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2 had an event of type Pending
+[2021-04-23 18:41:46,463] {pod_launcher.py:113} WARNING - Pod not yet started: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2
+[2021-04-23 18:41:47,473] {pod_launcher.py:176} INFO - Event: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2 had an event of type Pending
+[2021-04-23 18:41:47,475] {pod_launcher.py:113} WARNING - Pod not yet started: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2
+[2021-04-23 18:41:48,482] {pod_launcher.py:176} INFO - Event: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2 had an event of type Pending
+[2021-04-23 18:41:48,483] {pod_launcher.py:113} WARNING - Pod not yet started: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2
+[2021-04-23 18:41:49,495] {pod_launcher.py:176} INFO - Event: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2 had an event of type Pending
+[2021-04-23 18:41:49,496] {pod_launcher.py:113} WARNING - Pod not yet started: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2
+[2021-04-23 18:41:50,505] {pod_launcher.py:176} INFO - Event: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2 had an event of type Pending
+[2021-04-23 18:41:50,506] {pod_launcher.py:113} WARNING - Pod not yet started: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2
+[2021-04-23 18:41:51,513] {pod_launcher.py:176} INFO - Event: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2 had an event of type Pending
+[2021-04-23 18:41:51,514] {pod_launcher.py:113} WARNING - Pod not yet started: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2
+[2021-04-23 18:41:52,521] {pod_launcher.py:176} INFO - Event: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2 had an event of type Pending
+[2021-04-23 18:41:52,522] {pod_launcher.py:113} WARNING - Pod not yet started: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2
+[2021-04-23 18:41:53,530] {pod_launcher.py:176} INFO - Event: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2 had an event of type Pending
+[2021-04-23 18:41:53,531] {pod_launcher.py:113} WARNING - Pod not yet started: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2
+[2021-04-23 18:41:54,538] {pod_launcher.py:176} INFO - Event: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2 had an event of type Pending
+[2021-04-23 18:41:54,539] {pod_launcher.py:113} WARNING - Pod not yet started: airflow-test-pod.a55178a3b6a44807b9fcda862b1327f2
+[2021-04-23 18:41:55,327] {local_task_job.py:188} WARNING - State of this instance has been externally set to None. Terminating instance.
+[2021-04-23 18:41:55,330] {process_utils.py:100} INFO - Sending Signals.SIGTERM to GPID 58
+[2021-04-23 18:41:55,332] {taskinstance.py:1239} ERROR - Received SIGTERM. Terminating subprocesses.
+[2021-04-23 18:41:55,357] {taskinstance.py:1455} ERROR - Pod Launching failed: Task received SIGTERM signal
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/providers/cncf/kubernetes/operators/kubernetes_pod.py", line 339, in execute
+    final_state, _, result = self.create_new_pod_for_operator(labels, launcher)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/providers/cncf/kubernetes/operators/kubernetes_pod.py", line 485, in create_new_pod_for_operator
+    launcher.start_pod(self.pod, startup_timeout=self.startup_timeout_seconds)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/kubernetes/pod_launcher.py", line 117, in start_pod
+    time.sleep(1)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1241, in signal_handler
+    raise AirflowException("Task received SIGTERM signal")
+airflow.exceptions.AirflowException: Task received SIGTERM signal
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1112, in _run_raw_task
+    self._prepare_and_execute_task_with_callbacks(context, task)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1285, in _prepare_and_execute_task_with_callbacks
+    result = self._execute_task(context, task_copy)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1315, in _execute_task
+    result = task_copy.execute(context=context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/providers/cncf/kubernetes/operators/kubernetes_pod.py", line 345, in execute
+    raise AirflowException(f'Pod Launching failed: {ex}')
+airflow.exceptions.AirflowException: Pod Launching failed: Task received SIGTERM signal
+[2021-04-23 18:41:55,359] {taskinstance.py:1503} INFO - Marking task as FAILED. dag_id=ks-5-example_kubernetes_pod, task_id=task-one, execution_date=20190101T000000, start_date=20210423T184044, end_date=20210423T184155
+[2021-04-23 18:41:55,385] {process_utils.py:66} INFO - Process psutil.Process(pid=58, status='terminated', exitcode=1, started='18:40:44') (58) terminated with exit code 1

@@ -1,0 +1,24 @@
+[2021-04-21 20:22:37,389] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: docker_sample.docker_op_tester 2021-04-20T03:40:00+00:00 [queued]>
+[2021-04-21 20:22:37,405] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: docker_sample.docker_op_tester 2021-04-20T03:40:00+00:00 [queued]>
+[2021-04-21 20:22:37,406] {taskinstance.py:1042} INFO - 
+--------------------------------------------------------------------------------
+[2021-04-21 20:22:37,407] {taskinstance.py:1043} INFO - Starting attempt 1 of 2
+[2021-04-21 20:22:37,407] {taskinstance.py:1044} INFO - 
+--------------------------------------------------------------------------------
+[2021-04-21 20:22:37,415] {taskinstance.py:1063} INFO - Executing <Task(DockerOperator): docker_op_tester> on 2021-04-20T03:40:00+00:00
+[2021-04-21 20:22:37,419] {standard_task_runner.py:52} INFO - Started process 1860 to run task
+[2021-04-21 20:22:37,424] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'docker_sample', 'docker_op_tester', '2021-04-20T03:40:00+00:00', '--job-id', '713', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/dockerOperator.py', '--cfg-path', '/tmp/tmp6dl0twr_', '--error-file', '/tmp/tmpcg1_p10x']
+[2021-04-21 20:22:37,425] {standard_task_runner.py:77} INFO - Job 713: Subtask docker_op_tester
+[2021-04-21 20:22:37,477] {logging_mixin.py:104} INFO - Running <TaskInstance: docker_sample.docker_op_tester 2021-04-20T03:40:00+00:00 [running]> on host 5af2b1cab26e
+[2021-04-21 20:22:37,523] {taskinstance.py:1257} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=airflow@example.com
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=docker_sample
+AIRFLOW_CTX_TASK_ID=docker_op_tester
+AIRFLOW_CTX_EXECUTION_DATE=2021-04-20T03:40:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2021-04-20T03:40:00+00:00
+[2021-04-21 20:22:37,533] {docker.py:224} INFO - Starting docker container from image centos:latest
+[2021-04-21 20:22:48,259] {local_task_job.py:77} ERROR - Received SIGTERM. Terminating subprocesses
+[2021-04-21 20:22:48,322] {process_utils.py:100} INFO - Sending Signals.SIGTERM to GPID 1860
+[2021-04-21 20:22:48,334] {taskinstance.py:1239} ERROR - Received SIGTERM. Terminating subprocesses.
+[2021-04-21 20:22:48,338] {docker.py:331} INFO - Stopping docker container

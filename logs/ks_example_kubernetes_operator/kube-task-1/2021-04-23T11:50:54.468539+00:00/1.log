@@ -1,0 +1,41 @@
+[2021-04-23 11:50:55,610] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: ks_example_kubernetes_operator.kube-task-1 2021-04-23T11:50:54.468539+00:00 [queued]>
+[2021-04-23 11:50:55,625] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: ks_example_kubernetes_operator.kube-task-1 2021-04-23T11:50:54.468539+00:00 [queued]>
+[2021-04-23 11:50:55,626] {taskinstance.py:1042} INFO - 
+--------------------------------------------------------------------------------
+[2021-04-23 11:50:55,626] {taskinstance.py:1043} INFO - Starting attempt 1 of 1
+[2021-04-23 11:50:55,627] {taskinstance.py:1044} INFO - 
+--------------------------------------------------------------------------------
+[2021-04-23 11:50:55,634] {taskinstance.py:1063} INFO - Executing <Task(KubernetesPodOperator): kube-task-1> on 2021-04-23T11:50:54.468539+00:00
+[2021-04-23 11:50:55,637] {standard_task_runner.py:52} INFO - Started process 233 to run task
+[2021-04-23 11:50:55,640] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'ks_example_kubernetes_operator', 'kube-task-1', '2021-04-23T11:50:54.468539+00:00', '--job-id', '805', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/kubernetesOperator.py', '--cfg-path', '/tmp/tmpugot_dvy', '--error-file', '/tmp/tmpzu9ihmso']
+[2021-04-23 11:50:55,641] {standard_task_runner.py:77} INFO - Job 805: Subtask kube-task-1
+[2021-04-23 11:50:55,678] {logging_mixin.py:104} INFO - Running <TaskInstance: ks_example_kubernetes_operator.kube-task-1 2021-04-23T11:50:54.468539+00:00 [running]> on host 5af2b1cab26e
+[2021-04-23 11:50:55,731] {taskinstance.py:1257} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=ks_example_kubernetes_operator
+AIRFLOW_CTX_TASK_ID=kube-task-1
+AIRFLOW_CTX_EXECUTION_DATE=2021-04-23T11:50:54.468539+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-04-23T11:50:54.468539+00:00
+[2021-04-23 11:50:55,739] {taskinstance.py:1455} ERROR - Service host/port is not set.
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1112, in _run_raw_task
+    self._prepare_and_execute_task_with_callbacks(context, task)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1285, in _prepare_and_execute_task_with_callbacks
+    result = self._execute_task(context, task_copy)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1315, in _execute_task
+    result = task_copy.execute(context=context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/providers/cncf/kubernetes/operators/kubernetes_pod.py", line 308, in execute
+    cluster_context=self.cluster_context, config_file=self.config_file
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/kubernetes/kube_client.py", line 126, in get_kube_client
+    client_conf = _get_kube_config(in_cluster, cluster_context, config_file)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/kubernetes/kube_client.py", line 40, in _get_kube_config
+    config.load_incluster_config()
+  File "/home/airflow/.local/lib/python3.6/site-packages/kubernetes/config/incluster_config.py", line 94, in load_incluster_config
+    cert_filename=SERVICE_CERT_FILENAME).load_and_set()
+  File "/home/airflow/.local/lib/python3.6/site-packages/kubernetes/config/incluster_config.py", line 45, in load_and_set
+    self._load_config()
+  File "/home/airflow/.local/lib/python3.6/site-packages/kubernetes/config/incluster_config.py", line 51, in _load_config
+    raise ConfigException("Service host/port is not set.")
+kubernetes.config.config_exception.ConfigException: Service host/port is not set.
+[2021-04-23 11:50:55,742] {taskinstance.py:1503} INFO - Marking task as FAILED. dag_id=ks_example_kubernetes_operator, task_id=kube-task-1, execution_date=20210423T115054, start_date=20210423T115055, end_date=20210423T115055
+[2021-04-23 11:50:55,775] {local_task_job.py:146} INFO - Task exited with return code 1

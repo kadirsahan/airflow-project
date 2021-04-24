@@ -1,0 +1,52 @@
+[2021-04-23 18:45:38,086] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: ks-6-example_kubernetes_pod.task-one 2019-01-01T00:00:00+00:00 [queued]>
+[2021-04-23 18:45:38,102] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: ks-6-example_kubernetes_pod.task-one 2019-01-01T00:00:00+00:00 [queued]>
+[2021-04-23 18:45:38,103] {taskinstance.py:1042} INFO - 
+--------------------------------------------------------------------------------
+[2021-04-23 18:45:38,104] {taskinstance.py:1043} INFO - Starting attempt 1 of 2
+[2021-04-23 18:45:38,104] {taskinstance.py:1044} INFO - 
+--------------------------------------------------------------------------------
+[2021-04-23 18:45:38,111] {taskinstance.py:1063} INFO - Executing <Task(KubernetesPodOperator): task-one> on 2019-01-01T00:00:00+00:00
+[2021-04-23 18:45:38,115] {standard_task_runner.py:52} INFO - Started process 60 to run task
+[2021-04-23 18:45:38,119] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'ks-6-example_kubernetes_pod', 'task-one', '2019-01-01T00:00:00+00:00', '--job-id', '6', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/kubernetesOperator4.py', '--cfg-path', '/tmp/tmpe74oq318', '--error-file', '/tmp/tmph27wb548']
+[2021-04-23 18:45:38,120] {standard_task_runner.py:77} INFO - Job 6: Subtask task-one
+[2021-04-23 18:45:38,159] {logging_mixin.py:104} INFO - Running <TaskInstance: ks-6-example_kubernetes_pod.task-one 2019-01-01T00:00:00+00:00 [running]> on host b0ec5a7abbe9
+[2021-04-23 18:45:38,195] {taskinstance.py:1257} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=ks-6-example_kubernetes_pod
+AIRFLOW_CTX_TASK_ID=task-one
+AIRFLOW_CTX_EXECUTION_DATE=2019-01-01T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2019-01-01T00:00:00+00:00
+[2021-04-23 18:45:38,220] {kubernetes_pod.py:338} INFO - creating pod with labels {'dag_id': 'ks-6-example_kubernetes_pod', 'task_id': 'task-one', 'execution_date': '2019-01-01T0000000000-c96b89267', 'try_number': '1'} and launcher <airflow.kubernetes.pod_launcher.PodLauncher object at 0x7f143113cb00>
+[2021-04-23 18:45:38,247] {pod_launcher.py:176} INFO - Event: airflow-test-pod.33520ef4a3bc4c23b15cb2c96c2618ab had an event of type Pending
+[2021-04-23 18:45:38,248] {pod_launcher.py:113} WARNING - Pod not yet started: airflow-test-pod.33520ef4a3bc4c23b15cb2c96c2618ab
+[2021-04-23 18:45:39,256] {pod_launcher.py:176} INFO - Event: airflow-test-pod.33520ef4a3bc4c23b15cb2c96c2618ab had an event of type Succeeded
+[2021-04-23 18:45:39,257] {pod_launcher.py:289} INFO - Event with job id airflow-test-pod.33520ef4a3bc4c23b15cb2c96c2618ab Succeeded
+[2021-04-23 18:45:39,274] {pod_launcher.py:136} INFO - 
+[2021-04-23 18:45:39,276] {pod_launcher.py:136} INFO - Hello from Docker!
+[2021-04-23 18:45:39,276] {pod_launcher.py:136} INFO - This message shows that your installation appears to be working correctly.
+[2021-04-23 18:45:39,277] {pod_launcher.py:136} INFO - 
+[2021-04-23 18:45:39,278] {pod_launcher.py:136} INFO - To generate this message, Docker took the following steps:
+[2021-04-23 18:45:39,278] {pod_launcher.py:136} INFO -  1. The Docker client contacted the Docker daemon.
+[2021-04-23 18:45:39,279] {pod_launcher.py:136} INFO -  2. The Docker daemon pulled the "hello-world" image from the Docker Hub.
+[2021-04-23 18:45:39,280] {pod_launcher.py:136} INFO -     (amd64)
+[2021-04-23 18:45:39,280] {pod_launcher.py:136} INFO -  3. The Docker daemon created a new container from that image which runs the
+[2021-04-23 18:45:39,281] {pod_launcher.py:136} INFO -     executable that produces the output you are currently reading.
+[2021-04-23 18:45:39,282] {pod_launcher.py:136} INFO -  4. The Docker daemon streamed that output to the Docker client, which sent it
+[2021-04-23 18:45:39,282] {pod_launcher.py:136} INFO -     to your terminal.
+[2021-04-23 18:45:39,283] {pod_launcher.py:136} INFO - 
+[2021-04-23 18:45:39,284] {pod_launcher.py:136} INFO - To try something more ambitious, you can run an Ubuntu container with:
+[2021-04-23 18:45:39,284] {pod_launcher.py:136} INFO -  $ docker run -it ubuntu bash
+[2021-04-23 18:45:39,285] {pod_launcher.py:136} INFO - 
+[2021-04-23 18:45:39,286] {pod_launcher.py:136} INFO - Share images, automate workflows, and more with a free Docker ID:
+[2021-04-23 18:45:39,286] {pod_launcher.py:136} INFO -  https://hub.docker.com/
+[2021-04-23 18:45:39,287] {pod_launcher.py:136} INFO - 
+[2021-04-23 18:45:39,288] {pod_launcher.py:136} INFO - For more examples and ideas, visit:
+[2021-04-23 18:45:39,289] {pod_launcher.py:136} INFO -  https://docs.docker.com/get-started/
+[2021-04-23 18:45:39,289] {pod_launcher.py:136} INFO - 
+[2021-04-23 18:45:40,304] {pod_launcher.py:176} INFO - Event: airflow-test-pod.33520ef4a3bc4c23b15cb2c96c2618ab had an event of type Succeeded
+[2021-04-23 18:45:40,305] {pod_launcher.py:289} INFO - Event with job id airflow-test-pod.33520ef4a3bc4c23b15cb2c96c2618ab Succeeded
+[2021-04-23 18:45:40,312] {pod_launcher.py:176} INFO - Event: airflow-test-pod.33520ef4a3bc4c23b15cb2c96c2618ab had an event of type Succeeded
+[2021-04-23 18:45:40,313] {pod_launcher.py:289} INFO - Event with job id airflow-test-pod.33520ef4a3bc4c23b15cb2c96c2618ab Succeeded
+[2021-04-23 18:45:40,334] {taskinstance.py:1166} INFO - Marking task as SUCCESS. dag_id=ks-6-example_kubernetes_pod, task_id=task-one, execution_date=20190101T000000, start_date=20210423T184538, end_date=20210423T184540
+[2021-04-23 18:45:40,361] {taskinstance.py:1220} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2021-04-23 18:45:40,389] {local_task_job.py:146} INFO - Task exited with return code 0
