@@ -34,6 +34,16 @@ copy /home/vagrant/.kube/config ( on the kubernetes master) to this directory
 
 docker context create k8s-test --default-stack-orchestrator=kubernetes --kubernetes config-file=/Users/kadirsahan/PycharmProjects/airflowProject/.kube/config --docker host=unix:///var/run/docker.sock
 
+-----------------
+
+docker build -t docker_spark_submit .
+
+docker tag docker_spark_submit docker.io/kadirsahan/docker_spark_submit
+
+docker push kadirsahan/docker_spark_submit
+
+------------------
+
 
 
 
