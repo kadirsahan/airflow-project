@@ -320,3 +320,31 @@
 [2021-04-30 10:34:49,426] {logging_mixin.py:104} INFO - [2021-04-30 10:34:49,426] {dag.py:1818} INFO - Sync 1 DAGs
 [2021-04-30 10:34:49,443] {logging_mixin.py:104} INFO - [2021-04-30 10:34:49,443] {dag.py:2273} INFO - Setting next_dagrun for docker_sample to 2021-04-28 00:00:00+00:00
 [2021-04-30 10:34:49,450] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dockerOperator.py took 0.125 seconds
+[2021-04-30 10:35:19,605] {scheduler_job.py:182} INFO - Started process (PID=4906) to work on /opt/airflow/dags/dockerOperator.py
+[2021-04-30 10:35:19,607] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dockerOperator.py for tasks to queue
+[2021-04-30 10:35:19,609] {logging_mixin.py:104} INFO - [2021-04-30 10:35:19,609] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dockerOperator.py
+[2021-04-30 10:35:19,680] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_sample']) retrieved from /opt/airflow/dags/dockerOperator.py
+[2021-04-30 10:35:19,704] {logging_mixin.py:104} INFO - [2021-04-30 10:35:19,704] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-04-30 10:35:19,721] {logging_mixin.py:104} INFO - [2021-04-30 10:35:19,721] {dag.py:2273} INFO - Setting next_dagrun for docker_sample to 2021-04-28 00:00:00+00:00
+[2021-04-30 10:35:19,730] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dockerOperator.py took 0.130 seconds
+[2021-04-30 10:35:49,960] {scheduler_job.py:182} INFO - Started process (PID=4911) to work on /opt/airflow/dags/dockerOperator.py
+[2021-04-30 10:35:49,962] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dockerOperator.py for tasks to queue
+[2021-04-30 10:35:49,963] {logging_mixin.py:104} INFO - [2021-04-30 10:35:49,963] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dockerOperator.py
+[2021-04-30 10:35:50,037] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_sample']) retrieved from /opt/airflow/dags/dockerOperator.py
+[2021-04-30 10:35:50,061] {logging_mixin.py:104} INFO - [2021-04-30 10:35:50,060] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-04-30 10:35:50,076] {logging_mixin.py:104} INFO - [2021-04-30 10:35:50,076] {dag.py:2273} INFO - Setting next_dagrun for docker_sample to 2021-04-28 00:00:00+00:00
+[2021-04-30 10:35:50,084] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dockerOperator.py took 0.127 seconds
+[2021-04-30 10:36:20,217] {scheduler_job.py:182} INFO - Started process (PID=4916) to work on /opt/airflow/dags/dockerOperator.py
+[2021-04-30 10:36:20,219] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dockerOperator.py for tasks to queue
+[2021-04-30 10:36:20,221] {logging_mixin.py:104} INFO - [2021-04-30 10:36:20,221] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dockerOperator.py
+[2021-04-30 10:36:20,289] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_sample']) retrieved from /opt/airflow/dags/dockerOperator.py
+[2021-04-30 10:36:20,314] {logging_mixin.py:104} INFO - [2021-04-30 10:36:20,314] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-04-30 10:36:20,328] {logging_mixin.py:104} INFO - [2021-04-30 10:36:20,328] {dag.py:2273} INFO - Setting next_dagrun for docker_sample to 2021-04-28 00:00:00+00:00
+[2021-04-30 10:36:20,336] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dockerOperator.py took 0.123 seconds
+[2021-04-30 10:36:50,559] {scheduler_job.py:182} INFO - Started process (PID=4921) to work on /opt/airflow/dags/dockerOperator.py
+[2021-04-30 10:36:50,561] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dockerOperator.py for tasks to queue
+[2021-04-30 10:36:50,563] {logging_mixin.py:104} INFO - [2021-04-30 10:36:50,563] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dockerOperator.py
+[2021-04-30 10:36:50,625] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_sample']) retrieved from /opt/airflow/dags/dockerOperator.py
+[2021-04-30 10:36:50,648] {logging_mixin.py:104} INFO - [2021-04-30 10:36:50,648] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-04-30 10:36:50,663] {logging_mixin.py:104} INFO - [2021-04-30 10:36:50,663] {dag.py:2273} INFO - Setting next_dagrun for docker_sample to 2021-04-28 00:00:00+00:00
+[2021-04-30 10:36:50,670] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dockerOperator.py took 0.115 seconds
