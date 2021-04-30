@@ -1,0 +1,54 @@
+[2021-04-27 21:11:50,802] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: docker_spark_sample.sleep 2021-04-25T00:00:00+00:00 [queued]>
+[2021-04-27 21:11:50,887] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: docker_spark_sample.sleep 2021-04-25T00:00:00+00:00 [queued]>
+[2021-04-27 21:11:50,888] {taskinstance.py:1042} INFO - 
+--------------------------------------------------------------------------------
+[2021-04-27 21:11:50,889] {taskinstance.py:1043} INFO - Starting attempt 1 of 4
+[2021-04-27 21:11:50,890] {taskinstance.py:1044} INFO - 
+--------------------------------------------------------------------------------
+[2021-04-27 21:11:50,944] {taskinstance.py:1063} INFO - Executing <Task(BashOperator): sleep> on 2021-04-25T00:00:00+00:00
+[2021-04-27 21:11:50,981] {standard_task_runner.py:52} INFO - Started process 76 to run task
+[2021-04-27 21:11:51,008] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'docker_spark_sample', 'sleep', '2021-04-25T00:00:00+00:00', '--job-id', '11', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/dockerSparkOperator.py', '--cfg-path', '/tmp/tmpwwo9_h47', '--error-file', '/tmp/tmp9cv49527']
+[2021-04-27 21:11:51,010] {standard_task_runner.py:77} INFO - Job 11: Subtask sleep
+[2021-04-27 21:11:51,292] {logging_mixin.py:104} INFO - Running <TaskInstance: docker_spark_sample.sleep 2021-04-25T00:00:00+00:00 [running]> on host 9e66ec21e68a
+[2021-04-27 21:11:51,570] {taskinstance.py:1257} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=airflow@example.com
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=docker_spark_sample
+AIRFLOW_CTX_TASK_ID=sleep
+AIRFLOW_CTX_EXECUTION_DATE=2021-04-25T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2021-04-25T00:00:00+00:00
+[2021-04-27 21:11:51,572] {bash.py:135} INFO - Tmp dir root location: 
+ /tmp
+[2021-04-27 21:11:51,574] {bash.py:158} INFO - Running command: sleep 5
+[2021-04-27 21:11:51,734] {bash.py:169} INFO - Output:
+[2021-04-27 21:11:56,749] {bash.py:177} INFO - Command exited with return code 0
+[2021-04-27 21:11:56,821] {taskinstance.py:1166} INFO - Marking task as SUCCESS. dag_id=docker_spark_sample, task_id=sleep, execution_date=20210425T000000, start_date=20210427T211150, end_date=20210427T211156
+[2021-04-27 21:11:57,107] {taskinstance.py:1220} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2021-04-27 21:11:57,166] {local_task_job.py:146} INFO - Task exited with return code 0
+[2021-04-27 21:24:35,073] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: docker_spark_sample.sleep 2021-04-25T00:00:00+00:00 [queued]>
+[2021-04-27 21:24:35,083] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: docker_spark_sample.sleep 2021-04-25T00:00:00+00:00 [queued]>
+[2021-04-27 21:24:35,084] {taskinstance.py:1042} INFO - 
+--------------------------------------------------------------------------------
+[2021-04-27 21:24:35,084] {taskinstance.py:1043} INFO - Starting attempt 1 of 4
+[2021-04-27 21:24:35,085] {taskinstance.py:1044} INFO - 
+--------------------------------------------------------------------------------
+[2021-04-27 21:24:35,103] {taskinstance.py:1063} INFO - Executing <Task(BashOperator): sleep> on 2021-04-25T00:00:00+00:00
+[2021-04-27 21:24:35,107] {standard_task_runner.py:52} INFO - Started process 48 to run task
+[2021-04-27 21:24:35,111] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'docker_spark_sample', 'sleep', '2021-04-25T00:00:00+00:00', '--job-id', '4', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/dockerSparkOperator.py', '--cfg-path', '/tmp/tmpacv_o60m', '--error-file', '/tmp/tmpx3009kkl']
+[2021-04-27 21:24:35,113] {standard_task_runner.py:77} INFO - Job 4: Subtask sleep
+[2021-04-27 21:24:35,156] {logging_mixin.py:104} INFO - Running <TaskInstance: docker_spark_sample.sleep 2021-04-25T00:00:00+00:00 [running]> on host 7fbe4509e402
+[2021-04-27 21:24:35,197] {taskinstance.py:1257} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=airflow@example.com
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=docker_spark_sample
+AIRFLOW_CTX_TASK_ID=sleep
+AIRFLOW_CTX_EXECUTION_DATE=2021-04-25T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2021-04-25T00:00:00+00:00
+[2021-04-27 21:24:35,198] {bash.py:135} INFO - Tmp dir root location: 
+ /tmp
+[2021-04-27 21:24:35,200] {bash.py:158} INFO - Running command: sleep 5
+[2021-04-27 21:24:35,209] {bash.py:169} INFO - Output:
+[2021-04-27 21:24:40,212] {bash.py:177} INFO - Command exited with return code 0
+[2021-04-27 21:24:40,248] {taskinstance.py:1166} INFO - Marking task as SUCCESS. dag_id=docker_spark_sample, task_id=sleep, execution_date=20210425T000000, start_date=20210427T212435, end_date=20210427T212440
+[2021-04-27 21:24:40,279] {taskinstance.py:1220} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2021-04-27 21:24:40,321] {local_task_job.py:146} INFO - Task exited with return code 0

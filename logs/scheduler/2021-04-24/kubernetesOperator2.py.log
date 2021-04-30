@@ -1,0 +1,5 @@
+[2021-04-24 18:14:37,466] {scheduler_job.py:182} INFO - Started process (PID=28) to work on /opt/airflow/dags/kubernetesOperator2.py
+[2021-04-24 18:14:37,468] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kubernetesOperator2.py for tasks to queue
+[2021-04-24 18:14:37,469] {logging_mixin.py:104} INFO - [2021-04-24 18:14:37,469] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kubernetesOperator2.py
+[2021-04-24 18:14:37,472] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/kubernetesOperator2.py
+[2021-04-24 18:14:37,473] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kubernetesOperator2.py took 0.010 seconds

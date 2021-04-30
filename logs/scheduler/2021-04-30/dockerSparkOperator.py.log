@@ -1,0 +1,280 @@
+[2021-04-30 00:33:09,021] {scheduler_job.py:182} INFO - Started process (PID=4674) to work on /opt/airflow/dags/dockerSparkOperator.py
+[2021-04-30 00:33:09,023] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dockerSparkOperator.py for tasks to queue
+[2021-04-30 00:33:09,025] {logging_mixin.py:104} INFO - [2021-04-30 00:33:09,025] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dockerSparkOperator.py
+[2021-04-30 00:33:09,089] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_spark_sample']) retrieved from /opt/airflow/dags/dockerSparkOperator.py
+[2021-04-30 00:33:09,114] {logging_mixin.py:104} INFO - [2021-04-30 00:33:09,114] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-04-30 00:33:09,130] {logging_mixin.py:104} INFO - [2021-04-30 00:33:09,130] {dag.py:2273} INFO - Setting next_dagrun for docker_spark_sample to 2021-04-28 00:00:00+00:00
+[2021-04-30 00:33:09,141] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dockerSparkOperator.py took 0.123 seconds
+[2021-04-30 04:33:35,120] {scheduler_job.py:182} INFO - Started process (PID=4679) to work on /opt/airflow/dags/dockerSparkOperator.py
+[2021-04-30 04:33:35,125] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dockerSparkOperator.py for tasks to queue
+[2021-04-30 04:33:35,130] {logging_mixin.py:104} INFO - [2021-04-30 04:33:35,130] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dockerSparkOperator.py
+[2021-04-30 04:33:35,230] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_spark_sample']) retrieved from /opt/airflow/dags/dockerSparkOperator.py
+[2021-04-30 04:33:35,265] {logging_mixin.py:104} INFO - [2021-04-30 04:33:35,265] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-04-30 04:33:35,296] {logging_mixin.py:104} INFO - [2021-04-30 04:33:35,296] {dag.py:2273} INFO - Setting next_dagrun for docker_spark_sample to 2021-04-28 00:00:00+00:00
+[2021-04-30 04:33:35,308] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dockerSparkOperator.py took 0.200 seconds
+[2021-04-30 08:33:36,949] {scheduler_job.py:182} INFO - Started process (PID=4684) to work on /opt/airflow/dags/dockerSparkOperator.py
+[2021-04-30 08:33:36,958] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dockerSparkOperator.py for tasks to queue
+[2021-04-30 08:33:36,987] {logging_mixin.py:104} INFO - [2021-04-30 08:33:36,981] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dockerSparkOperator.py
+[2021-04-30 08:33:37,450] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_spark_sample']) retrieved from /opt/airflow/dags/dockerSparkOperator.py
+[2021-04-30 08:33:37,574] {logging_mixin.py:104} INFO - [2021-04-30 08:33:37,573] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-04-30 08:33:37,675] {logging_mixin.py:104} INFO - [2021-04-30 08:33:37,674] {dag.py:2273} INFO - Setting next_dagrun for docker_spark_sample to 2021-04-28 00:00:00+00:00
+[2021-04-30 08:33:37,718] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dockerSparkOperator.py took 0.786 seconds
+[2021-04-30 10:13:33,231] {scheduler_job.py:182} INFO - Started process (PID=4689) to work on /opt/airflow/dags/dockerSparkOperator.py
+[2021-04-30 10:13:33,264] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dockerSparkOperator.py for tasks to queue
+[2021-04-30 10:13:33,272] {logging_mixin.py:104} INFO - [2021-04-30 10:13:33,270] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dockerSparkOperator.py
+[2021-04-30 10:13:33,690] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_spark_sample']) retrieved from /opt/airflow/dags/dockerSparkOperator.py
+[2021-04-30 10:13:33,799] {logging_mixin.py:104} INFO - [2021-04-30 10:13:33,799] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-04-30 10:13:33,880] {logging_mixin.py:104} INFO - [2021-04-30 10:13:33,880] {dag.py:2273} INFO - Setting next_dagrun for docker_spark_sample to 2021-04-28 00:00:00+00:00
+[2021-04-30 10:13:33,921] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dockerSparkOperator.py took 0.716 seconds
+[2021-04-30 10:14:03,998] {scheduler_job.py:182} INFO - Started process (PID=4694) to work on /opt/airflow/dags/dockerSparkOperator.py
+[2021-04-30 10:14:04,000] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dockerSparkOperator.py for tasks to queue
+[2021-04-30 10:14:04,001] {logging_mixin.py:104} INFO - [2021-04-30 10:14:04,001] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dockerSparkOperator.py
+[2021-04-30 10:14:04,071] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_spark_sample']) retrieved from /opt/airflow/dags/dockerSparkOperator.py
+[2021-04-30 10:14:04,095] {logging_mixin.py:104} INFO - [2021-04-30 10:14:04,095] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-04-30 10:14:04,110] {logging_mixin.py:104} INFO - [2021-04-30 10:14:04,110] {dag.py:2273} INFO - Setting next_dagrun for docker_spark_sample to 2021-04-28 00:00:00+00:00
+[2021-04-30 10:14:04,118] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dockerSparkOperator.py took 0.124 seconds
+[2021-04-30 10:14:34,357] {scheduler_job.py:182} INFO - Started process (PID=4699) to work on /opt/airflow/dags/dockerSparkOperator.py
+[2021-04-30 10:14:34,359] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dockerSparkOperator.py for tasks to queue
+[2021-04-30 10:14:34,361] {logging_mixin.py:104} INFO - [2021-04-30 10:14:34,361] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dockerSparkOperator.py
+[2021-04-30 10:14:34,449] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_spark_sample']) retrieved from /opt/airflow/dags/dockerSparkOperator.py
+[2021-04-30 10:14:34,479] {logging_mixin.py:104} INFO - [2021-04-30 10:14:34,479] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-04-30 10:14:34,498] {logging_mixin.py:104} INFO - [2021-04-30 10:14:34,498] {dag.py:2273} INFO - Setting next_dagrun for docker_spark_sample to 2021-04-28 00:00:00+00:00
+[2021-04-30 10:14:34,507] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dockerSparkOperator.py took 0.155 seconds
+[2021-04-30 10:15:04,762] {scheduler_job.py:182} INFO - Started process (PID=4704) to work on /opt/airflow/dags/dockerSparkOperator.py
+[2021-04-30 10:15:04,764] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dockerSparkOperator.py for tasks to queue
+[2021-04-30 10:15:04,766] {logging_mixin.py:104} INFO - [2021-04-30 10:15:04,765] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dockerSparkOperator.py
+[2021-04-30 10:15:04,829] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_spark_sample']) retrieved from /opt/airflow/dags/dockerSparkOperator.py
+[2021-04-30 10:15:04,850] {logging_mixin.py:104} INFO - [2021-04-30 10:15:04,850] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-04-30 10:15:04,866] {logging_mixin.py:104} INFO - [2021-04-30 10:15:04,866] {dag.py:2273} INFO - Setting next_dagrun for docker_spark_sample to 2021-04-28 00:00:00+00:00
+[2021-04-30 10:15:04,873] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dockerSparkOperator.py took 0.116 seconds
+[2021-04-30 10:15:35,130] {scheduler_job.py:182} INFO - Started process (PID=4709) to work on /opt/airflow/dags/dockerSparkOperator.py
+[2021-04-30 10:15:35,132] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dockerSparkOperator.py for tasks to queue
+[2021-04-30 10:15:35,134] {logging_mixin.py:104} INFO - [2021-04-30 10:15:35,133] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dockerSparkOperator.py
+[2021-04-30 10:15:35,203] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_spark_sample']) retrieved from /opt/airflow/dags/dockerSparkOperator.py
+[2021-04-30 10:15:35,221] {logging_mixin.py:104} INFO - [2021-04-30 10:15:35,221] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-04-30 10:15:35,235] {logging_mixin.py:104} INFO - [2021-04-30 10:15:35,235] {dag.py:2273} INFO - Setting next_dagrun for docker_spark_sample to 2021-04-28 00:00:00+00:00
+[2021-04-30 10:15:35,245] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dockerSparkOperator.py took 0.121 seconds
+[2021-04-30 10:16:05,468] {scheduler_job.py:182} INFO - Started process (PID=4714) to work on /opt/airflow/dags/dockerSparkOperator.py
+[2021-04-30 10:16:05,469] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dockerSparkOperator.py for tasks to queue
+[2021-04-30 10:16:05,471] {logging_mixin.py:104} INFO - [2021-04-30 10:16:05,470] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dockerSparkOperator.py
+[2021-04-30 10:16:05,532] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_spark_sample']) retrieved from /opt/airflow/dags/dockerSparkOperator.py
+[2021-04-30 10:16:05,551] {logging_mixin.py:104} INFO - [2021-04-30 10:16:05,551] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-04-30 10:16:05,564] {logging_mixin.py:104} INFO - [2021-04-30 10:16:05,564] {dag.py:2273} INFO - Setting next_dagrun for docker_spark_sample to 2021-04-28 00:00:00+00:00
+[2021-04-30 10:16:05,571] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dockerSparkOperator.py took 0.107 seconds
+[2021-04-30 10:16:35,793] {scheduler_job.py:182} INFO - Started process (PID=4719) to work on /opt/airflow/dags/dockerSparkOperator.py
+[2021-04-30 10:16:35,795] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dockerSparkOperator.py for tasks to queue
+[2021-04-30 10:16:35,796] {logging_mixin.py:104} INFO - [2021-04-30 10:16:35,796] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dockerSparkOperator.py
+[2021-04-30 10:16:35,860] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_spark_sample']) retrieved from /opt/airflow/dags/dockerSparkOperator.py
+[2021-04-30 10:16:35,886] {logging_mixin.py:104} INFO - [2021-04-30 10:16:35,886] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-04-30 10:16:35,899] {logging_mixin.py:104} INFO - [2021-04-30 10:16:35,899] {dag.py:2273} INFO - Setting next_dagrun for docker_spark_sample to 2021-04-28 00:00:00+00:00
+[2021-04-30 10:16:35,909] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dockerSparkOperator.py took 0.119 seconds
+[2021-04-30 10:17:06,145] {scheduler_job.py:182} INFO - Started process (PID=4724) to work on /opt/airflow/dags/dockerSparkOperator.py
+[2021-04-30 10:17:06,147] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dockerSparkOperator.py for tasks to queue
+[2021-04-30 10:17:06,149] {logging_mixin.py:104} INFO - [2021-04-30 10:17:06,149] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dockerSparkOperator.py
+[2021-04-30 10:17:06,228] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_spark_sample']) retrieved from /opt/airflow/dags/dockerSparkOperator.py
+[2021-04-30 10:17:06,249] {logging_mixin.py:104} INFO - [2021-04-30 10:17:06,249] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-04-30 10:17:06,264] {logging_mixin.py:104} INFO - [2021-04-30 10:17:06,263] {dag.py:2273} INFO - Setting next_dagrun for docker_spark_sample to 2021-04-28 00:00:00+00:00
+[2021-04-30 10:17:06,271] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dockerSparkOperator.py took 0.129 seconds
+[2021-04-30 10:17:36,513] {scheduler_job.py:182} INFO - Started process (PID=4729) to work on /opt/airflow/dags/dockerSparkOperator.py
+[2021-04-30 10:17:36,515] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dockerSparkOperator.py for tasks to queue
+[2021-04-30 10:17:36,517] {logging_mixin.py:104} INFO - [2021-04-30 10:17:36,516] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dockerSparkOperator.py
+[2021-04-30 10:17:36,580] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_spark_sample']) retrieved from /opt/airflow/dags/dockerSparkOperator.py
+[2021-04-30 10:17:36,600] {logging_mixin.py:104} INFO - [2021-04-30 10:17:36,600] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-04-30 10:17:36,614] {logging_mixin.py:104} INFO - [2021-04-30 10:17:36,614] {dag.py:2273} INFO - Setting next_dagrun for docker_spark_sample to 2021-04-28 00:00:00+00:00
+[2021-04-30 10:17:36,622] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dockerSparkOperator.py took 0.114 seconds
+[2021-04-30 10:18:06,804] {scheduler_job.py:182} INFO - Started process (PID=4734) to work on /opt/airflow/dags/dockerSparkOperator.py
+[2021-04-30 10:18:06,807] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dockerSparkOperator.py for tasks to queue
+[2021-04-30 10:18:06,808] {logging_mixin.py:104} INFO - [2021-04-30 10:18:06,808] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dockerSparkOperator.py
+[2021-04-30 10:18:06,887] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_spark_sample']) retrieved from /opt/airflow/dags/dockerSparkOperator.py
+[2021-04-30 10:18:06,907] {logging_mixin.py:104} INFO - [2021-04-30 10:18:06,907] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-04-30 10:18:06,923] {logging_mixin.py:104} INFO - [2021-04-30 10:18:06,923] {dag.py:2273} INFO - Setting next_dagrun for docker_spark_sample to 2021-04-28 00:00:00+00:00
+[2021-04-30 10:18:06,931] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dockerSparkOperator.py took 0.133 seconds
+[2021-04-30 10:18:37,210] {scheduler_job.py:182} INFO - Started process (PID=4739) to work on /opt/airflow/dags/dockerSparkOperator.py
+[2021-04-30 10:18:37,212] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dockerSparkOperator.py for tasks to queue
+[2021-04-30 10:18:37,213] {logging_mixin.py:104} INFO - [2021-04-30 10:18:37,213] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dockerSparkOperator.py
+[2021-04-30 10:18:37,275] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_spark_sample']) retrieved from /opt/airflow/dags/dockerSparkOperator.py
+[2021-04-30 10:18:37,297] {logging_mixin.py:104} INFO - [2021-04-30 10:18:37,297] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-04-30 10:18:37,311] {logging_mixin.py:104} INFO - [2021-04-30 10:18:37,310] {dag.py:2273} INFO - Setting next_dagrun for docker_spark_sample to 2021-04-28 00:00:00+00:00
+[2021-04-30 10:18:37,318] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dockerSparkOperator.py took 0.112 seconds
+[2021-04-30 10:19:07,542] {scheduler_job.py:182} INFO - Started process (PID=4744) to work on /opt/airflow/dags/dockerSparkOperator.py
+[2021-04-30 10:19:07,544] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dockerSparkOperator.py for tasks to queue
+[2021-04-30 10:19:07,546] {logging_mixin.py:104} INFO - [2021-04-30 10:19:07,546] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dockerSparkOperator.py
+[2021-04-30 10:19:07,629] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_spark_sample']) retrieved from /opt/airflow/dags/dockerSparkOperator.py
+[2021-04-30 10:19:07,655] {logging_mixin.py:104} INFO - [2021-04-30 10:19:07,655] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-04-30 10:19:07,672] {logging_mixin.py:104} INFO - [2021-04-30 10:19:07,672] {dag.py:2273} INFO - Setting next_dagrun for docker_spark_sample to 2021-04-28 00:00:00+00:00
+[2021-04-30 10:19:07,683] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dockerSparkOperator.py took 0.146 seconds
+[2021-04-30 10:19:37,938] {scheduler_job.py:182} INFO - Started process (PID=4749) to work on /opt/airflow/dags/dockerSparkOperator.py
+[2021-04-30 10:19:37,942] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dockerSparkOperator.py for tasks to queue
+[2021-04-30 10:19:37,943] {logging_mixin.py:104} INFO - [2021-04-30 10:19:37,943] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dockerSparkOperator.py
+[2021-04-30 10:19:38,003] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_spark_sample']) retrieved from /opt/airflow/dags/dockerSparkOperator.py
+[2021-04-30 10:19:38,025] {logging_mixin.py:104} INFO - [2021-04-30 10:19:38,025] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-04-30 10:19:38,038] {logging_mixin.py:104} INFO - [2021-04-30 10:19:38,038] {dag.py:2273} INFO - Setting next_dagrun for docker_spark_sample to 2021-04-28 00:00:00+00:00
+[2021-04-30 10:19:38,046] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dockerSparkOperator.py took 0.112 seconds
+[2021-04-30 10:20:08,220] {scheduler_job.py:182} INFO - Started process (PID=4754) to work on /opt/airflow/dags/dockerSparkOperator.py
+[2021-04-30 10:20:08,222] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dockerSparkOperator.py for tasks to queue
+[2021-04-30 10:20:08,223] {logging_mixin.py:104} INFO - [2021-04-30 10:20:08,223] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dockerSparkOperator.py
+[2021-04-30 10:20:08,301] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_spark_sample']) retrieved from /opt/airflow/dags/dockerSparkOperator.py
+[2021-04-30 10:20:08,327] {logging_mixin.py:104} INFO - [2021-04-30 10:20:08,327] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-04-30 10:20:08,342] {logging_mixin.py:104} INFO - [2021-04-30 10:20:08,342] {dag.py:2273} INFO - Setting next_dagrun for docker_spark_sample to 2021-04-28 00:00:00+00:00
+[2021-04-30 10:20:08,350] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dockerSparkOperator.py took 0.136 seconds
+[2021-04-30 10:20:38,582] {scheduler_job.py:182} INFO - Started process (PID=4759) to work on /opt/airflow/dags/dockerSparkOperator.py
+[2021-04-30 10:20:38,584] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dockerSparkOperator.py for tasks to queue
+[2021-04-30 10:20:38,585] {logging_mixin.py:104} INFO - [2021-04-30 10:20:38,585] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dockerSparkOperator.py
+[2021-04-30 10:20:38,649] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_spark_sample']) retrieved from /opt/airflow/dags/dockerSparkOperator.py
+[2021-04-30 10:20:38,671] {logging_mixin.py:104} INFO - [2021-04-30 10:20:38,671] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-04-30 10:20:38,686] {logging_mixin.py:104} INFO - [2021-04-30 10:20:38,686] {dag.py:2273} INFO - Setting next_dagrun for docker_spark_sample to 2021-04-28 00:00:00+00:00
+[2021-04-30 10:20:38,696] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dockerSparkOperator.py took 0.117 seconds
+[2021-04-30 10:21:08,989] {scheduler_job.py:182} INFO - Started process (PID=4764) to work on /opt/airflow/dags/dockerSparkOperator.py
+[2021-04-30 10:21:08,992] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dockerSparkOperator.py for tasks to queue
+[2021-04-30 10:21:08,996] {logging_mixin.py:104} INFO - [2021-04-30 10:21:08,995] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dockerSparkOperator.py
+[2021-04-30 10:21:09,066] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_spark_sample']) retrieved from /opt/airflow/dags/dockerSparkOperator.py
+[2021-04-30 10:21:09,087] {logging_mixin.py:104} INFO - [2021-04-30 10:21:09,087] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-04-30 10:21:09,101] {logging_mixin.py:104} INFO - [2021-04-30 10:21:09,101] {dag.py:2273} INFO - Setting next_dagrun for docker_spark_sample to 2021-04-28 00:00:00+00:00
+[2021-04-30 10:21:09,108] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dockerSparkOperator.py took 0.127 seconds
+[2021-04-30 10:21:39,267] {scheduler_job.py:182} INFO - Started process (PID=4769) to work on /opt/airflow/dags/dockerSparkOperator.py
+[2021-04-30 10:21:39,270] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dockerSparkOperator.py for tasks to queue
+[2021-04-30 10:21:39,271] {logging_mixin.py:104} INFO - [2021-04-30 10:21:39,271] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dockerSparkOperator.py
+[2021-04-30 10:21:39,334] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_spark_sample']) retrieved from /opt/airflow/dags/dockerSparkOperator.py
+[2021-04-30 10:21:39,364] {logging_mixin.py:104} INFO - [2021-04-30 10:21:39,364] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-04-30 10:21:39,378] {logging_mixin.py:104} INFO - [2021-04-30 10:21:39,378] {dag.py:2273} INFO - Setting next_dagrun for docker_spark_sample to 2021-04-28 00:00:00+00:00
+[2021-04-30 10:21:39,385] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dockerSparkOperator.py took 0.122 seconds
+[2021-04-30 10:22:09,673] {scheduler_job.py:182} INFO - Started process (PID=4774) to work on /opt/airflow/dags/dockerSparkOperator.py
+[2021-04-30 10:22:09,675] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dockerSparkOperator.py for tasks to queue
+[2021-04-30 10:22:09,677] {logging_mixin.py:104} INFO - [2021-04-30 10:22:09,677] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dockerSparkOperator.py
+[2021-04-30 10:22:09,752] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_spark_sample']) retrieved from /opt/airflow/dags/dockerSparkOperator.py
+[2021-04-30 10:22:09,781] {logging_mixin.py:104} INFO - [2021-04-30 10:22:09,781] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-04-30 10:22:09,800] {logging_mixin.py:104} INFO - [2021-04-30 10:22:09,800] {dag.py:2273} INFO - Setting next_dagrun for docker_spark_sample to 2021-04-28 00:00:00+00:00
+[2021-04-30 10:22:09,810] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dockerSparkOperator.py took 0.144 seconds
+[2021-04-30 10:22:39,980] {scheduler_job.py:182} INFO - Started process (PID=4779) to work on /opt/airflow/dags/dockerSparkOperator.py
+[2021-04-30 10:22:39,983] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dockerSparkOperator.py for tasks to queue
+[2021-04-30 10:22:39,984] {logging_mixin.py:104} INFO - [2021-04-30 10:22:39,984] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dockerSparkOperator.py
+[2021-04-30 10:22:40,056] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_spark_sample']) retrieved from /opt/airflow/dags/dockerSparkOperator.py
+[2021-04-30 10:22:40,085] {logging_mixin.py:104} INFO - [2021-04-30 10:22:40,085] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-04-30 10:22:40,106] {logging_mixin.py:104} INFO - [2021-04-30 10:22:40,106] {dag.py:2273} INFO - Setting next_dagrun for docker_spark_sample to 2021-04-28 00:00:00+00:00
+[2021-04-30 10:22:40,113] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dockerSparkOperator.py took 0.141 seconds
+[2021-04-30 10:23:10,280] {scheduler_job.py:182} INFO - Started process (PID=4784) to work on /opt/airflow/dags/dockerSparkOperator.py
+[2021-04-30 10:23:10,282] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dockerSparkOperator.py for tasks to queue
+[2021-04-30 10:23:10,284] {logging_mixin.py:104} INFO - [2021-04-30 10:23:10,283] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dockerSparkOperator.py
+[2021-04-30 10:23:10,350] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_spark_sample']) retrieved from /opt/airflow/dags/dockerSparkOperator.py
+[2021-04-30 10:23:10,374] {logging_mixin.py:104} INFO - [2021-04-30 10:23:10,374] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-04-30 10:23:10,389] {logging_mixin.py:104} INFO - [2021-04-30 10:23:10,389] {dag.py:2273} INFO - Setting next_dagrun for docker_spark_sample to 2021-04-28 00:00:00+00:00
+[2021-04-30 10:23:10,396] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dockerSparkOperator.py took 0.120 seconds
+[2021-04-30 10:23:40,580] {scheduler_job.py:182} INFO - Started process (PID=4789) to work on /opt/airflow/dags/dockerSparkOperator.py
+[2021-04-30 10:23:40,582] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dockerSparkOperator.py for tasks to queue
+[2021-04-30 10:23:40,584] {logging_mixin.py:104} INFO - [2021-04-30 10:23:40,584] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dockerSparkOperator.py
+[2021-04-30 10:23:40,662] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_spark_sample']) retrieved from /opt/airflow/dags/dockerSparkOperator.py
+[2021-04-30 10:23:40,686] {logging_mixin.py:104} INFO - [2021-04-30 10:23:40,686] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-04-30 10:23:40,700] {logging_mixin.py:104} INFO - [2021-04-30 10:23:40,700] {dag.py:2273} INFO - Setting next_dagrun for docker_spark_sample to 2021-04-28 00:00:00+00:00
+[2021-04-30 10:23:40,711] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dockerSparkOperator.py took 0.135 seconds
+[2021-04-30 10:24:10,982] {scheduler_job.py:182} INFO - Started process (PID=4794) to work on /opt/airflow/dags/dockerSparkOperator.py
+[2021-04-30 10:24:10,983] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dockerSparkOperator.py for tasks to queue
+[2021-04-30 10:24:10,985] {logging_mixin.py:104} INFO - [2021-04-30 10:24:10,984] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dockerSparkOperator.py
+[2021-04-30 10:24:11,059] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_spark_sample']) retrieved from /opt/airflow/dags/dockerSparkOperator.py
+[2021-04-30 10:24:11,084] {logging_mixin.py:104} INFO - [2021-04-30 10:24:11,084] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-04-30 10:24:11,103] {logging_mixin.py:104} INFO - [2021-04-30 10:24:11,102] {dag.py:2273} INFO - Setting next_dagrun for docker_spark_sample to 2021-04-28 00:00:00+00:00
+[2021-04-30 10:24:11,111] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dockerSparkOperator.py took 0.134 seconds
+[2021-04-30 10:24:41,352] {scheduler_job.py:182} INFO - Started process (PID=4799) to work on /opt/airflow/dags/dockerSparkOperator.py
+[2021-04-30 10:24:41,354] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dockerSparkOperator.py for tasks to queue
+[2021-04-30 10:24:41,355] {logging_mixin.py:104} INFO - [2021-04-30 10:24:41,355] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dockerSparkOperator.py
+[2021-04-30 10:24:41,422] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_spark_sample']) retrieved from /opt/airflow/dags/dockerSparkOperator.py
+[2021-04-30 10:24:41,448] {logging_mixin.py:104} INFO - [2021-04-30 10:24:41,448] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-04-30 10:24:41,464] {logging_mixin.py:104} INFO - [2021-04-30 10:24:41,464] {dag.py:2273} INFO - Setting next_dagrun for docker_spark_sample to 2021-04-28 00:00:00+00:00
+[2021-04-30 10:24:41,473] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dockerSparkOperator.py took 0.125 seconds
+[2021-04-30 10:25:11,703] {scheduler_job.py:182} INFO - Started process (PID=4804) to work on /opt/airflow/dags/dockerSparkOperator.py
+[2021-04-30 10:25:11,706] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dockerSparkOperator.py for tasks to queue
+[2021-04-30 10:25:11,707] {logging_mixin.py:104} INFO - [2021-04-30 10:25:11,707] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dockerSparkOperator.py
+[2021-04-30 10:25:11,774] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_spark_sample']) retrieved from /opt/airflow/dags/dockerSparkOperator.py
+[2021-04-30 10:25:11,798] {logging_mixin.py:104} INFO - [2021-04-30 10:25:11,798] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-04-30 10:25:11,813] {logging_mixin.py:104} INFO - [2021-04-30 10:25:11,813] {dag.py:2273} INFO - Setting next_dagrun for docker_spark_sample to 2021-04-28 00:00:00+00:00
+[2021-04-30 10:25:11,821] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dockerSparkOperator.py took 0.122 seconds
+[2021-04-30 10:25:42,009] {scheduler_job.py:182} INFO - Started process (PID=4809) to work on /opt/airflow/dags/dockerSparkOperator.py
+[2021-04-30 10:25:42,012] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dockerSparkOperator.py for tasks to queue
+[2021-04-30 10:25:42,014] {logging_mixin.py:104} INFO - [2021-04-30 10:25:42,014] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dockerSparkOperator.py
+[2021-04-30 10:25:42,101] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_spark_sample']) retrieved from /opt/airflow/dags/dockerSparkOperator.py
+[2021-04-30 10:25:42,122] {logging_mixin.py:104} INFO - [2021-04-30 10:25:42,122] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-04-30 10:25:42,137] {logging_mixin.py:104} INFO - [2021-04-30 10:25:42,137] {dag.py:2273} INFO - Setting next_dagrun for docker_spark_sample to 2021-04-28 00:00:00+00:00
+[2021-04-30 10:25:42,144] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dockerSparkOperator.py took 0.142 seconds
+[2021-04-30 10:26:12,304] {scheduler_job.py:182} INFO - Started process (PID=4814) to work on /opt/airflow/dags/dockerSparkOperator.py
+[2021-04-30 10:26:12,306] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dockerSparkOperator.py for tasks to queue
+[2021-04-30 10:26:12,307] {logging_mixin.py:104} INFO - [2021-04-30 10:26:12,307] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dockerSparkOperator.py
+[2021-04-30 10:26:12,373] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_spark_sample']) retrieved from /opt/airflow/dags/dockerSparkOperator.py
+[2021-04-30 10:26:12,399] {logging_mixin.py:104} INFO - [2021-04-30 10:26:12,399] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-04-30 10:26:12,417] {logging_mixin.py:104} INFO - [2021-04-30 10:26:12,417] {dag.py:2273} INFO - Setting next_dagrun for docker_spark_sample to 2021-04-28 00:00:00+00:00
+[2021-04-30 10:26:12,426] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dockerSparkOperator.py took 0.126 seconds
+[2021-04-30 10:26:42,663] {scheduler_job.py:182} INFO - Started process (PID=4819) to work on /opt/airflow/dags/dockerSparkOperator.py
+[2021-04-30 10:26:42,665] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dockerSparkOperator.py for tasks to queue
+[2021-04-30 10:26:42,667] {logging_mixin.py:104} INFO - [2021-04-30 10:26:42,667] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dockerSparkOperator.py
+[2021-04-30 10:26:42,753] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_spark_sample']) retrieved from /opt/airflow/dags/dockerSparkOperator.py
+[2021-04-30 10:26:42,785] {logging_mixin.py:104} INFO - [2021-04-30 10:26:42,785] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-04-30 10:26:42,809] {logging_mixin.py:104} INFO - [2021-04-30 10:26:42,809] {dag.py:2273} INFO - Setting next_dagrun for docker_spark_sample to 2021-04-28 00:00:00+00:00
+[2021-04-30 10:26:42,820] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dockerSparkOperator.py took 0.162 seconds
+[2021-04-30 10:27:13,137] {scheduler_job.py:182} INFO - Started process (PID=4824) to work on /opt/airflow/dags/dockerSparkOperator.py
+[2021-04-30 10:27:13,144] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dockerSparkOperator.py for tasks to queue
+[2021-04-30 10:27:13,146] {logging_mixin.py:104} INFO - [2021-04-30 10:27:13,146] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dockerSparkOperator.py
+[2021-04-30 10:27:13,224] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_spark_sample']) retrieved from /opt/airflow/dags/dockerSparkOperator.py
+[2021-04-30 10:27:13,249] {logging_mixin.py:104} INFO - [2021-04-30 10:27:13,249] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-04-30 10:27:13,265] {logging_mixin.py:104} INFO - [2021-04-30 10:27:13,265] {dag.py:2273} INFO - Setting next_dagrun for docker_spark_sample to 2021-04-28 00:00:00+00:00
+[2021-04-30 10:27:13,271] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dockerSparkOperator.py took 0.142 seconds
+[2021-04-30 10:27:43,495] {scheduler_job.py:182} INFO - Started process (PID=4829) to work on /opt/airflow/dags/dockerSparkOperator.py
+[2021-04-30 10:27:43,497] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dockerSparkOperator.py for tasks to queue
+[2021-04-30 10:27:43,500] {logging_mixin.py:104} INFO - [2021-04-30 10:27:43,499] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dockerSparkOperator.py
+[2021-04-30 10:27:43,575] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_spark_sample']) retrieved from /opt/airflow/dags/dockerSparkOperator.py
+[2021-04-30 10:27:43,597] {logging_mixin.py:104} INFO - [2021-04-30 10:27:43,597] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-04-30 10:27:43,615] {logging_mixin.py:104} INFO - [2021-04-30 10:27:43,615] {dag.py:2273} INFO - Setting next_dagrun for docker_spark_sample to 2021-04-28 00:00:00+00:00
+[2021-04-30 10:27:43,622] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dockerSparkOperator.py took 0.133 seconds
+[2021-04-30 10:28:13,831] {scheduler_job.py:182} INFO - Started process (PID=4834) to work on /opt/airflow/dags/dockerSparkOperator.py
+[2021-04-30 10:28:13,833] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dockerSparkOperator.py for tasks to queue
+[2021-04-30 10:28:13,835] {logging_mixin.py:104} INFO - [2021-04-30 10:28:13,834] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dockerSparkOperator.py
+[2021-04-30 10:28:13,908] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_spark_sample']) retrieved from /opt/airflow/dags/dockerSparkOperator.py
+[2021-04-30 10:28:13,929] {logging_mixin.py:104} INFO - [2021-04-30 10:28:13,928] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-04-30 10:28:13,943] {logging_mixin.py:104} INFO - [2021-04-30 10:28:13,942] {dag.py:2273} INFO - Setting next_dagrun for docker_spark_sample to 2021-04-28 00:00:00+00:00
+[2021-04-30 10:28:13,950] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dockerSparkOperator.py took 0.124 seconds
+[2021-04-30 10:28:44,185] {scheduler_job.py:182} INFO - Started process (PID=4839) to work on /opt/airflow/dags/dockerSparkOperator.py
+[2021-04-30 10:28:44,187] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dockerSparkOperator.py for tasks to queue
+[2021-04-30 10:28:44,189] {logging_mixin.py:104} INFO - [2021-04-30 10:28:44,189] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dockerSparkOperator.py
+[2021-04-30 10:28:44,250] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_spark_sample']) retrieved from /opt/airflow/dags/dockerSparkOperator.py
+[2021-04-30 10:28:44,282] {logging_mixin.py:104} INFO - [2021-04-30 10:28:44,282] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-04-30 10:28:44,297] {logging_mixin.py:104} INFO - [2021-04-30 10:28:44,297] {dag.py:2273} INFO - Setting next_dagrun for docker_spark_sample to 2021-04-28 00:00:00+00:00
+[2021-04-30 10:28:44,305] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dockerSparkOperator.py took 0.123 seconds
+[2021-04-30 10:29:14,424] {scheduler_job.py:182} INFO - Started process (PID=4844) to work on /opt/airflow/dags/dockerSparkOperator.py
+[2021-04-30 10:29:14,425] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dockerSparkOperator.py for tasks to queue
+[2021-04-30 10:29:14,427] {logging_mixin.py:104} INFO - [2021-04-30 10:29:14,427] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dockerSparkOperator.py
+[2021-04-30 10:29:14,485] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_spark_sample']) retrieved from /opt/airflow/dags/dockerSparkOperator.py
+[2021-04-30 10:29:14,508] {logging_mixin.py:104} INFO - [2021-04-30 10:29:14,508] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-04-30 10:29:14,522] {logging_mixin.py:104} INFO - [2021-04-30 10:29:14,522] {dag.py:2273} INFO - Setting next_dagrun for docker_spark_sample to 2021-04-28 00:00:00+00:00
+[2021-04-30 10:29:14,532] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dockerSparkOperator.py took 0.112 seconds
+[2021-04-30 10:29:44,759] {scheduler_job.py:182} INFO - Started process (PID=4849) to work on /opt/airflow/dags/dockerSparkOperator.py
+[2021-04-30 10:29:44,761] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dockerSparkOperator.py for tasks to queue
+[2021-04-30 10:29:44,763] {logging_mixin.py:104} INFO - [2021-04-30 10:29:44,762] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dockerSparkOperator.py
+[2021-04-30 10:29:44,843] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_spark_sample']) retrieved from /opt/airflow/dags/dockerSparkOperator.py
+[2021-04-30 10:29:44,871] {logging_mixin.py:104} INFO - [2021-04-30 10:29:44,871] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-04-30 10:29:44,893] {logging_mixin.py:104} INFO - [2021-04-30 10:29:44,892] {dag.py:2273} INFO - Setting next_dagrun for docker_spark_sample to 2021-04-28 00:00:00+00:00
+[2021-04-30 10:29:44,901] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dockerSparkOperator.py took 0.146 seconds
+[2021-04-30 10:30:15,152] {scheduler_job.py:182} INFO - Started process (PID=4854) to work on /opt/airflow/dags/dockerSparkOperator.py
+[2021-04-30 10:30:15,154] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dockerSparkOperator.py for tasks to queue
+[2021-04-30 10:30:15,156] {logging_mixin.py:104} INFO - [2021-04-30 10:30:15,156] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dockerSparkOperator.py
+[2021-04-30 10:30:15,217] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_spark_sample']) retrieved from /opt/airflow/dags/dockerSparkOperator.py
+[2021-04-30 10:30:15,239] {logging_mixin.py:104} INFO - [2021-04-30 10:30:15,239] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-04-30 10:30:15,253] {logging_mixin.py:104} INFO - [2021-04-30 10:30:15,252] {dag.py:2273} INFO - Setting next_dagrun for docker_spark_sample to 2021-04-28 00:00:00+00:00
+[2021-04-30 10:30:15,261] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dockerSparkOperator.py took 0.113 seconds
+[2021-04-30 10:30:45,509] {scheduler_job.py:182} INFO - Started process (PID=4859) to work on /opt/airflow/dags/dockerSparkOperator.py
+[2021-04-30 10:30:45,510] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dockerSparkOperator.py for tasks to queue
+[2021-04-30 10:30:45,511] {logging_mixin.py:104} INFO - [2021-04-30 10:30:45,511] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dockerSparkOperator.py
+[2021-04-30 10:30:45,571] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_spark_sample']) retrieved from /opt/airflow/dags/dockerSparkOperator.py
+[2021-04-30 10:30:45,593] {logging_mixin.py:104} INFO - [2021-04-30 10:30:45,593] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-04-30 10:30:45,607] {logging_mixin.py:104} INFO - [2021-04-30 10:30:45,607] {dag.py:2273} INFO - Setting next_dagrun for docker_spark_sample to 2021-04-28 00:00:00+00:00
+[2021-04-30 10:30:45,614] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dockerSparkOperator.py took 0.109 seconds
+[2021-04-30 10:31:15,851] {scheduler_job.py:182} INFO - Started process (PID=4864) to work on /opt/airflow/dags/dockerSparkOperator.py
+[2021-04-30 10:31:15,852] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dockerSparkOperator.py for tasks to queue
+[2021-04-30 10:31:15,854] {logging_mixin.py:104} INFO - [2021-04-30 10:31:15,854] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dockerSparkOperator.py
+[2021-04-30 10:31:15,924] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_spark_sample']) retrieved from /opt/airflow/dags/dockerSparkOperator.py
+[2021-04-30 10:31:15,949] {logging_mixin.py:104} INFO - [2021-04-30 10:31:15,949] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-04-30 10:31:15,963] {logging_mixin.py:104} INFO - [2021-04-30 10:31:15,963] {dag.py:2273} INFO - Setting next_dagrun for docker_spark_sample to 2021-04-28 00:00:00+00:00
+[2021-04-30 10:31:15,970] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dockerSparkOperator.py took 0.122 seconds
+[2021-04-30 10:31:46,191] {scheduler_job.py:182} INFO - Started process (PID=4869) to work on /opt/airflow/dags/dockerSparkOperator.py
+[2021-04-30 10:31:46,193] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dockerSparkOperator.py for tasks to queue
+[2021-04-30 10:31:46,195] {logging_mixin.py:104} INFO - [2021-04-30 10:31:46,195] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dockerSparkOperator.py
+[2021-04-30 10:31:46,268] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['docker_spark_sample']) retrieved from /opt/airflow/dags/dockerSparkOperator.py
+[2021-04-30 10:31:46,288] {logging_mixin.py:104} INFO - [2021-04-30 10:31:46,288] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-04-30 10:31:46,304] {logging_mixin.py:104} INFO - [2021-04-30 10:31:46,304] {dag.py:2273} INFO - Setting next_dagrun for docker_spark_sample to 2021-04-28 00:00:00+00:00
+[2021-04-30 10:31:46,312] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dockerSparkOperator.py took 0.126 seconds

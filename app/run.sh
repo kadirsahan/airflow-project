@@ -1,0 +1,1 @@
+/spark/bin/spark-submit --master spark://spark-master:7077  --driver-memory 1024m --executor-memory 1024m --num-executors 1 --executor-cores 1 --conf spark.dynamicAllocation.enabled=false /sparksubmit/index.py

@@ -1,0 +1,60 @@
+[2021-04-27 21:11:50,880] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: docker_spark_sample.docker_spark_tester 2021-04-25T00:10:00+00:00 [queued]>
+[2021-04-27 21:11:50,993] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: docker_spark_sample.docker_spark_tester 2021-04-25T00:10:00+00:00 [queued]>
+[2021-04-27 21:11:50,994] {taskinstance.py:1042} INFO - 
+--------------------------------------------------------------------------------
+[2021-04-27 21:11:50,995] {taskinstance.py:1043} INFO - Starting attempt 1 of 2
+[2021-04-27 21:11:50,996] {taskinstance.py:1044} INFO - 
+--------------------------------------------------------------------------------
+[2021-04-27 21:11:51,025] {taskinstance.py:1063} INFO - Executing <Task(DockerOperator): docker_spark_tester> on 2021-04-25T00:10:00+00:00
+[2021-04-27 21:11:51,056] {standard_task_runner.py:52} INFO - Started process 77 to run task
+[2021-04-27 21:11:51,085] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'docker_spark_sample', 'docker_spark_tester', '2021-04-25T00:10:00+00:00', '--job-id', '12', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/dockerSparkOperator.py', '--cfg-path', '/tmp/tmpvcvf_ldm', '--error-file', '/tmp/tmpjdg4kb7_']
+[2021-04-27 21:11:51,087] {standard_task_runner.py:77} INFO - Job 12: Subtask docker_spark_tester
+[2021-04-27 21:11:51,366] {logging_mixin.py:104} INFO - Running <TaskInstance: docker_spark_sample.docker_spark_tester 2021-04-25T00:10:00+00:00 [running]> on host 9e66ec21e68a
+[2021-04-27 21:11:51,706] {taskinstance.py:1257} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=airflow@example.com
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=docker_spark_sample
+AIRFLOW_CTX_TASK_ID=docker_spark_tester
+AIRFLOW_CTX_EXECUTION_DATE=2021-04-25T00:10:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2021-04-25T00:10:00+00:00
+[2021-04-27 21:11:51,835] {docker.py:224} INFO - Starting docker container from image kadirsahan/docker_spark_submit:latest
+[2021-04-27 21:12:17,780] {docker.py:263} INFO - 21/04/27 21:12:16 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+[2021-04-27 21:12:30,851] {docker.py:263} INFO - Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+[2021-04-27 21:12:31,199] {docker.py:263} INFO - 21/04/27 21:12:29 INFO SparkContext: Running Spark version 3.1.1
+[2021-04-27 21:12:32,134] {docker.py:263} INFO - 21/04/27 21:12:30 INFO ResourceUtils: ==============================================================
+[2021-04-27 21:12:32,144] {docker.py:263} INFO - 21/04/27 21:12:30 INFO ResourceUtils: No custom resources configured for spark.driver.
+[2021-04-27 21:12:32,156] {docker.py:263} INFO - 21/04/27 21:12:30 INFO ResourceUtils: ==============================================================
+[2021-04-27 21:12:32,159] {docker.py:263} INFO - 21/04/27 21:12:30 INFO SparkContext: Submitted application: HelloWorld
+[2021-04-27 21:12:32,621] {docker.py:263} INFO - 21/04/27 21:12:31 INFO ResourceProfile: Default ResourceProfile created, executor resources: Map(cores -> name: cores, amount: 1, script: , vendor: , memory -> name: memory, amount: 1024, script: , vendor: , offHeap -> name: offHeap, amount: 0, script: , vendor: ), task resources: Map(cpus -> name: cpus, amount: 1.0)
+[2021-04-27 21:12:33,027] {docker.py:263} INFO - 21/04/27 21:12:31 INFO ResourceProfile: Limiting resource is cpu
+[2021-04-27 21:12:33,050] {docker.py:263} INFO - 21/04/27 21:12:31 INFO ResourceProfileManager: Added ResourceProfile id: 0
+[2021-04-27 21:12:34,454] {docker.py:263} INFO - 21/04/27 21:12:32 INFO SecurityManager: Changing view acls to: root
+[2021-04-27 21:12:34,455] {docker.py:263} INFO - 21/04/27 21:12:32 INFO SecurityManager: Changing modify acls to: root
+[2021-04-27 21:12:34,462] {docker.py:263} INFO - 21/04/27 21:12:32 INFO SecurityManager: Changing view acls groups to:
+[2021-04-27 21:12:34,463] {docker.py:263} INFO - 21/04/27 21:12:32 INFO SecurityManager: Changing modify acls groups to:
+[2021-04-27 21:12:34,469] {docker.py:263} INFO - 21/04/27 21:12:32 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(root); groups with view permissions: Set(); users  with modify permissions: Set(root); groups with modify permissions: Set()
+[2021-04-27 21:12:39,676] {docker.py:263} INFO - 21/04/27 21:12:38 INFO Utils: Successfully started service 'sparkDriver' on port 41981.
+[2021-04-27 21:12:40,702] {docker.py:263} INFO - 21/04/27 21:12:39 INFO SparkEnv: Registering MapOutputTracker
+[2021-04-27 21:12:41,383] {docker.py:263} INFO - 21/04/27 21:12:39 INFO SparkEnv: Registering BlockManagerMaster
+[2021-04-27 21:12:41,944] {docker.py:263} INFO - 21/04/27 21:12:40 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+[2021-04-27 21:12:42,018] {docker.py:263} INFO - 21/04/27 21:12:40 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+[2021-04-27 21:12:42,130] {docker.py:263} INFO - 21/04/27 21:12:40 INFO SparkEnv: Registering BlockManagerMasterHeartbeat
+[2021-04-27 21:12:42,478] {docker.py:263} INFO - 21/04/27 21:12:40 INFO DiskBlockManager: Created local directory at /tmp/blockmgr-45100460-0004-4922-9185-08623843a84f
+[2021-04-27 21:12:42,908] {docker.py:263} INFO - 21/04/27 21:12:41 INFO MemoryStore: MemoryStore started with capacity 366.3 MiB
+[2021-04-27 21:13:36,548] {docker.py:263} INFO - 21/04/27 21:13:35 INFO SparkEnv: Registering OutputCommitCoordinator
+[2021-04-27 21:14:56,993] {docker.py:263} INFO - Killed
+[2021-04-27 21:14:59,623] {taskinstance.py:1455} ERROR - docker container failed: {'Error': None, 'StatusCode': 137}
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1112, in _run_raw_task
+    self._prepare_and_execute_task_with_callbacks(context, task)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1285, in _prepare_and_execute_task_with_callbacks
+    result = self._execute_task(context, task_copy)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1315, in _execute_task
+    result = task_copy.execute(context=context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/providers/docker/operators/docker.py", line 307, in execute
+    return self._run_image()
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/providers/docker/operators/docker.py", line 269, in _run_image
+    raise AirflowException('docker container failed: ' + repr(result))
+airflow.exceptions.AirflowException: docker container failed: {'Error': None, 'StatusCode': 137}
+[2021-04-27 21:14:59,627] {taskinstance.py:1503} INFO - Marking task as UP_FOR_RETRY. dag_id=docker_spark_sample, task_id=docker_spark_tester, execution_date=20210425T001000, start_date=20210427T211150, end_date=20210427T211459
+[2021-04-27 21:14:59,684] {local_task_job.py:146} INFO - Task exited with return code 1

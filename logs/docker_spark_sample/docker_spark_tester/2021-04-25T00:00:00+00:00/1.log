@@ -1,0 +1,345 @@
+[2021-04-27 21:11:50,975] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: docker_spark_sample.docker_spark_tester 2021-04-25T00:00:00+00:00 [queued]>
+[2021-04-27 21:11:51,090] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: docker_spark_sample.docker_spark_tester 2021-04-25T00:00:00+00:00 [queued]>
+[2021-04-27 21:11:51,093] {taskinstance.py:1042} INFO - 
+--------------------------------------------------------------------------------
+[2021-04-27 21:11:51,094] {taskinstance.py:1043} INFO - Starting attempt 1 of 2
+[2021-04-27 21:11:51,097] {taskinstance.py:1044} INFO - 
+--------------------------------------------------------------------------------
+[2021-04-27 21:11:51,148] {taskinstance.py:1063} INFO - Executing <Task(DockerOperator): docker_spark_tester> on 2021-04-25T00:00:00+00:00
+[2021-04-27 21:11:51,202] {standard_task_runner.py:52} INFO - Started process 79 to run task
+[2021-04-27 21:11:51,254] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'docker_spark_sample', 'docker_spark_tester', '2021-04-25T00:00:00+00:00', '--job-id', '14', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/dockerSparkOperator.py', '--cfg-path', '/tmp/tmpu6ovi308', '--error-file', '/tmp/tmp_fjk8kep']
+[2021-04-27 21:11:51,299] {standard_task_runner.py:77} INFO - Job 14: Subtask docker_spark_tester
+[2021-04-27 21:11:51,552] {logging_mixin.py:104} INFO - Running <TaskInstance: docker_spark_sample.docker_spark_tester 2021-04-25T00:00:00+00:00 [running]> on host 9e66ec21e68a
+[2021-04-27 21:11:51,768] {taskinstance.py:1257} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=airflow@example.com
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=docker_spark_sample
+AIRFLOW_CTX_TASK_ID=docker_spark_tester
+AIRFLOW_CTX_EXECUTION_DATE=2021-04-25T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2021-04-25T00:00:00+00:00
+[2021-04-27 21:11:51,876] {docker.py:224} INFO - Starting docker container from image kadirsahan/docker_spark_submit:latest
+[2021-04-27 21:12:19,805] {docker.py:263} INFO - 21/04/27 21:12:18 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+[2021-04-27 21:12:31,021] {docker.py:263} INFO - Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+[2021-04-27 21:12:31,024] {docker.py:263} INFO - 
+[2021-04-27 21:12:31,629] {docker.py:263} INFO - 21/04/27 21:12:30 INFO SparkContext: Running Spark version 3.1.1
+[2021-04-27 21:12:33,987] {docker.py:263} INFO - 21/04/27 21:12:32 INFO ResourceUtils: ==============================================================
+[2021-04-27 21:12:33,998] {docker.py:263} INFO - 21/04/27 21:12:32 INFO ResourceUtils: No custom resources configured for spark.driver.
+[2021-04-27 21:12:34,026] {docker.py:263} INFO - 21/04/27 21:12:32 INFO ResourceUtils: ==============================================================
+[2021-04-27 21:12:34,040] {docker.py:263} INFO - 21/04/27 21:12:32 INFO SparkContext: Submitted application: HelloWorld
+[2021-04-27 21:12:34,841] {docker.py:263} INFO - 21/04/27 21:12:33 INFO ResourceProfile: Default ResourceProfile created, executor resources: Map(cores -> name: cores, amount: 1, script: , vendor: , memory -> name: memory, amount: 1024, script: , vendor: , offHeap -> name: offHeap, amount: 0, script: , vendor: ), task resources: Map(cpus -> name: cpus, amount: 1.0)
+[2021-04-27 21:12:35,186] {docker.py:263} INFO - 21/04/27 21:12:33 INFO ResourceProfile: Limiting resource is cpu
+[2021-04-27 21:12:35,204] {docker.py:263} INFO - 21/04/27 21:12:33 INFO ResourceProfileManager: Added ResourceProfile id: 0
+[2021-04-27 21:12:36,451] {docker.py:263} INFO - 21/04/27 21:12:34 INFO SecurityManager: Changing view acls to: root
+[2021-04-27 21:12:36,452] {docker.py:263} INFO - 21/04/27 21:12:34 INFO SecurityManager: Changing modify acls to: root
+[2021-04-27 21:12:36,454] {docker.py:263} INFO - 21/04/27 21:12:34 INFO SecurityManager: Changing view acls groups to:
+[2021-04-27 21:12:36,464] {docker.py:263} INFO - 21/04/27 21:12:34 INFO SecurityManager: Changing modify acls groups to:
+[2021-04-27 21:12:36,476] {docker.py:263} INFO - 21/04/27 21:12:34 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(root); groups with view permissions: Set(); users  with modify permissions: Set(root); groups with modify permissions: Set()
+[2021-04-27 21:12:41,953] {docker.py:263} INFO - 21/04/27 21:12:40 INFO Utils: Successfully started service 'sparkDriver' on port 39493.
+[2021-04-27 21:12:43,848] {docker.py:263} INFO - 21/04/27 21:12:42 INFO SparkEnv: Registering MapOutputTracker
+[2021-04-27 21:13:37,596] {docker.py:263} INFO - 21/04/27 21:13:34 INFO SparkEnv: Registering BlockManagerMaster
+21/04/27 21:13:35 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+21/04/27 21:13:35 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+21/04/27 21:13:35 INFO SparkEnv: Registering BlockManagerMasterHeartbeat
+21/04/27 21:13:36 INFO DiskBlockManager: Created local directory at /tmp/blockmgr-add4e9eb-3c1d-4c68-9f1e-53b02355d3b1
+[2021-04-27 21:13:38,597] {docker.py:263} INFO - 21/04/27 21:13:37 INFO MemoryStore: MemoryStore started with capacity 366.3 MiB
+[2021-04-27 21:14:09,275] {docker.py:263} INFO - 21/04/27 21:14:07 INFO SparkEnv: Registering OutputCommitCoordinator
+[2021-04-27 21:15:10,706] {docker.py:263} INFO - 21/04/27 21:15:09 INFO Utils: Successfully started service 'SparkUI' on port 4040.
+[2021-04-27 21:15:13,745] {docker.py:263} INFO - 21/04/27 21:15:12 INFO SparkUI: Bound SparkUI to 0.0.0.0, and started at http://755455ac8630:4040
+[2021-04-27 21:15:50,275] {docker.py:263} INFO - 21/04/27 21:15:48 INFO StandaloneAppClient$ClientEndpoint: Connecting to master spark://spark-master:7077...
+[2021-04-27 21:15:55,523] {docker.py:263} INFO - 21/04/27 21:15:54 WARN TransportClientFactory: DNS resolution failed for spark-master:7077 took 5013 ms
+[2021-04-27 21:15:55,875] {docker.py:263} INFO - 21/04/27 21:15:54 WARN StandaloneAppClient$ClientEndpoint: Failed to connect to master spark-master:7077
+org.apache.spark.SparkException: Exception thrown in awaitResult: 
+	at org.apache.spark.util.ThreadUtils$.awaitResult(ThreadUtils.scala:301)
+	at org.apache.spark.rpc.RpcTimeout.awaitResult(RpcTimeout.scala:75)
+	at org.apache.spark.rpc.RpcEnv.setupEndpointRefByURI(RpcEnv.scala:101)
+	at org.apache.spark.rpc.RpcEnv.setupEndpointRef(RpcEnv.scala:109)
+	at org.apache.spark.deploy.client.StandaloneAppClient$ClientEndpoint$$anon$1.run(StandaloneAppClient.scala:107)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.IOException: Failed to connect to spark-master:7077
+	at org.apache.spark.network.client.TransportClientFactory.createClient(TransportClientFactory.java:287)
+	at org.apache.spark.network.client.TransportClientFactory.createClient(TransportClientFactory.java:218)
+	at org.apache.spark.network.client.TransportClientFactory.createClient(TransportClientFactory.java:230)
+	at org.apache.spark.rpc.netty.NettyRpcEnv.createClient(NettyRpcEnv.scala:204)
+	at org.apache.spark.rpc.netty.Outbox$$anon$1.call(Outbox.scala:202)
+	at org.apache.spark.rpc.netty.Outbox$$anon$1.call(Outbox.scala:198)
+	... 4 more
+Caused by: java.net.UnknownHostException: spark-master
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1282)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1194)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1128)
+	at java.net.InetAddress.getByName(InetAddress.java:1078)
+	at io.netty.util.internal.SocketUtils$8.run(SocketUtils.java:156)
+	at io.netty.util.internal.SocketUtils$8.run(SocketUtils.java:153)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at io.netty.util.internal.SocketUtils.addressByName(SocketUtils.java:153)
+	at io.netty.resolver.DefaultNameResolver.doResolve(DefaultNameResolver.java:41)
+	at io.netty.resolver.SimpleNameResolver.resolve(SimpleNameResolver.java:61)
+	at io.netty.resolver.SimpleNameResolver.resolve(SimpleNameResolver.java:53)
+	at io.netty.resolver.InetSocketAddressResolver.doResolve(InetSocketAddressResolver.java:55)
+	at io.netty.resolver.InetSocketAddressResolver.doResolve(InetSocketAddressResolver.java:31)
+	at io.netty.resolver.AbstractAddressResolver.resolve(AbstractAddressResolver.java:106)
+	at io.netty.bootstrap.Bootstrap.doResolveAndConnect0(Bootstrap.java:206)
+	at io.netty.bootstrap.Bootstrap.access$000(Bootstrap.java:46)
+	at io.netty.bootstrap.Bootstrap$1.operationComplete(Bootstrap.java:180)
+	at io.netty.bootstrap.Bootstrap$1.operationComplete(Bootstrap.java:166)
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:577)
+	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:551)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:490)
+	at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:615)
+	at io.netty.util.concurrent.DefaultPromise.setSuccess0(DefaultPromise.java:604)
+	at io.netty.util.concurrent.DefaultPromise.trySuccess(DefaultPromise.java:104)
+	at io.netty.channel.DefaultChannelPromise.trySuccess(DefaultChannelPromise.java:84)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.safeSetSuccess(AbstractChannel.java:984)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.register0(AbstractChannel.java:504)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.access$200(AbstractChannel.java:417)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe$1.run(AbstractChannel.java:474)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io
+[2021-04-27 21:15:55,876] {docker.py:263} INFO - .netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	... 1 more
+[2021-04-27 21:16:10,248] {docker.py:263} INFO - 21/04/27 21:16:08 INFO StandaloneAppClient$ClientEndpoint: Connecting to master spark://spark-master:7077...
+[2021-04-27 21:16:15,270] {docker.py:263} INFO - 21/04/27 21:16:13 WARN TransportClientFactory: DNS resolution failed for spark-master:7077 took 5012 ms
+[2021-04-27 21:16:15,302] {docker.py:263} INFO - 21/04/27 21:16:13 WARN StandaloneAppClient$ClientEndpoint: Failed to connect to master spark-master:7077
+org.apache.spark.SparkException: Exception thrown in awaitResult: 
+	at org.apache.spark.util.ThreadUtils$.awaitResult(ThreadUtils.scala:301)
+	at org.apache.spark.rpc.RpcTimeout.awaitResult(RpcTimeout.scala:75)
+	at org.apache.spark.rpc.RpcEnv.setupEndpointRefByURI(RpcEnv.scala:101)
+	at org.apache.spark.rpc.RpcEnv.setupEndpointRef(RpcEnv.scala:109)
+	at org.apache.spark.deploy.client.StandaloneAppClient$ClientEndpoint$$anon$1.run(StandaloneAppClient.scala:107)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.IOException: Failed to connect to spark-master:7077
+	at org.apache.spark.network.client.TransportClientFactory.createClient(TransportClientFactory.java:287)
+	at org.apache.spark.network.client.TransportClientFactory.createClient(TransportClientFactory.java:218)
+	at org.apache.spark.network.client.TransportClientFactory.createClient(TransportClientFactory.java:230)
+	at org.apache.spark.rpc.netty.NettyRpcEnv.createClient(NettyRpcEnv.scala:204)
+	at org.apache.spark.rpc.netty.Outbox$$anon$1.call(Outbox.scala:202)
+	at org.apache.spark.rpc.netty.Outbox$$anon$1.call(Outbox.scala:198)
+	... 4 more
+Caused by: java.net.UnknownHostException: spark-master
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1282)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1194)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1128)
+	at java.net.InetAddress.getByName(InetAddress.java:1078)
+	at io.netty.util.internal.SocketUtils$8.run(SocketUtils.java:156)
+	at io.netty.util.internal.SocketUtils$8.run(SocketUtils.java:153)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at io.netty.util.internal.SocketUtils.addressByName(SocketUtils.java:153)
+	at io.netty.resolver.DefaultNameResolver.doResolve(DefaultNameResolver.java:41)
+	at io.netty.resolver.SimpleNameResolver.resolve(SimpleNameResolver.java:61)
+	at io.netty.resolver.SimpleNameResolver.resolve(SimpleNameResolver.java:53)
+	at io.netty.resolver.InetSocketAddressResolver.doResolve(InetSocketAddressResolver.java:55)
+	at io.netty.resolver.InetSocketAddressResolver.doResolve(InetSocketAddressResolver.java:31)
+	at io.netty.resolver.AbstractAddressResolver.resolve(AbstractAddressResolver.java:106)
+	at io.netty.bootstrap.Bootstrap.doResolveAndConnect0(Bootstrap.java:206)
+	at io.netty.bootstrap.Bootstrap.access$000(Bootstrap.java:46)
+	at io.netty.bootstrap.Bootstrap$1.operationComplete(Bootstrap.java:180)
+	at io.netty.bootstrap.Bootstrap$1.operationComplete(Bootstrap.java:166)
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:577)
+	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:551)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:490)
+	at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:615)
+	at io.netty.util.concurrent.DefaultPromise.setSuccess0(DefaultPromise.java:604)
+	at io.netty.util.concurrent.DefaultPromise.trySuccess(DefaultPromise.java:104)
+	at io.netty.channel.DefaultChannelPromise.trySuccess(DefaultChannelPromise.java:84)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.safeSetSuccess(AbstractChannel.java:984)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.register0(AbstractChannel.java:504)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.access$200(AbstractChannel.java:417)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe$1.run(AbstractChannel.java:474)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	... 1 more
+[2021-04-27 21:16:30,227] {docker.py:263} INFO - 21/04/27 21:16:28 INFO StandaloneAppClient$ClientEndpoint: Connecting to master spark://spark-master:7077...
+[2021-04-27 21:16:35,243] {docker.py:263} INFO - 21/04/27 21:16:33 WARN TransportClientFactory: DNS resolution failed for spark-master:7077 took 5006 ms
+[2021-04-27 21:16:35,273] {docker.py:263} INFO - 21/04/27 21:16:33 WARN StandaloneAppClient$ClientEndpoint: Failed to connect to master spark-master:7077
+org.apache.spark.SparkException: Exception thrown in awaitResult: 
+	at org.apache.spark.util.ThreadUtils$.awaitResult(ThreadUtils.scala:301)
+	at org.apache.spark.rpc.RpcTimeout.awaitResult(RpcTimeout.scala:75)
+	at org.apache.spark.rpc.RpcEnv.setupEndpointRefByURI(RpcEnv.scala:101)
+	at org.apache.spark.rpc.RpcEnv.setupEndpointRef(RpcEnv.scala:109)
+	at org.apache.spark.deploy.client.StandaloneAppClient$ClientEndpoint$$anon$1.run(StandaloneAppClient.scala:107)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.IOException: Failed to connect to spark-master:7077
+	at org.apache.spark.network.client.TransportClientFactory.createClient(TransportClientFactory.java:287)
+	at org.apache.spark.network.client.TransportClientFactory.createClient(TransportClientFactory.java:218)
+	at org.apache.spark.network.client.TransportClientFactory.createClient(TransportClientFactory.java:230)
+	at org.apache.spark.rpc.netty.NettyRpcEnv.createClient(NettyRpcEnv.scala:204)
+	at org.apache.spark.rpc.netty.Outbox$$anon$1.call(Outbox.scala:202)
+	at org.apache.spark.rpc.netty.Outbox$$anon$1.call(Outbox.scala:198)
+	... 4 more
+Caused by: java.net.UnknownHostException: spark-master
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1282)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1194)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1128)
+	at java.net.InetAddress.getByName(InetAddress.java:1078)
+	at io.netty.util.internal.SocketUtils$8.run(SocketUtils.java:156)
+	at io.netty.util.internal.SocketUtils$8.run(SocketUtils.java:153)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at io.netty.util.internal.SocketUtils.addressByName(SocketUtils.java:153)
+	at io.netty.resolver.DefaultNameResolver.doResolve(DefaultNameResolver.java:41)
+	at io.netty.resolver.SimpleNameResolver.resolve(SimpleNameResolver.java:61)
+	at io.netty.resolver.SimpleNameResolver.resolve(SimpleNameResolver.java:53)
+	at io.netty.resolver.InetSocketAddressResolver.doResolve(InetSocketAddressResolver.java:55)
+	at io.netty.resolver.InetSocketAddressResolver.doResolve(InetSocketAddressResolver.java:31)
+	at io.netty.resolver.AbstractAddressResolver.resolve(AbstractAddressResolver.java:106)
+	at io.netty.bootstrap.Bootstrap.doResolveAndConnect0(Bootstrap.java:206)
+	at io.netty.bootstrap.Bootstrap.access$000(Bootstrap.java:46)
+	at io.netty.bootstrap.Bootstrap$1.operationComplete(Bootstrap.java:180)
+	at io.netty.bootstrap.Bootstrap$1.operationComplete(Bootstrap.java:166)
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:577)
+	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:551)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:490)
+	at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:615)
+	at io.netty.util.concurrent.DefaultPromise.setSuccess0(DefaultPromise.java:604)
+	at io.netty.util.concurrent.DefaultPromise.trySuccess(DefaultPromise.java:104)
+	at io.netty.channel.DefaultChannelPromise.trySuccess(DefaultChannelPromise.java:84)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.safeSetSuccess(AbstractChannel.java:984)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.register0(AbstractChannel.java:504)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.access$200(AbstractChannel.java:417)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe$1.run(AbstractChannel.java:474)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	... 1 more
+[2021-04-27 21:16:37,594] {taskinstance.py:1455} ERROR - docker container failed: {'Error': None, 'StatusCode': 137}
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1112, in _run_raw_task
+    self._prepare_and_execute_task_with_callbacks(context, task)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1285, in _prepare_and_execute_task_with_callbacks
+    result = self._execute_task(context, task_copy)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1315, in _execute_task
+    result = task_copy.execute(context=context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/providers/docker/operators/docker.py", line 307, in execute
+    return self._run_image()
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/providers/docker/operators/docker.py", line 269, in _run_image
+    raise AirflowException('docker container failed: ' + repr(result))
+airflow.exceptions.AirflowException: docker container failed: {'Error': None, 'StatusCode': 137}
+[2021-04-27 21:16:37,596] {taskinstance.py:1503} INFO - Marking task as UP_FOR_RETRY. dag_id=docker_spark_sample, task_id=docker_spark_tester, execution_date=20210425T000000, start_date=20210427T211150, end_date=20210427T211637
+[2021-04-27 21:16:37,632] {local_task_job.py:146} INFO - Task exited with return code 1
+[2021-04-27 21:24:35,055] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: docker_spark_sample.docker_spark_tester 2021-04-25T00:00:00+00:00 [queued]>
+[2021-04-27 21:24:35,067] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: docker_spark_sample.docker_spark_tester 2021-04-25T00:00:00+00:00 [queued]>
+[2021-04-27 21:24:35,067] {taskinstance.py:1042} INFO - 
+--------------------------------------------------------------------------------
+[2021-04-27 21:24:35,068] {taskinstance.py:1043} INFO - Starting attempt 1 of 2
+[2021-04-27 21:24:35,068] {taskinstance.py:1044} INFO - 
+--------------------------------------------------------------------------------
+[2021-04-27 21:24:35,081] {taskinstance.py:1063} INFO - Executing <Task(DockerOperator): docker_spark_tester> on 2021-04-25T00:00:00+00:00
+[2021-04-27 21:24:35,088] {standard_task_runner.py:52} INFO - Started process 47 to run task
+[2021-04-27 21:24:35,091] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'docker_spark_sample', 'docker_spark_tester', '2021-04-25T00:00:00+00:00', '--job-id', '3', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/dockerSparkOperator.py', '--cfg-path', '/tmp/tmp6j78ks3u', '--error-file', '/tmp/tmp3kj1so07']
+[2021-04-27 21:24:35,093] {standard_task_runner.py:77} INFO - Job 3: Subtask docker_spark_tester
+[2021-04-27 21:24:35,137] {logging_mixin.py:104} INFO - Running <TaskInstance: docker_spark_sample.docker_spark_tester 2021-04-25T00:00:00+00:00 [running]> on host 7fbe4509e402
+[2021-04-27 21:24:35,177] {taskinstance.py:1257} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=airflow@example.com
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=docker_spark_sample
+AIRFLOW_CTX_TASK_ID=docker_spark_tester
+AIRFLOW_CTX_EXECUTION_DATE=2021-04-25T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2021-04-25T00:00:00+00:00
+[2021-04-27 21:24:35,194] {docker.py:224} INFO - Starting docker container from image kadirsahan/docker_spark_submit:latest
+[2021-04-27 21:24:37,327] {docker.py:263} INFO - 21/04/27 21:24:36 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+[2021-04-27 21:24:38,176] {docker.py:263} INFO - Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+[2021-04-27 21:24:38,185] {docker.py:263} INFO - 21/04/27 21:24:37 INFO SparkContext: Running Spark version 3.1.1
+[2021-04-27 21:24:38,245] {docker.py:263} INFO - 21/04/27 21:24:37 INFO ResourceUtils: ==============================================================
+[2021-04-27 21:24:38,246] {docker.py:263} INFO - 21/04/27 21:24:37 INFO ResourceUtils: No custom resources configured for spark.driver.
+[2021-04-27 21:24:38,248] {docker.py:263} INFO - 21/04/27 21:24:37 INFO ResourceUtils: ==============================================================
+[2021-04-27 21:24:38,249] {docker.py:263} INFO - 21/04/27 21:24:37 INFO SparkContext: Submitted application: HelloWorld
+[2021-04-27 21:24:38,287] {docker.py:263} INFO - 21/04/27 21:24:37 INFO ResourceProfile: Default ResourceProfile created, executor resources: Map(cores -> name: cores, amount: 1, script: , vendor: , memory -> name: memory, amount: 1024, script: , vendor: , offHeap -> name: offHeap, amount: 0, script: , vendor: ), task resources: Map(cpus -> name: cpus, amount: 1.0)
+[2021-04-27 21:24:38,303] {docker.py:263} INFO - 21/04/27 21:24:37 INFO ResourceProfile: Limiting resource is cpu
+[2021-04-27 21:24:38,304] {docker.py:263} INFO - 21/04/27 21:24:37 INFO ResourceProfileManager: Added ResourceProfile id: 0
+[2021-04-27 21:24:38,374] {docker.py:263} INFO - 21/04/27 21:24:37 INFO SecurityManager: Changing view acls to: root
+[2021-04-27 21:24:38,375] {docker.py:263} INFO - 21/04/27 21:24:37 INFO SecurityManager: Changing modify acls to: root
+21/04/27 21:24:37 INFO SecurityManager: Changing view acls groups to:
+[2021-04-27 21:24:38,376] {docker.py:263} INFO - 21/04/27 21:24:37 INFO SecurityManager: Changing modify acls groups to:
+[2021-04-27 21:24:38,377] {docker.py:263} INFO - 21/04/27 21:24:37 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(root); groups with view permissions: Set(); users  with modify permissions: Set(root); groups with modify permissions: Set()
+[2021-04-27 21:24:38,613] {docker.py:263} INFO - 21/04/27 21:24:37 INFO Utils: Successfully started service 'sparkDriver' on port 43593.
+[2021-04-27 21:24:38,665] {docker.py:263} INFO - 21/04/27 21:24:37 INFO SparkEnv: Registering MapOutputTracker
+[2021-04-27 21:24:38,738] {docker.py:263} INFO - 21/04/27 21:24:37 INFO SparkEnv: Registering BlockManagerMaster
+[2021-04-27 21:24:38,775] {docker.py:263} INFO - 21/04/27 21:24:37 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+[2021-04-27 21:24:38,776] {docker.py:263} INFO - 21/04/27 21:24:37 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+[2021-04-27 21:24:38,781] {docker.py:263} INFO - 21/04/27 21:24:37 INFO SparkEnv: Registering BlockManagerMasterHeartbeat
+[2021-04-27 21:24:38,808] {docker.py:263} INFO - 21/04/27 21:24:38 INFO DiskBlockManager: Created local directory at /tmp/blockmgr-9375dfaa-3466-427b-b9f3-d9fc22a7d0d1
+[2021-04-27 21:24:38,859] {docker.py:263} INFO - 21/04/27 21:24:38 INFO MemoryStore: MemoryStore started with capacity 366.3 MiB
+[2021-04-27 21:24:38,875] {docker.py:263} INFO - 21/04/27 21:24:38 INFO SparkEnv: Registering OutputCommitCoordinator
+[2021-04-27 21:24:39,125] {docker.py:263} INFO - 21/04/27 21:24:38 INFO Utils: Successfully started service 'SparkUI' on port 4040.
+[2021-04-27 21:24:39,189] {docker.py:263} INFO - 21/04/27 21:24:38 INFO SparkUI: Bound SparkUI to 0.0.0.0, and started at http://81b73308e6cd:4040
+[2021-04-27 21:24:39,659] {docker.py:263} INFO - 21/04/27 21:24:38 INFO StandaloneAppClient$ClientEndpoint: Connecting to master spark://spark-master:7077...
+[2021-04-27 21:24:39,724] {docker.py:263} INFO - 21/04/27 21:24:38 INFO TransportClientFactory: Successfully created connection to spark-master/172.18.0.2:7077 after 42 ms (0 ms spent in bootstraps)
+[2021-04-27 21:24:40,018] {docker.py:263} INFO - 21/04/27 21:24:39 INFO StandaloneSchedulerBackend: Connected to Spark cluster with app ID app-20210427212439-0000
+[2021-04-27 21:24:40,029] {docker.py:263} INFO - 21/04/27 21:24:39 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 36143.
+[2021-04-27 21:24:40,030] {docker.py:263} INFO - 21/04/27 21:24:39 INFO NettyBlockTransferService: Server created on 81b73308e6cd:36143
+[2021-04-27 21:24:40,036] {docker.py:263} INFO - 21/04/27 21:24:39 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+[2021-04-27 21:24:40,052] {docker.py:263} INFO - 21/04/27 21:24:39 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, 81b73308e6cd, 36143, None)
+[2021-04-27 21:24:40,096] {docker.py:263} INFO - 21/04/27 21:24:39 INFO StandaloneAppClient$ClientEndpoint: Executor added: app-20210427212439-0000/0 on worker-20210427211851-172.18.0.3-34897 (172.18.0.3:34897) with 2 core(s)
+[2021-04-27 21:24:40,107] {docker.py:263} INFO - 21/04/27 21:24:39 INFO BlockManagerMasterEndpoint: Registering block manager 81b73308e6cd:36143 with 366.3 MiB RAM, BlockManagerId(driver, 81b73308e6cd, 36143, None)
+[2021-04-27 21:24:40,108] {docker.py:263} INFO - 21/04/27 21:24:39 INFO StandaloneSchedulerBackend: Granted executor ID app-20210427212439-0000/0 on hostPort 172.18.0.3:34897 with 2 core(s), 1024.0 MiB RAM
+[2021-04-27 21:24:40,110] {docker.py:263} INFO - 21/04/27 21:24:39 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, 81b73308e6cd, 36143, None)
+[2021-04-27 21:24:40,111] {docker.py:263} INFO - 21/04/27 21:24:39 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, 81b73308e6cd, 36143, None)
+[2021-04-27 21:24:40,433] {docker.py:263} INFO - 21/04/27 21:24:39 INFO StandaloneAppClient$ClientEndpoint: Executor updated: app-20210427212439-0000/0 is now RUNNING
+[2021-04-27 21:24:40,680] {docker.py:263} INFO - 21/04/27 21:24:39 INFO StandaloneSchedulerBackend: SchedulerBackend is ready for scheduling beginning after reached minRegisteredResourcesRatio: 0.0
+[2021-04-27 21:24:41,543] {docker.py:263} INFO - 21/04/27 21:24:40 INFO SharedState: Setting hive.metastore.warehouse.dir ('null') to the value of spark.sql.warehouse.dir ('file:/sparksubmit/spark-warehouse').
+[2021-04-27 21:24:41,544] {docker.py:263} INFO - 21/04/27 21:24:40 INFO SharedState: Warehouse path is 'file:/sparksubmit/spark-warehouse'.
+[2021-04-27 21:24:44,133] {docker.py:263} INFO - 21/04/27 21:24:43 INFO SparkContext: Starting job: collect at /sparksubmit/index.py:11
+[2021-04-27 21:24:44,175] {docker.py:263} INFO - 21/04/27 21:24:43 INFO DAGScheduler: Got job 0 (collect at /sparksubmit/index.py:11) with 2 output partitions
+[2021-04-27 21:24:44,188] {docker.py:263} INFO - 21/04/27 21:24:43 INFO DAGScheduler: Final stage: ResultStage 0 (collect at /sparksubmit/index.py:11)
+[2021-04-27 21:24:44,189] {docker.py:263} INFO - 21/04/27 21:24:43 INFO DAGScheduler: Parents of final stage: List()
+[2021-04-27 21:24:44,190] {docker.py:263} INFO - 21/04/27 21:24:43 INFO DAGScheduler: Missing parents: List()
+[2021-04-27 21:24:44,220] {docker.py:263} INFO - 21/04/27 21:24:43 INFO DAGScheduler: Submitting ResultStage 0 (PythonRDD[1] at collect at /sparksubmit/index.py:11), which has no missing parents
+[2021-04-27 21:24:44,421] {docker.py:263} INFO - 21/04/27 21:24:43 INFO MemoryStore: Block broadcast_0 stored as values in memory (estimated size 4.6 KiB, free 366.3 MiB)
+[2021-04-27 21:24:44,544] {docker.py:263} INFO - 21/04/27 21:24:43 INFO MemoryStore: Block broadcast_0_piece0 stored as bytes in memory (estimated size 3.0 KiB, free 366.3 MiB)
+[2021-04-27 21:24:44,549] {docker.py:263} INFO - 21/04/27 21:24:43 INFO BlockManagerInfo: Added broadcast_0_piece0 in memory on 81b73308e6cd:36143 (size: 3.0 KiB, free: 366.3 MiB)
+[2021-04-27 21:24:44,555] {docker.py:263} INFO - 21/04/27 21:24:43 INFO SparkContext: Created broadcast 0 from broadcast at DAGScheduler.scala:1383
+[2021-04-27 21:24:44,586] {docker.py:263} INFO - 21/04/27 21:24:43 INFO DAGScheduler: Submitting 2 missing tasks from ResultStage 0 (PythonRDD[1] at collect at /sparksubmit/index.py:11) (first 15 tasks are for partitions Vector(0, 1))
+[2021-04-27 21:24:44,587] {docker.py:263} INFO - 21/04/27 21:24:43 INFO TaskSchedulerImpl: Adding task set 0.0 with 2 tasks resource profile 0
+[2021-04-27 21:24:44,684] {docker.py:263} INFO - 21/04/27 21:24:43 INFO CoarseGrainedSchedulerBackend$DriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (172.18.0.3:50118) with ID 0,  ResourceProfileId 0
+[2021-04-27 21:24:44,919] {docker.py:263} INFO - 21/04/27 21:24:44 INFO BlockManagerMasterEndpoint: Registering block manager 172.18.0.3:46263 with 366.3 MiB RAM, BlockManagerId(0, 172.18.0.3, 46263, None)
+[2021-04-27 21:24:44,992] {docker.py:263} INFO - 21/04/27 21:24:44 INFO TaskSetManager: Starting task 0.0 in stage 0.0 (TID 0) (172.18.0.3, executor 0, partition 0, PROCESS_LOCAL, 4495 bytes) taskResourceAssignments Map()
+[2021-04-27 21:24:45,000] {docker.py:263} INFO - 21/04/27 21:24:44 INFO TaskSetManager: Starting task 1.0 in stage 0.0 (TID 1) (172.18.0.3, executor 0, partition 1, PROCESS_LOCAL, 4495 bytes) taskResourceAssignments Map()
+[2021-04-27 21:24:45,429] {docker.py:263} INFO - 21/04/27 21:24:44 INFO BlockManagerInfo: Added broadcast_0_piece0 in memory on 172.18.0.3:46263 (size: 3.0 KiB, free: 366.3 MiB)
+[2021-04-27 21:24:46,432] {docker.py:263} INFO - 21/04/27 21:24:45 INFO TaskSetManager: Finished task 1.0 in stage 0.0 (TID 1) in 1424 ms on 172.18.0.3 (executor 0) (1/2)
+[2021-04-27 21:24:46,438] {docker.py:263} INFO - 21/04/27 21:24:45 INFO PythonAccumulatorV2: Connected to AccumulatorServer at host: 127.0.0.1 port: 44153
+[2021-04-27 21:24:46,439] {docker.py:263} INFO - 21/04/27 21:24:45 INFO TaskSetManager: Finished task 0.0 in stage 0.0 (TID 0) in 1459 ms on 172.18.0.3 (executor 0) (2/2)
+[2021-04-27 21:24:46,440] {docker.py:263} INFO - 21/04/27 21:24:45 INFO TaskSchedulerImpl: Removed TaskSet 0.0, whose tasks have all completed, from pool
+[2021-04-27 21:24:46,451] {docker.py:263} INFO - 21/04/27 21:24:45 INFO DAGScheduler: ResultStage 0 (collect at /sparksubmit/index.py:11) finished in 2.153 s
+[2021-04-27 21:24:46,460] {docker.py:263} INFO - 21/04/27 21:24:45 INFO DAGScheduler: Job 0 is finished. Cancelling potential speculative or zombie tasks for this job
+[2021-04-27 21:24:46,461] {docker.py:263} INFO - 21/04/27 21:24:45 INFO TaskSchedulerImpl: Killing all running tasks in stage 0: Stage finished
+[2021-04-27 21:24:46,467] {docker.py:263} INFO - 21/04/27 21:24:45 INFO DAGScheduler: Job 0 finished: collect at /sparksubmit/index.py:11, took 2.329620 s
+[2021-04-27 21:24:46,483] {docker.py:263} INFO - [1, 4, 9, 16]
+[2021-04-27 21:24:46,501] {docker.py:263} INFO - 21/04/27 21:24:45 INFO SparkContext: Invoking stop() from shutdown hook
+[2021-04-27 21:24:46,510] {docker.py:263} INFO - 21/04/27 21:24:45 INFO SparkUI: Stopped Spark web UI at http://81b73308e6cd:4040
+[2021-04-27 21:24:46,515] {docker.py:263} INFO - 21/04/27 21:24:45 INFO StandaloneSchedulerBackend: Shutting down all executors
+[2021-04-27 21:24:46,516] {docker.py:263} INFO - 21/04/27 21:24:45 INFO CoarseGrainedSchedulerBackend$DriverEndpoint: Asking each executor to shut down
+[2021-04-27 21:24:46,575] {docker.py:263} INFO - 21/04/27 21:24:45 INFO MapOutputTrackerMasterEndpoint: MapOutputTrackerMasterEndpoint stopped!
+[2021-04-27 21:24:46,607] {docker.py:263} INFO - 21/04/27 21:24:45 INFO MemoryStore: MemoryStore cleared
+[2021-04-27 21:24:46,608] {docker.py:263} INFO - 21/04/27 21:24:45 INFO BlockManager: BlockManager stopped
+[2021-04-27 21:24:46,618] {docker.py:263} INFO - 21/04/27 21:24:45 INFO BlockManagerMaster: BlockManagerMaster stopped
+[2021-04-27 21:24:46,624] {docker.py:263} INFO - 21/04/27 21:24:45 INFO OutputCommitCoordinator$OutputCommitCoordinatorEndpoint: OutputCommitCoordinator stopped!
+[2021-04-27 21:24:46,641] {docker.py:263} INFO - 21/04/27 21:24:45 INFO SparkContext: Successfully stopped SparkContext
+[2021-04-27 21:24:46,642] {docker.py:263} INFO - 21/04/27 21:24:45 INFO ShutdownHookManager: Shutdown hook called
+[2021-04-27 21:24:46,643] {docker.py:263} INFO - 21/04/27 21:24:45 INFO ShutdownHookManager: Deleting directory /tmp/spark-ec39edd0-6b3c-40ab-978a-dfa8cc147154
+[2021-04-27 21:24:46,652] {docker.py:263} INFO - 21/04/27 21:24:45 INFO ShutdownHookManager: Deleting directory /tmp/spark-c155a2e4-546d-44bd-8695-71bfd5d29888/pyspark-18a3d527-a9ab-45c1-816c-223803aa97b3
+[2021-04-27 21:24:46,654] {docker.py:263} INFO - 21/04/27 21:24:45 INFO ShutdownHookManager: Deleting directory /tmp/spark-c155a2e4-546d-44bd-8695-71bfd5d29888
+[2021-04-27 21:24:46,868] {taskinstance.py:1166} INFO - Marking task as SUCCESS. dag_id=docker_spark_sample, task_id=docker_spark_tester, execution_date=20210425T000000, start_date=20210427T212435, end_date=20210427T212446
+[2021-04-27 21:24:46,896] {taskinstance.py:1220} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-04-27 21:24:46,902] {local_task_job.py:146} INFO - Task exited with return code 0

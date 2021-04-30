@@ -1,0 +1,96 @@
+[2021-04-29 06:50:08,194] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: spark-1-example_kubernetes_pod.task-one 2019-01-01T00:00:00+00:00 [queued]>
+[2021-04-29 06:50:08,210] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: spark-1-example_kubernetes_pod.task-one 2019-01-01T00:00:00+00:00 [queued]>
+[2021-04-29 06:50:08,211] {taskinstance.py:1042} INFO - 
+--------------------------------------------------------------------------------
+[2021-04-29 06:50:08,212] {taskinstance.py:1043} INFO - Starting attempt 1 of 2
+[2021-04-29 06:50:08,213] {taskinstance.py:1044} INFO - 
+--------------------------------------------------------------------------------
+[2021-04-29 06:50:08,220] {taskinstance.py:1063} INFO - Executing <Task(KubernetesPodOperator): task-one> on 2019-01-01T00:00:00+00:00
+[2021-04-29 06:50:08,225] {standard_task_runner.py:52} INFO - Started process 42 to run task
+[2021-04-29 06:50:08,229] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'spark-1-example_kubernetes_pod', 'task-one', '2019-01-01T00:00:00+00:00', '--job-id', '2', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/kubernetesSparkOperator.py', '--cfg-path', '/tmp/tmpy_r2dqyh', '--error-file', '/tmp/tmpmtf5_4tz']
+[2021-04-29 06:50:08,231] {standard_task_runner.py:77} INFO - Job 2: Subtask task-one
+[2021-04-29 06:50:08,276] {logging_mixin.py:104} INFO - Running <TaskInstance: spark-1-example_kubernetes_pod.task-one 2019-01-01T00:00:00+00:00 [running]> on host aece5d34d6e3
+[2021-04-29 06:50:08,327] {taskinstance.py:1257} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=spark-1-example_kubernetes_pod
+AIRFLOW_CTX_TASK_ID=task-one
+AIRFLOW_CTX_EXECUTION_DATE=2019-01-01T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2019-01-01T00:00:00+00:00
+[2021-04-29 06:50:08,367] {kubernetes_pod.py:338} INFO - creating pod with labels {'dag_id': 'spark-1-example_kubernetes_pod', 'task_id': 'task-one', 'execution_date': '2019-01-01T0000000000-c96b89267', 'try_number': '1'} and launcher <airflow.kubernetes.pod_launcher.PodLauncher object at 0x7f96b802d6d8>
+[2021-04-29 06:50:08,411] {pod_launcher.py:176} INFO - Event: airflow-test-spark--pod.0182dfc7b9154eaea74da3062d60c249 had an event of type Pending
+[2021-04-29 06:50:08,415] {pod_launcher.py:113} WARNING - Pod not yet started: airflow-test-spark--pod.0182dfc7b9154eaea74da3062d60c249
+[2021-04-29 06:50:09,425] {pod_launcher.py:176} INFO - Event: airflow-test-spark--pod.0182dfc7b9154eaea74da3062d60c249 had an event of type Pending
+[2021-04-29 06:50:09,426] {pod_launcher.py:113} WARNING - Pod not yet started: airflow-test-spark--pod.0182dfc7b9154eaea74da3062d60c249
+[2021-04-29 06:50:10,438] {pod_launcher.py:176} INFO - Event: airflow-test-spark--pod.0182dfc7b9154eaea74da3062d60c249 had an event of type Pending
+[2021-04-29 06:50:10,439] {pod_launcher.py:113} WARNING - Pod not yet started: airflow-test-spark--pod.0182dfc7b9154eaea74da3062d60c249
+[2021-04-29 06:50:11,451] {pod_launcher.py:176} INFO - Event: airflow-test-spark--pod.0182dfc7b9154eaea74da3062d60c249 had an event of type Running
+[2021-04-29 06:50:11,469] {pod_launcher.py:136} INFO - 21/04/29 06:50:11 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+[2021-04-29 06:50:12,635] {pod_launcher.py:136} INFO - Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+[2021-04-29 06:50:12,637] {pod_launcher.py:136} INFO - 21/04/29 06:50:12 INFO SparkContext: Running Spark version 3.1.1
+[2021-04-29 06:50:12,638] {pod_launcher.py:136} INFO - 21/04/29 06:50:12 INFO ResourceUtils: ==============================================================
+[2021-04-29 06:50:12,639] {pod_launcher.py:136} INFO - 21/04/29 06:50:12 INFO ResourceUtils: No custom resources configured for spark.driver.
+[2021-04-29 06:50:12,640] {pod_launcher.py:136} INFO - 21/04/29 06:50:12 INFO ResourceUtils: ==============================================================
+[2021-04-29 06:50:12,641] {pod_launcher.py:136} INFO - 21/04/29 06:50:12 INFO SparkContext: Submitted application: HelloWorld
+[2021-04-29 06:50:12,642] {pod_launcher.py:136} INFO - 21/04/29 06:50:12 INFO ResourceProfile: Default ResourceProfile created, executor resources: Map(cores -> name: cores, amount: 1, script: , vendor: , memory -> name: memory, amount: 1024, script: , vendor: , offHeap -> name: offHeap, amount: 0, script: , vendor: ), task resources: Map(cpus -> name: cpus, amount: 1.0)
+[2021-04-29 06:50:12,643] {pod_launcher.py:136} INFO - 21/04/29 06:50:12 INFO ResourceProfile: Limiting resource is cpus at 1 tasks per executor
+[2021-04-29 06:50:12,644] {pod_launcher.py:136} INFO - 21/04/29 06:50:12 INFO ResourceProfileManager: Added ResourceProfile id: 0
+[2021-04-29 06:50:12,645] {pod_launcher.py:136} INFO - 21/04/29 06:50:12 INFO SecurityManager: Changing view acls to: root
+[2021-04-29 06:50:12,646] {pod_launcher.py:136} INFO - 21/04/29 06:50:12 INFO SecurityManager: Changing modify acls to: root
+[2021-04-29 06:50:12,647] {pod_launcher.py:136} INFO - 21/04/29 06:50:12 INFO SecurityManager: Changing view acls groups to:
+[2021-04-29 06:50:12,648] {pod_launcher.py:136} INFO - 21/04/29 06:50:12 INFO SecurityManager: Changing modify acls groups to:
+[2021-04-29 06:50:12,649] {pod_launcher.py:136} INFO - 21/04/29 06:50:12 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(root); groups with view permissions: Set(); users  with modify permissions: Set(root); groups with modify permissions: Set()
+[2021-04-29 06:50:12,690] {pod_launcher.py:136} INFO - 21/04/29 06:50:12 INFO Utils: Successfully started service 'sparkDriver' on port 41369.
+[2021-04-29 06:50:12,715] {pod_launcher.py:136} INFO - 21/04/29 06:50:12 INFO SparkEnv: Registering MapOutputTracker
+[2021-04-29 06:50:12,746] {pod_launcher.py:136} INFO - 21/04/29 06:50:12 INFO SparkEnv: Registering BlockManagerMaster
+[2021-04-29 06:50:12,770] {pod_launcher.py:136} INFO - 21/04/29 06:50:12 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+[2021-04-29 06:50:12,774] {pod_launcher.py:136} INFO - 21/04/29 06:50:12 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+[2021-04-29 06:50:12,778] {pod_launcher.py:136} INFO - 21/04/29 06:50:12 INFO SparkEnv: Registering BlockManagerMasterHeartbeat
+[2021-04-29 06:50:12,802] {pod_launcher.py:136} INFO - 21/04/29 06:50:12 INFO DiskBlockManager: Created local directory at /tmp/blockmgr-0fd1feef-be25-40cd-8ecc-dcedd22ef1aa
+[2021-04-29 06:50:12,830] {pod_launcher.py:136} INFO - 21/04/29 06:50:12 INFO MemoryStore: MemoryStore started with capacity 413.9 MiB
+[2021-04-29 06:50:12,851] {pod_launcher.py:136} INFO - 21/04/29 06:50:12 INFO SparkEnv: Registering OutputCommitCoordinator
+[2021-04-29 06:50:13,445] {pod_launcher.py:136} INFO - 21/04/29 06:50:13 INFO Utils: Successfully started service 'SparkUI' on port 4040.
+[2021-04-29 06:50:13,504] {pod_launcher.py:136} INFO - 21/04/29 06:50:13 INFO SparkUI: Bound SparkUI to 0.0.0.0, and started at http://airflow-test-spark--pod.0182dfc7b9154eaea74da3062d60c249:4040
+[2021-04-29 06:50:13,761] {pod_launcher.py:136} INFO - 21/04/29 06:50:13 INFO StandaloneAppClient$ClientEndpoint: Connecting to master spark://spark-master:7077...
+[2021-04-29 06:50:13,814] {pod_launcher.py:136} INFO - 21/04/29 06:50:13 INFO TransportClientFactory: Successfully created connection to spark-master/192.168.122.50:7077 after 29 ms (0 ms spent in bootstraps)
+[2021-04-29 06:50:13,960] {pod_launcher.py:136} INFO - 21/04/29 06:50:13 INFO StandaloneSchedulerBackend: Connected to Spark cluster with app ID app-20210429065013-0009
+[2021-04-29 06:50:13,964] {pod_launcher.py:136} INFO - 21/04/29 06:50:13 INFO StandaloneAppClient$ClientEndpoint: Executor added: app-20210429065013-0009/0 on worker-20210428183543-192.168.122.49-44789 (192.168.122.49:44789) with 1 core(s)
+[2021-04-29 06:50:13,969] {pod_launcher.py:136} INFO - 21/04/29 06:50:13 INFO StandaloneSchedulerBackend: Granted executor ID app-20210429065013-0009/0 on hostPort 192.168.122.49:44789 with 1 core(s), 1024.0 MiB RAM
+[2021-04-29 06:50:13,972] {pod_launcher.py:136} INFO - 21/04/29 06:50:13 INFO StandaloneAppClient$ClientEndpoint: Executor added: app-20210429065013-0009/1 on worker-20210428183543-192.168.122.49-44789 (192.168.122.49:44789) with 1 core(s)
+[2021-04-29 06:50:13,977] {pod_launcher.py:136} INFO - 21/04/29 06:50:13 INFO StandaloneSchedulerBackend: Granted executor ID app-20210429065013-0009/1 on hostPort 192.168.122.49:44789 with 1 core(s), 1024.0 MiB RAM
+[2021-04-29 06:50:13,979] {pod_launcher.py:136} INFO - 21/04/29 06:50:13 INFO StandaloneAppClient$ClientEndpoint: Executor added: app-20210429065013-0009/2 on worker-20210428183543-192.168.122.49-44789 (192.168.122.49:44789) with 1 core(s)
+[2021-04-29 06:50:13,981] {pod_launcher.py:136} INFO - 21/04/29 06:50:13 INFO StandaloneSchedulerBackend: Granted executor ID app-20210429065013-0009/2 on hostPort 192.168.122.49:44789 with 1 core(s), 1024.0 MiB RAM
+[2021-04-29 06:50:13,994] {pod_launcher.py:136} INFO - 21/04/29 06:50:13 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 34485.
+[2021-04-29 06:50:13,996] {pod_launcher.py:136} INFO - 21/04/29 06:50:13 INFO NettyBlockTransferService: Server created on airflow-test-spark--pod.0182dfc7b9154eaea74da3062d60c249:34485
+[2021-04-29 06:50:14,013] {pod_launcher.py:136} INFO - 21/04/29 06:50:13 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+[2021-04-29 06:50:14,015] {pod_launcher.py:136} INFO - 21/04/29 06:50:13 INFO StandaloneAppClient$ClientEndpoint: Executor updated: app-20210429065013-0009/0 is now RUNNING
+[2021-04-29 06:50:14,016] {pod_launcher.py:136} INFO - 21/04/29 06:50:13 INFO StandaloneAppClient$ClientEndpoint: Executor updated: app-20210429065013-0009/1 is now RUNNING
+[2021-04-29 06:50:14,020] {pod_launcher.py:136} INFO - 21/04/29 06:50:13 INFO StandaloneAppClient$ClientEndpoint: Executor updated: app-20210429065013-0009/2 is now RUNNING
+[2021-04-29 06:50:14,031] {pod_launcher.py:136} INFO - 21/04/29 06:50:13 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, airflow-test-spark--pod.0182dfc7b9154eaea74da3062d60c249, 34485, None)
+[2021-04-29 06:50:14,037] {pod_launcher.py:136} INFO - 21/04/29 06:50:14 INFO BlockManagerMasterEndpoint: Registering block manager airflow-test-spark--pod.0182dfc7b9154eaea74da3062d60c249:34485 with 413.9 MiB RAM, BlockManagerId(driver, airflow-test-spark--pod.0182dfc7b9154eaea74da3062d60c249, 34485, None)
+[2021-04-29 06:50:14,044] {pod_launcher.py:136} INFO - 21/04/29 06:50:14 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, airflow-test-spark--pod.0182dfc7b9154eaea74da3062d60c249, 34485, None)
+[2021-04-29 06:50:14,054] {pod_launcher.py:136} INFO - 21/04/29 06:50:14 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, airflow-test-spark--pod.0182dfc7b9154eaea74da3062d60c249, 34485, None)
+[2021-04-29 06:50:14,427] {pod_launcher.py:136} INFO - 21/04/29 06:50:14 INFO StandaloneSchedulerBackend: SchedulerBackend is ready for scheduling beginning after reached minRegisteredResourcesRatio: 0.0
+[2021-04-29 06:50:14,795] {pod_launcher.py:136} INFO - 21/04/29 06:50:14 INFO SharedState: Setting hive.metastore.warehouse.dir ('null') to the value of spark.sql.warehouse.dir ('file:/sparksubmit/spark-warehouse').
+[2021-04-29 06:50:14,797] {pod_launcher.py:136} INFO - 21/04/29 06:50:14 INFO SharedState: Warehouse path is 'file:/sparksubmit/spark-warehouse'.
+[2021-04-29 06:50:15,853] {pod_launcher.py:136} INFO - Hello World spark
+[2021-04-29 06:50:15,891] {pod_launcher.py:136} INFO - 21/04/29 06:50:15 INFO SparkContext: Invoking stop() from shutdown hook
+[2021-04-29 06:50:15,914] {pod_launcher.py:136} INFO - 21/04/29 06:50:15 INFO SparkUI: Stopped Spark web UI at http://airflow-test-spark--pod.0182dfc7b9154eaea74da3062d60c249:4040
+[2021-04-29 06:50:15,930] {pod_launcher.py:136} INFO - 21/04/29 06:50:15 INFO StandaloneSchedulerBackend: Shutting down all executors
+[2021-04-29 06:50:15,936] {pod_launcher.py:136} INFO - 21/04/29 06:50:15 INFO CoarseGrainedSchedulerBackend$DriverEndpoint: Asking each executor to shut down
+[2021-04-29 06:50:15,965] {pod_launcher.py:136} INFO - 21/04/29 06:50:15 INFO MapOutputTrackerMasterEndpoint: MapOutputTrackerMasterEndpoint stopped!
+[2021-04-29 06:50:15,976] {pod_launcher.py:136} INFO - 21/04/29 06:50:15 INFO MemoryStore: MemoryStore cleared
+[2021-04-29 06:50:15,981] {pod_launcher.py:136} INFO - 21/04/29 06:50:15 INFO BlockManager: BlockManager stopped
+[2021-04-29 06:50:15,993] {pod_launcher.py:136} INFO - 21/04/29 06:50:15 INFO BlockManagerMaster: BlockManagerMaster stopped
+[2021-04-29 06:50:15,998] {pod_launcher.py:136} INFO - 21/04/29 06:50:15 INFO OutputCommitCoordinator$OutputCommitCoordinatorEndpoint: OutputCommitCoordinator stopped!
+[2021-04-29 06:50:16,007] {pod_launcher.py:136} INFO - 21/04/29 06:50:15 INFO SparkContext: Successfully stopped SparkContext
+[2021-04-29 06:50:16,010] {pod_launcher.py:136} INFO - 21/04/29 06:50:15 INFO ShutdownHookManager: Shutdown hook called
+[2021-04-29 06:50:16,010] {pod_launcher.py:136} INFO - 21/04/29 06:50:15 INFO ShutdownHookManager: Deleting directory /tmp/spark-4dcb7798-8393-4e19-bc9a-0ba951d69b9f
+[2021-04-29 06:50:16,014] {pod_launcher.py:136} INFO - 21/04/29 06:50:15 INFO ShutdownHookManager: Deleting directory /tmp/spark-4dcb7798-8393-4e19-bc9a-0ba951d69b9f/pyspark-02c7cb3d-205d-4a7a-8bfc-2889d521ee09
+[2021-04-29 06:50:16,016] {pod_launcher.py:136} INFO - 21/04/29 06:50:15 INFO ShutdownHookManager: Deleting directory /tmp/spark-1f5c02db-7ddd-45d5-96bf-80162ee4763d
+[2021-04-29 06:50:18,053] {pod_launcher.py:176} INFO - Event: airflow-test-spark--pod.0182dfc7b9154eaea74da3062d60c249 had an event of type Succeeded
+[2021-04-29 06:50:18,054] {pod_launcher.py:289} INFO - Event with job id airflow-test-spark--pod.0182dfc7b9154eaea74da3062d60c249 Succeeded
+[2021-04-29 06:50:18,059] {pod_launcher.py:176} INFO - Event: airflow-test-spark--pod.0182dfc7b9154eaea74da3062d60c249 had an event of type Succeeded
+[2021-04-29 06:50:18,059] {pod_launcher.py:289} INFO - Event with job id airflow-test-spark--pod.0182dfc7b9154eaea74da3062d60c249 Succeeded
+[2021-04-29 06:50:18,079] {taskinstance.py:1166} INFO - Marking task as SUCCESS. dag_id=spark-1-example_kubernetes_pod, task_id=task-one, execution_date=20190101T000000, start_date=20210429T065008, end_date=20210429T065018
+[2021-04-29 06:50:18,102] {taskinstance.py:1220} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2021-04-29 06:50:18,124] {local_task_job.py:146} INFO - Task exited with return code 0
