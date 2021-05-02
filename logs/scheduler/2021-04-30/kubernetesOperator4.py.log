@@ -448,3 +448,18 @@
 [2021-04-30 10:36:49,509] {logging_mixin.py:104} INFO - [2021-04-30 10:36:49,509] {dag.py:1818} INFO - Sync 1 DAGs
 [2021-04-30 10:36:49,524] {logging_mixin.py:104} INFO - [2021-04-30 10:36:49,524] {dag.py:2273} INFO - Setting next_dagrun for ks-6-example_kubernetes_pod to None
 [2021-04-30 10:36:49,532] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kubernetesOperator4.py took 0.120 seconds
+[2021-04-30 10:37:19,754] {scheduler_job.py:182} INFO - Started process (PID=4925) to work on /opt/airflow/dags/kubernetesOperator4.py
+[2021-04-30 10:37:19,757] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kubernetesOperator4.py for tasks to queue
+[2021-04-30 10:37:19,758] {logging_mixin.py:104} INFO - [2021-04-30 10:37:19,758] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kubernetesOperator4.py
+[2021-04-30 10:37:19,760] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/kubernetesOperator4.py
+[2021-04-30 10:37:19,761] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kubernetesOperator4.py took 0.010 seconds
+[2021-04-30 10:37:49,992] {scheduler_job.py:182} INFO - Started process (PID=4930) to work on /opt/airflow/dags/kubernetesOperator4.py
+[2021-04-30 10:37:49,993] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kubernetesOperator4.py for tasks to queue
+[2021-04-30 10:37:49,995] {logging_mixin.py:104} INFO - [2021-04-30 10:37:49,994] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kubernetesOperator4.py
+[2021-04-30 10:37:49,996] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/kubernetesOperator4.py
+[2021-04-30 10:37:49,997] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kubernetesOperator4.py took 0.013 seconds
+[2021-04-30 10:38:20,265] {scheduler_job.py:182} INFO - Started process (PID=4935) to work on /opt/airflow/dags/kubernetesOperator4.py
+[2021-04-30 10:38:20,266] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kubernetesOperator4.py for tasks to queue
+[2021-04-30 10:38:20,267] {logging_mixin.py:104} INFO - [2021-04-30 10:38:20,267] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kubernetesOperator4.py
+[2021-04-30 10:38:20,269] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/kubernetesOperator4.py
+[2021-04-30 10:38:20,270] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kubernetesOperator4.py took 0.010 seconds

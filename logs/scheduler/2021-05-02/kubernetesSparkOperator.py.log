@@ -1,0 +1,172 @@
+[2021-05-02 11:20:05,924] {scheduler_job.py:182} INFO - Started process (PID=29) to work on /opt/airflow/dags/kubernetesSparkOperator.py
+[2021-05-02 11:20:05,925] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kubernetesSparkOperator.py for tasks to queue
+[2021-05-02 11:20:05,926] {logging_mixin.py:104} INFO - [2021-05-02 11:20:05,926] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kubernetesSparkOperator.py
+[2021-05-02 11:20:05,976] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/cncf/kubernetes/backcompat/backwards_compat_converters.py:26 DeprecationWarning: This module is deprecated. Please use `kubernetes.client.models.V1Volume`.
+[2021-05-02 11:20:05,978] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/cncf/kubernetes/backcompat/backwards_compat_converters.py:27 DeprecationWarning: This module is deprecated. Please use `kubernetes.client.models.V1VolumeMount`.
+[2021-05-02 11:20:05,993] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['spark-1-example_kubernetes_pod']) retrieved from /opt/airflow/dags/kubernetesSparkOperator.py
+[2021-05-02 11:20:06,013] {logging_mixin.py:104} INFO - [2021-05-02 11:20:06,013] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-05-02 11:20:06,022] {logging_mixin.py:104} INFO - [2021-05-02 11:20:06,022] {dag.py:1837} INFO - Creating ORM DAG for spark-1-example_kubernetes_pod
+[2021-05-02 11:20:06,030] {logging_mixin.py:104} INFO - [2021-05-02 11:20:06,030] {dag.py:2273} INFO - Setting next_dagrun for spark-1-example_kubernetes_pod to 2019-01-01T00:00:00+00:00
+[2021-05-02 11:20:06,042] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kubernetesSparkOperator.py took 0.121 seconds
+[2021-05-02 11:20:36,326] {scheduler_job.py:182} INFO - Started process (PID=35) to work on /opt/airflow/dags/kubernetesSparkOperator.py
+[2021-05-02 11:20:36,328] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kubernetesSparkOperator.py for tasks to queue
+[2021-05-02 11:20:36,329] {logging_mixin.py:104} INFO - [2021-05-02 11:20:36,329] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kubernetesSparkOperator.py
+[2021-05-02 11:20:36,378] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/cncf/kubernetes/backcompat/backwards_compat_converters.py:26 DeprecationWarning: This module is deprecated. Please use `kubernetes.client.models.V1Volume`.
+[2021-05-02 11:20:36,397] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/cncf/kubernetes/backcompat/backwards_compat_converters.py:27 DeprecationWarning: This module is deprecated. Please use `kubernetes.client.models.V1VolumeMount`.
+[2021-05-02 11:20:36,407] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['spark-1-example_kubernetes_pod']) retrieved from /opt/airflow/dags/kubernetesSparkOperator.py
+[2021-05-02 11:20:36,431] {logging_mixin.py:104} INFO - [2021-05-02 11:20:36,430] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-05-02 11:20:36,443] {logging_mixin.py:104} INFO - [2021-05-02 11:20:36,443] {dag.py:2273} INFO - Setting next_dagrun for spark-1-example_kubernetes_pod to 2019-01-01T00:00:00+00:00
+[2021-05-02 11:20:36,450] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kubernetesSparkOperator.py took 0.127 seconds
+[2021-05-02 11:21:06,761] {scheduler_job.py:182} INFO - Started process (PID=41) to work on /opt/airflow/dags/kubernetesSparkOperator.py
+[2021-05-02 11:21:06,763] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kubernetesSparkOperator.py for tasks to queue
+[2021-05-02 11:21:06,764] {logging_mixin.py:104} INFO - [2021-05-02 11:21:06,764] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kubernetesSparkOperator.py
+[2021-05-02 11:21:06,815] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/cncf/kubernetes/backcompat/backwards_compat_converters.py:26 DeprecationWarning: This module is deprecated. Please use `kubernetes.client.models.V1Volume`.
+[2021-05-02 11:21:06,817] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/cncf/kubernetes/backcompat/backwards_compat_converters.py:27 DeprecationWarning: This module is deprecated. Please use `kubernetes.client.models.V1VolumeMount`.
+[2021-05-02 11:21:06,826] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['spark-1-example_kubernetes_pod']) retrieved from /opt/airflow/dags/kubernetesSparkOperator.py
+[2021-05-02 11:21:06,846] {logging_mixin.py:104} INFO - [2021-05-02 11:21:06,846] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-05-02 11:21:06,861] {logging_mixin.py:104} INFO - [2021-05-02 11:21:06,860] {dag.py:2273} INFO - Setting next_dagrun for spark-1-example_kubernetes_pod to 2019-01-01T00:00:00+00:00
+[2021-05-02 11:21:06,869] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kubernetesSparkOperator.py took 0.111 seconds
+[2021-05-02 11:21:37,168] {scheduler_job.py:182} INFO - Started process (PID=52) to work on /opt/airflow/dags/kubernetesSparkOperator.py
+[2021-05-02 11:21:37,170] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kubernetesSparkOperator.py for tasks to queue
+[2021-05-02 11:21:37,171] {logging_mixin.py:104} INFO - [2021-05-02 11:21:37,171] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kubernetesSparkOperator.py
+[2021-05-02 11:21:37,226] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/cncf/kubernetes/backcompat/backwards_compat_converters.py:26 DeprecationWarning: This module is deprecated. Please use `kubernetes.client.models.V1Volume`.
+[2021-05-02 11:21:37,228] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/cncf/kubernetes/backcompat/backwards_compat_converters.py:27 DeprecationWarning: This module is deprecated. Please use `kubernetes.client.models.V1VolumeMount`.
+[2021-05-02 11:21:37,237] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['spark-1-example_kubernetes_pod']) retrieved from /opt/airflow/dags/kubernetesSparkOperator.py
+[2021-05-02 11:21:37,255] {logging_mixin.py:104} INFO - [2021-05-02 11:21:37,255] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-05-02 11:21:37,268] {logging_mixin.py:104} INFO - [2021-05-02 11:21:37,268] {dag.py:2273} INFO - Setting next_dagrun for spark-1-example_kubernetes_pod to 2019-01-01T00:00:00+00:00
+[2021-05-02 11:21:37,275] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kubernetesSparkOperator.py took 0.110 seconds
+[2021-05-02 11:22:07,561] {scheduler_job.py:182} INFO - Started process (PID=58) to work on /opt/airflow/dags/kubernetesSparkOperator.py
+[2021-05-02 11:22:07,563] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kubernetesSparkOperator.py for tasks to queue
+[2021-05-02 11:22:07,564] {logging_mixin.py:104} INFO - [2021-05-02 11:22:07,564] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kubernetesSparkOperator.py
+[2021-05-02 11:22:07,618] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/cncf/kubernetes/backcompat/backwards_compat_converters.py:26 DeprecationWarning: This module is deprecated. Please use `kubernetes.client.models.V1Volume`.
+[2021-05-02 11:22:07,619] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/cncf/kubernetes/backcompat/backwards_compat_converters.py:27 DeprecationWarning: This module is deprecated. Please use `kubernetes.client.models.V1VolumeMount`.
+[2021-05-02 11:22:07,628] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['spark-1-example_kubernetes_pod']) retrieved from /opt/airflow/dags/kubernetesSparkOperator.py
+[2021-05-02 11:22:07,644] {logging_mixin.py:104} INFO - [2021-05-02 11:22:07,643] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-05-02 11:22:07,657] {logging_mixin.py:104} INFO - [2021-05-02 11:22:07,657] {dag.py:2273} INFO - Setting next_dagrun for spark-1-example_kubernetes_pod to 2019-01-01T00:00:00+00:00
+[2021-05-02 11:22:07,665] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kubernetesSparkOperator.py took 0.107 seconds
+[2021-05-02 11:22:37,952] {scheduler_job.py:182} INFO - Started process (PID=64) to work on /opt/airflow/dags/kubernetesSparkOperator.py
+[2021-05-02 11:22:37,953] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kubernetesSparkOperator.py for tasks to queue
+[2021-05-02 11:22:37,955] {logging_mixin.py:104} INFO - [2021-05-02 11:22:37,954] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kubernetesSparkOperator.py
+[2021-05-02 11:22:38,008] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/cncf/kubernetes/backcompat/backwards_compat_converters.py:26 DeprecationWarning: This module is deprecated. Please use `kubernetes.client.models.V1Volume`.
+[2021-05-02 11:22:38,010] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/cncf/kubernetes/backcompat/backwards_compat_converters.py:27 DeprecationWarning: This module is deprecated. Please use `kubernetes.client.models.V1VolumeMount`.
+[2021-05-02 11:22:38,021] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['spark-1-example_kubernetes_pod']) retrieved from /opt/airflow/dags/kubernetesSparkOperator.py
+[2021-05-02 11:22:38,039] {logging_mixin.py:104} INFO - [2021-05-02 11:22:38,039] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-05-02 11:22:38,053] {logging_mixin.py:104} INFO - [2021-05-02 11:22:38,053] {dag.py:2273} INFO - Setting next_dagrun for spark-1-example_kubernetes_pod to 2019-01-01T00:00:00+00:00
+[2021-05-02 11:22:38,061] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kubernetesSparkOperator.py took 0.113 seconds
+[2021-05-02 11:23:08,451] {scheduler_job.py:182} INFO - Started process (PID=70) to work on /opt/airflow/dags/kubernetesSparkOperator.py
+[2021-05-02 11:23:08,461] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kubernetesSparkOperator.py for tasks to queue
+[2021-05-02 11:23:08,464] {logging_mixin.py:104} INFO - [2021-05-02 11:23:08,464] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kubernetesSparkOperator.py
+[2021-05-02 11:23:08,546] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/cncf/kubernetes/backcompat/backwards_compat_converters.py:26 DeprecationWarning: This module is deprecated. Please use `kubernetes.client.models.V1Volume`.
+[2021-05-02 11:23:08,548] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/cncf/kubernetes/backcompat/backwards_compat_converters.py:27 DeprecationWarning: This module is deprecated. Please use `kubernetes.client.models.V1VolumeMount`.
+[2021-05-02 11:23:08,558] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['spark-1-example_kubernetes_pod']) retrieved from /opt/airflow/dags/kubernetesSparkOperator.py
+[2021-05-02 11:23:08,577] {logging_mixin.py:104} INFO - [2021-05-02 11:23:08,577] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-05-02 11:23:08,592] {logging_mixin.py:104} INFO - [2021-05-02 11:23:08,592] {dag.py:2273} INFO - Setting next_dagrun for spark-1-example_kubernetes_pod to 2019-01-01T00:00:00+00:00
+[2021-05-02 11:23:08,599] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kubernetesSparkOperator.py took 0.160 seconds
+[2021-05-02 11:23:38,909] {scheduler_job.py:182} INFO - Started process (PID=76) to work on /opt/airflow/dags/kubernetesSparkOperator.py
+[2021-05-02 11:23:38,911] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kubernetesSparkOperator.py for tasks to queue
+[2021-05-02 11:23:38,912] {logging_mixin.py:104} INFO - [2021-05-02 11:23:38,912] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kubernetesSparkOperator.py
+[2021-05-02 11:23:38,965] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/cncf/kubernetes/backcompat/backwards_compat_converters.py:26 DeprecationWarning: This module is deprecated. Please use `kubernetes.client.models.V1Volume`.
+[2021-05-02 11:23:38,967] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/cncf/kubernetes/backcompat/backwards_compat_converters.py:27 DeprecationWarning: This module is deprecated. Please use `kubernetes.client.models.V1VolumeMount`.
+[2021-05-02 11:23:38,976] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['spark-1-example_kubernetes_pod']) retrieved from /opt/airflow/dags/kubernetesSparkOperator.py
+[2021-05-02 11:23:38,994] {logging_mixin.py:104} INFO - [2021-05-02 11:23:38,994] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-05-02 11:23:39,009] {logging_mixin.py:104} INFO - [2021-05-02 11:23:39,009] {dag.py:2273} INFO - Setting next_dagrun for spark-1-example_kubernetes_pod to 2019-01-01T00:00:00+00:00
+[2021-05-02 11:23:39,016] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kubernetesSparkOperator.py took 0.111 seconds
+[2021-05-02 11:24:09,296] {scheduler_job.py:182} INFO - Started process (PID=82) to work on /opt/airflow/dags/kubernetesSparkOperator.py
+[2021-05-02 11:24:09,297] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kubernetesSparkOperator.py for tasks to queue
+[2021-05-02 11:24:09,298] {logging_mixin.py:104} INFO - [2021-05-02 11:24:09,298] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kubernetesSparkOperator.py
+[2021-05-02 11:24:09,348] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/cncf/kubernetes/backcompat/backwards_compat_converters.py:26 DeprecationWarning: This module is deprecated. Please use `kubernetes.client.models.V1Volume`.
+[2021-05-02 11:24:09,350] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/cncf/kubernetes/backcompat/backwards_compat_converters.py:27 DeprecationWarning: This module is deprecated. Please use `kubernetes.client.models.V1VolumeMount`.
+[2021-05-02 11:24:09,360] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['spark-1-example_kubernetes_pod']) retrieved from /opt/airflow/dags/kubernetesSparkOperator.py
+[2021-05-02 11:24:09,377] {logging_mixin.py:104} INFO - [2021-05-02 11:24:09,377] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-05-02 11:24:09,389] {logging_mixin.py:104} INFO - [2021-05-02 11:24:09,389] {dag.py:2273} INFO - Setting next_dagrun for spark-1-example_kubernetes_pod to 2019-01-01T00:00:00+00:00
+[2021-05-02 11:24:09,397] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kubernetesSparkOperator.py took 0.105 seconds
+[2021-05-02 11:24:39,726] {scheduler_job.py:182} INFO - Started process (PID=88) to work on /opt/airflow/dags/kubernetesSparkOperator.py
+[2021-05-02 11:24:39,728] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kubernetesSparkOperator.py for tasks to queue
+[2021-05-02 11:24:39,729] {logging_mixin.py:104} INFO - [2021-05-02 11:24:39,729] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kubernetesSparkOperator.py
+[2021-05-02 11:24:39,798] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/cncf/kubernetes/backcompat/backwards_compat_converters.py:26 DeprecationWarning: This module is deprecated. Please use `kubernetes.client.models.V1Volume`.
+[2021-05-02 11:24:39,800] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/cncf/kubernetes/backcompat/backwards_compat_converters.py:27 DeprecationWarning: This module is deprecated. Please use `kubernetes.client.models.V1VolumeMount`.
+[2021-05-02 11:24:39,811] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['spark-1-example_kubernetes_pod']) retrieved from /opt/airflow/dags/kubernetesSparkOperator.py
+[2021-05-02 11:24:39,837] {logging_mixin.py:104} INFO - [2021-05-02 11:24:39,837] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-05-02 11:24:39,853] {logging_mixin.py:104} INFO - [2021-05-02 11:24:39,853] {dag.py:2273} INFO - Setting next_dagrun for spark-1-example_kubernetes_pod to 2019-01-01T00:00:00+00:00
+[2021-05-02 11:24:39,862] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kubernetesSparkOperator.py took 0.140 seconds
+[2021-05-02 11:25:10,196] {scheduler_job.py:182} INFO - Started process (PID=99) to work on /opt/airflow/dags/kubernetesSparkOperator.py
+[2021-05-02 11:25:10,197] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kubernetesSparkOperator.py for tasks to queue
+[2021-05-02 11:25:10,199] {logging_mixin.py:104} INFO - [2021-05-02 11:25:10,199] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kubernetesSparkOperator.py
+[2021-05-02 11:25:10,262] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/cncf/kubernetes/backcompat/backwards_compat_converters.py:26 DeprecationWarning: This module is deprecated. Please use `kubernetes.client.models.V1Volume`.
+[2021-05-02 11:25:10,263] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/cncf/kubernetes/backcompat/backwards_compat_converters.py:27 DeprecationWarning: This module is deprecated. Please use `kubernetes.client.models.V1VolumeMount`.
+[2021-05-02 11:25:10,272] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['spark-1-example_kubernetes_pod']) retrieved from /opt/airflow/dags/kubernetesSparkOperator.py
+[2021-05-02 11:25:10,293] {logging_mixin.py:104} INFO - [2021-05-02 11:25:10,293] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-05-02 11:25:10,308] {logging_mixin.py:104} INFO - [2021-05-02 11:25:10,307] {dag.py:2273} INFO - Setting next_dagrun for spark-1-example_kubernetes_pod to 2019-01-01T00:00:00+00:00
+[2021-05-02 11:25:10,316] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kubernetesSparkOperator.py took 0.124 seconds
+[2021-05-02 11:25:40,590] {scheduler_job.py:182} INFO - Started process (PID=105) to work on /opt/airflow/dags/kubernetesSparkOperator.py
+[2021-05-02 11:25:40,592] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kubernetesSparkOperator.py for tasks to queue
+[2021-05-02 11:25:40,594] {logging_mixin.py:104} INFO - [2021-05-02 11:25:40,594] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kubernetesSparkOperator.py
+[2021-05-02 11:25:40,646] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/cncf/kubernetes/backcompat/backwards_compat_converters.py:26 DeprecationWarning: This module is deprecated. Please use `kubernetes.client.models.V1Volume`.
+[2021-05-02 11:25:40,648] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/cncf/kubernetes/backcompat/backwards_compat_converters.py:27 DeprecationWarning: This module is deprecated. Please use `kubernetes.client.models.V1VolumeMount`.
+[2021-05-02 11:25:40,657] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['spark-1-example_kubernetes_pod']) retrieved from /opt/airflow/dags/kubernetesSparkOperator.py
+[2021-05-02 11:25:40,674] {logging_mixin.py:104} INFO - [2021-05-02 11:25:40,674] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-05-02 11:25:40,686] {logging_mixin.py:104} INFO - [2021-05-02 11:25:40,686] {dag.py:2273} INFO - Setting next_dagrun for spark-1-example_kubernetes_pod to 2019-01-01T00:00:00+00:00
+[2021-05-02 11:25:40,694] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kubernetesSparkOperator.py took 0.107 seconds
+[2021-05-02 11:26:10,996] {scheduler_job.py:182} INFO - Started process (PID=111) to work on /opt/airflow/dags/kubernetesSparkOperator.py
+[2021-05-02 11:26:10,998] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kubernetesSparkOperator.py for tasks to queue
+[2021-05-02 11:26:10,999] {logging_mixin.py:104} INFO - [2021-05-02 11:26:10,999] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kubernetesSparkOperator.py
+[2021-05-02 11:26:11,054] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/cncf/kubernetes/backcompat/backwards_compat_converters.py:26 DeprecationWarning: This module is deprecated. Please use `kubernetes.client.models.V1Volume`.
+[2021-05-02 11:26:11,055] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/cncf/kubernetes/backcompat/backwards_compat_converters.py:27 DeprecationWarning: This module is deprecated. Please use `kubernetes.client.models.V1VolumeMount`.
+[2021-05-02 11:26:11,064] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['spark-1-example_kubernetes_pod']) retrieved from /opt/airflow/dags/kubernetesSparkOperator.py
+[2021-05-02 11:26:11,086] {logging_mixin.py:104} INFO - [2021-05-02 11:26:11,086] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-05-02 11:26:11,100] {logging_mixin.py:104} INFO - [2021-05-02 11:26:11,100] {dag.py:2273} INFO - Setting next_dagrun for spark-1-example_kubernetes_pod to 2019-01-01T00:00:00+00:00
+[2021-05-02 11:26:11,111] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kubernetesSparkOperator.py took 0.119 seconds
+[2021-05-02 11:26:41,395] {scheduler_job.py:182} INFO - Started process (PID=117) to work on /opt/airflow/dags/kubernetesSparkOperator.py
+[2021-05-02 11:26:41,397] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kubernetesSparkOperator.py for tasks to queue
+[2021-05-02 11:26:41,398] {logging_mixin.py:104} INFO - [2021-05-02 11:26:41,398] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kubernetesSparkOperator.py
+[2021-05-02 11:26:41,448] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/cncf/kubernetes/backcompat/backwards_compat_converters.py:26 DeprecationWarning: This module is deprecated. Please use `kubernetes.client.models.V1Volume`.
+[2021-05-02 11:26:41,450] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/cncf/kubernetes/backcompat/backwards_compat_converters.py:27 DeprecationWarning: This module is deprecated. Please use `kubernetes.client.models.V1VolumeMount`.
+[2021-05-02 11:26:41,460] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['spark-1-example_kubernetes_pod']) retrieved from /opt/airflow/dags/kubernetesSparkOperator.py
+[2021-05-02 11:26:41,478] {logging_mixin.py:104} INFO - [2021-05-02 11:26:41,478] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-05-02 11:26:41,490] {logging_mixin.py:104} INFO - [2021-05-02 11:26:41,490] {dag.py:2273} INFO - Setting next_dagrun for spark-1-example_kubernetes_pod to 2019-01-01T00:00:00+00:00
+[2021-05-02 11:26:41,496] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kubernetesSparkOperator.py took 0.104 seconds
+[2021-05-02 11:27:11,870] {scheduler_job.py:182} INFO - Started process (PID=123) to work on /opt/airflow/dags/kubernetesSparkOperator.py
+[2021-05-02 11:27:11,872] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kubernetesSparkOperator.py for tasks to queue
+[2021-05-02 11:27:11,874] {logging_mixin.py:104} INFO - [2021-05-02 11:27:11,874] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kubernetesSparkOperator.py
+[2021-05-02 11:27:11,933] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/cncf/kubernetes/backcompat/backwards_compat_converters.py:26 DeprecationWarning: This module is deprecated. Please use `kubernetes.client.models.V1Volume`.
+[2021-05-02 11:27:11,935] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/cncf/kubernetes/backcompat/backwards_compat_converters.py:27 DeprecationWarning: This module is deprecated. Please use `kubernetes.client.models.V1VolumeMount`.
+[2021-05-02 11:27:11,945] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['spark-1-example_kubernetes_pod']) retrieved from /opt/airflow/dags/kubernetesSparkOperator.py
+[2021-05-02 11:27:11,966] {logging_mixin.py:104} INFO - [2021-05-02 11:27:11,966] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-05-02 11:27:11,982] {logging_mixin.py:104} INFO - [2021-05-02 11:27:11,982] {dag.py:2273} INFO - Setting next_dagrun for spark-1-example_kubernetes_pod to 2019-01-01T00:00:00+00:00
+[2021-05-02 11:27:11,991] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kubernetesSparkOperator.py took 0.124 seconds
+[2021-05-02 11:27:42,337] {scheduler_job.py:182} INFO - Started process (PID=134) to work on /opt/airflow/dags/kubernetesSparkOperator.py
+[2021-05-02 11:27:42,340] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kubernetesSparkOperator.py for tasks to queue
+[2021-05-02 11:27:42,342] {logging_mixin.py:104} INFO - [2021-05-02 11:27:42,342] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kubernetesSparkOperator.py
+[2021-05-02 11:27:42,403] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/cncf/kubernetes/backcompat/backwards_compat_converters.py:26 DeprecationWarning: This module is deprecated. Please use `kubernetes.client.models.V1Volume`.
+[2021-05-02 11:27:42,406] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/cncf/kubernetes/backcompat/backwards_compat_converters.py:27 DeprecationWarning: This module is deprecated. Please use `kubernetes.client.models.V1VolumeMount`.
+[2021-05-02 11:27:42,416] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['spark-1-example_kubernetes_pod']) retrieved from /opt/airflow/dags/kubernetesSparkOperator.py
+[2021-05-02 11:27:42,436] {logging_mixin.py:104} INFO - [2021-05-02 11:27:42,435] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-05-02 11:27:42,450] {logging_mixin.py:104} INFO - [2021-05-02 11:27:42,450] {dag.py:2273} INFO - Setting next_dagrun for spark-1-example_kubernetes_pod to 2019-01-01T00:00:00+00:00
+[2021-05-02 11:27:42,458] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kubernetesSparkOperator.py took 0.125 seconds
+[2021-05-02 11:28:12,767] {scheduler_job.py:182} INFO - Started process (PID=140) to work on /opt/airflow/dags/kubernetesSparkOperator.py
+[2021-05-02 11:28:12,769] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kubernetesSparkOperator.py for tasks to queue
+[2021-05-02 11:28:12,770] {logging_mixin.py:104} INFO - [2021-05-02 11:28:12,770] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kubernetesSparkOperator.py
+[2021-05-02 11:28:12,836] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/cncf/kubernetes/backcompat/backwards_compat_converters.py:26 DeprecationWarning: This module is deprecated. Please use `kubernetes.client.models.V1Volume`.
+[2021-05-02 11:28:12,838] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/cncf/kubernetes/backcompat/backwards_compat_converters.py:27 DeprecationWarning: This module is deprecated. Please use `kubernetes.client.models.V1VolumeMount`.
+[2021-05-02 11:28:12,848] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['spark-1-example_kubernetes_pod']) retrieved from /opt/airflow/dags/kubernetesSparkOperator.py
+[2021-05-02 11:28:12,869] {logging_mixin.py:104} INFO - [2021-05-02 11:28:12,869] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-05-02 11:28:12,888] {logging_mixin.py:104} INFO - [2021-05-02 11:28:12,888] {dag.py:2273} INFO - Setting next_dagrun for spark-1-example_kubernetes_pod to 2019-01-01T00:00:00+00:00
+[2021-05-02 11:28:12,897] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kubernetesSparkOperator.py took 0.134 seconds
+[2021-05-02 11:28:43,198] {scheduler_job.py:182} INFO - Started process (PID=146) to work on /opt/airflow/dags/kubernetesSparkOperator.py
+[2021-05-02 11:28:43,199] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kubernetesSparkOperator.py for tasks to queue
+[2021-05-02 11:28:43,200] {logging_mixin.py:104} INFO - [2021-05-02 11:28:43,200] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kubernetesSparkOperator.py
+[2021-05-02 11:28:43,252] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/cncf/kubernetes/backcompat/backwards_compat_converters.py:26 DeprecationWarning: This module is deprecated. Please use `kubernetes.client.models.V1Volume`.
+[2021-05-02 11:28:43,253] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/cncf/kubernetes/backcompat/backwards_compat_converters.py:27 DeprecationWarning: This module is deprecated. Please use `kubernetes.client.models.V1VolumeMount`.
+[2021-05-02 11:28:43,262] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['spark-1-example_kubernetes_pod']) retrieved from /opt/airflow/dags/kubernetesSparkOperator.py
+[2021-05-02 11:28:43,285] {logging_mixin.py:104} INFO - [2021-05-02 11:28:43,285] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-05-02 11:28:43,298] {logging_mixin.py:104} INFO - [2021-05-02 11:28:43,298] {dag.py:2273} INFO - Setting next_dagrun for spark-1-example_kubernetes_pod to 2019-01-01T00:00:00+00:00
+[2021-05-02 11:28:43,305] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kubernetesSparkOperator.py took 0.111 seconds
+[2021-05-02 11:29:13,649] {scheduler_job.py:182} INFO - Started process (PID=152) to work on /opt/airflow/dags/kubernetesSparkOperator.py
+[2021-05-02 11:29:13,651] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kubernetesSparkOperator.py for tasks to queue
+[2021-05-02 11:29:13,653] {logging_mixin.py:104} INFO - [2021-05-02 11:29:13,652] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kubernetesSparkOperator.py
+[2021-05-02 11:29:13,704] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/cncf/kubernetes/backcompat/backwards_compat_converters.py:26 DeprecationWarning: This module is deprecated. Please use `kubernetes.client.models.V1Volume`.
+[2021-05-02 11:29:13,706] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/cncf/kubernetes/backcompat/backwards_compat_converters.py:27 DeprecationWarning: This module is deprecated. Please use `kubernetes.client.models.V1VolumeMount`.
+[2021-05-02 11:29:13,716] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['spark-1-example_kubernetes_pod']) retrieved from /opt/airflow/dags/kubernetesSparkOperator.py
+[2021-05-02 11:29:13,735] {logging_mixin.py:104} INFO - [2021-05-02 11:29:13,735] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-05-02 11:29:13,748] {logging_mixin.py:104} INFO - [2021-05-02 11:29:13,748] {dag.py:2273} INFO - Setting next_dagrun for spark-1-example_kubernetes_pod to 2019-01-01T00:00:00+00:00
+[2021-05-02 11:29:13,756] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kubernetesSparkOperator.py took 0.110 seconds

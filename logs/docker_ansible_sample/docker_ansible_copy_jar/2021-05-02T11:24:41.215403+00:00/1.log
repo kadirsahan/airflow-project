@@ -1,0 +1,41 @@
+[2021-05-02 11:24:42,842] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: docker_ansible_sample.docker_ansible_copy_jar 2021-05-02T11:24:41.215403+00:00 [queued]>
+[2021-05-02 11:24:42,854] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: docker_ansible_sample.docker_ansible_copy_jar 2021-05-02T11:24:41.215403+00:00 [queued]>
+[2021-05-02 11:24:42,855] {taskinstance.py:1042} INFO - 
+--------------------------------------------------------------------------------
+[2021-05-02 11:24:42,855] {taskinstance.py:1043} INFO - Starting attempt 1 of 2
+[2021-05-02 11:24:42,856] {taskinstance.py:1044} INFO - 
+--------------------------------------------------------------------------------
+[2021-05-02 11:24:42,872] {taskinstance.py:1063} INFO - Executing <Task(DockerOperator): docker_ansible_copy_jar> on 2021-05-02T11:24:41.215403+00:00
+[2021-05-02 11:24:42,876] {standard_task_runner.py:52} INFO - Started process 57 to run task
+[2021-05-02 11:24:42,881] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'docker_ansible_sample', 'docker_ansible_copy_jar', '2021-05-02T11:24:41.215403+00:00', '--job-id', '8', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/dockerAnsibleOperator.py', '--cfg-path', '/tmp/tmpoysadtwc', '--error-file', '/tmp/tmp0b71hc58']
+[2021-05-02 11:24:42,882] {standard_task_runner.py:77} INFO - Job 8: Subtask docker_ansible_copy_jar
+[2021-05-02 11:24:42,940] {logging_mixin.py:104} INFO - Running <TaskInstance: docker_ansible_sample.docker_ansible_copy_jar 2021-05-02T11:24:41.215403+00:00 [running]> on host 04b8837eb843
+[2021-05-02 11:24:42,988] {taskinstance.py:1257} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=airflow@example.com
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=docker_ansible_sample
+AIRFLOW_CTX_TASK_ID=docker_ansible_copy_jar
+AIRFLOW_CTX_EXECUTION_DATE=2021-05-02T11:24:41.215403+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-05-02T11:24:41.215403+00:00
+[2021-05-02 11:24:43,005] {docker.py:224} INFO - Starting docker container from image kadirsahan/masdeploy:v1
+[2021-05-02 11:24:53,692] {docker.py:263} INFO - PLAY [This is a hello-next example] ********************************************
+[2021-05-02 11:24:53,699] {docker.py:263} INFO - TASK [Gathering Facts] *********************************************************
+[2021-05-02 11:24:55,124] {docker.py:263} INFO - ok: [dckr-src-1]
+[2021-05-02 11:24:55,141] {docker.py:263} INFO - TASK [Copy file from remote file  '/srcjar/abc.txt' to local '/tmp/testnext.txt'.] ***
+[2021-05-02 11:24:56,406] {docker.py:263} INFO - changed: [dckr-src-1]
+[2021-05-02 11:24:56,420] {docker.py:263} INFO - PLAY RECAP *********************************************************************
+[2021-05-02 11:24:56,421] {docker.py:263} INFO - dckr-src-1                 : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0
+[2021-05-02 11:24:56,881] {docker.py:263} INFO - PLAY [This is a hello-next example] ********************************************
+[2021-05-02 11:24:56,889] {docker.py:263} INFO - TASK [Gathering Facts] *********************************************************
+[2021-05-02 11:24:58,274] {docker.py:263} INFO - ok: [dckr-trgt-1]
+[2021-05-02 11:24:58,289] {docker.py:263} INFO - TASK [Copy file from local  '/tmp/testnext.txt' to remote  '/trgtjar/gnmn.txt'.] ***
+[2021-05-02 11:24:58,917] {docker.py:263} INFO - ok: [dckr-trgt-1]
+[2021-05-02 11:24:58,923] {docker.py:263} INFO - TASK [Stop  service monbileservice, if not stopped] ****************************
+[2021-05-02 11:24:59,488] {docker.py:263} INFO - changed: [dckr-trgt-1]
+[2021-05-02 11:24:59,494] {docker.py:263} INFO - TASK [Start service monbileservice, if not started] ****************************
+[2021-05-02 11:24:59,801] {docker.py:263} INFO - changed: [dckr-trgt-1]
+[2021-05-02 11:24:59,814] {docker.py:263} INFO - PLAY RECAP *********************************************************************
+dckr-trgt-1                : ok=4    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0
+[2021-05-02 11:25:00,028] {taskinstance.py:1166} INFO - Marking task as SUCCESS. dag_id=docker_ansible_sample, task_id=docker_ansible_copy_jar, execution_date=20210502T112441, start_date=20210502T112442, end_date=20210502T112500
+[2021-05-02 11:25:00,053] {taskinstance.py:1220} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-05-02 11:25:00,099] {local_task_job.py:146} INFO - Task exited with return code 0
